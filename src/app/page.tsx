@@ -1,66 +1,127 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Section from '@/components/Section';
+import styles from './page.module.css';
+import Link from 'next/link';
+import Process from '@/components/Process';
+import ExpertProfile from '@/components/ExpertProfile';
+import LatestInsights from '@/components/LatestInsights';
+
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'DMA - Intelligence in Infrastructure | Home',
+    description: 'תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה. DMA מספקת שקט נפשי דרך טכנולוגיה מתקדמת.',
+};
 
 export default function Home() {
-  return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.tsx file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
-  );
+    return (
+        <main className={styles.main}>
+            {/* Hero Section */}
+            <Section variant="hero" className={styles.hero} id="hero">
+                <div className={styles.heroContent}>
+                    <h1 className={styles.heroTitle}>
+                        DMA.<br />
+                        Intelligence in Infrastructure.
+                    </h1>
+                    <p className={styles.heroSubtitle}>
+                        Beyond technology. Architecture of peace of mind.
+                        <br />
+                        תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה.
+                    </p>
+                    <div className={styles.heroButtons}>
+                        <Link href="/contact" className={styles.primaryButton}>
+                            תיאום פגישת ייעוץ
+                        </Link>
+                        <Link href="/services" className={styles.secondaryButton}>
+                            הפתרונות שלנו
+                        </Link>
+                    </div>
+                </div>
+            </Section>
+
+            {/* UVP Section */}
+            <Section id="vision">
+                <div className={styles.uvpGrid}>
+                    <div className={styles.uvpCard}>
+                        <h3>Security</h3>
+                        <p>מערכות אבטחה היקפיות עם אנליטיקה מתקדמת לזיהוי איומים בזמן אמת.</p>
+                    </div>
+                    <div className={styles.uvpCard}>
+                        <h3>Communication</h3>
+                        <p>תשתיות תקשורת ו-WiFi ברמת Enterprise לכיסוי מושלם ומהירות מקסימלית.</p>
+                    </div>
+                    <div className={styles.uvpCard}>
+                        <h3>Integration</h3>
+                        <p>בית חכם אמיתי שמחבר את כל המערכות לממשק שליטה אחד פשוט ואינטואיטיבי.</p>
+                    </div>
+                </div>
+            </Section>
+
+            <Process />
+
+            <Section variant="dark" id="pillars">
+                <h2 className={styles.sectionTitle}>Core Pillars</h2>
+                <div className={styles.pillarsGrid}>
+                    {/* Assuming PillarCard is a component or a placeholder for now */}
+                    <div className={styles.pillarCard}>
+                        <span className={styles.pillarNumber}>01</span>
+                        <h3>Architecture</h3>
+                        <p>אנחנו לא 'מתקינים'. אנחנו מתכננים. כל פרויקט מתחיל בשרטוט הנדסי מדויק.</p>
+                    </div>
+                    <div className={styles.pillarCard}>
+                        <span className={styles.pillarNumber}>02</span>
+                        <h3>Aesthetics</h3>
+                        <p>טכנולוגיה צריכה להיות שקופה. אנחנו עובדים צמוד עם האדריכל כדי להעלים את הכבלים.</p>
+                    </div>
+                    <div className={styles.pillarCard}>
+                        <span className={styles.pillarNumber}>03</span>
+                        <h3>Reliability</h3>
+                        <p>מערכות יציבות שלא דורשות ריסטרט כל שבוע. ציוד ברמה צבאית/תעשייתית בלבד.</p>
+                    </div>
+                </div>
+            </Section>
+
+            <ExpertProfile />
+
+            <LatestInsights />
+
+            {/* Testimonials Section */}
+            <Section id="testimonials">
+                <h2 className={styles.sectionTitle}>Client Stories</h2>
+                <div className={styles.testimonialsGrid}>
+                    <div className={styles.testimonialCard}>
+                        <p className={styles.quote}>"דוד הגיע, לא ניסה למכור לי ציוד, אלא בנה לי 'חגורת הגנה'. הפורץ ברח מייד."</p>
+                        <div className={styles.author}>
+                            <strong>יורם א.</strong>
+                            <span>מושב בצרה</span>
+                        </div>
+                    </div>
+                    <div className={styles.testimonialCard}>
+                        <p className={styles.quote}>"הם היחידים שאני מרשה להם לקדוח בפרויקטים שלי. רמת גימור שלא רואים בארץ."</p>
+                        <div className={styles.author}>
+                            <strong>גלית ו.</strong>
+                            <span>אדריכלית</span>
+                        </div>
+                    </div>
+                    <div className={styles.testimonialCard}>
+                        <p className={styles.quote}>"מאז ההתקנה – אפס תקלות. רוחב פס מלא בכל חדר, גם בממ\"ד וגם בבריכה."</p>
+                        <div className={styles.author}>
+                            <strong>עמית ר.</strong>
+                            <span>הרצליה פיתוח</span>
+                        </div>
+                    </div>
+                </div>
+            </Section>
+
+            {/* CTA Section */}
+            <Section variant="dark" className={styles.ctaSection}>
+                <div className={styles.ctaContainer}>
+                    <h2>מוכנים לשדרג את השקט הנפשי שלכם?</h2>
+                    <p>בואו נתכנן את המערכת הבאה שלכם.</p>
+                    <Link href="#contact" className={styles.ctaButton}>
+                        תיאום פגישת ייעוץ
+                    </Link>
+                </div>
+            </Section>
+        </main>
+    );
 }

@@ -1,0 +1,35 @@
+:root {
+  /* Colors */
+  --color-background: 220 15% 10%;
+  /* #15191d */
+  --color-surface: 220 15% 16%;
+  /* #23282e */
+  --color-primary: 40 60% 50%;
+  /* #cc9933 - Gold/Bronze */
+  --color-primary-glow: 40 60% 50%;
+  --color-text: 0 0% 100%;
+  /* #ffffff */
+  --color-text-secondary: 220 10% 70%;
+  /* #b0b3b8 */
+  --color-border: 220 15% 25%;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 8rem;
+
+  /* Typography */
+  --font-heading: var(--font-heading), sans-serif;
+  --font-body: var(--font-body), sans-serif;
+
+  /* Animation */
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.4s ease;
+  --transition-slow: 0.8s ease;
+}
+
+[data-theme='dark'] {
+  /* Ensure dark mode defaults */
+}

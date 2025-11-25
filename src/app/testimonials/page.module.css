@@ -1,0 +1,87 @@
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('/hero-bg.webp');
+    /* Placeholder until handshake image is ready */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.heroTitle {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: var(--spacing-md);
+    color: #fff;
+    letter-spacing: -1px;
+}
+
+.heroSubtitle {
+    font-size: 1.5rem;
+    color: #d0d0d0;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.categoryTitle {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-lg);
+    color: hsl(var(--color-primary));
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.03);
+    padding: var(--spacing-lg);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: hsl(var(--color-primary));
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: var(--spacing-sm);
+}
+
+.role {
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.location {
+    color: hsl(var(--color-text-secondary));
+    font-size: 0.9rem;
+}
+
+.quote {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+    font-style: italic;
+    margin-bottom: var(--spacing-md);
+}
+
+.author {
+    text-align: left;
+    font-weight: 700;
+    color: hsl(var(--color-primary));
+}

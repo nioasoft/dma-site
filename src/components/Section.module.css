@@ -1,0 +1,64 @@
+.section {
+    padding: var(--spacing-xl) 0;
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    max-width: 1400px;
+    /* Wider container for premium feel */
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+    position: relative;
+    z-index: 2;
+}
+
+.default {
+    background-color: transparent;
+}
+
+.dark {
+    background-color: transparent;
+    /* Handled by page-level backgrounds or pseudo-elements if needed */
+    position: relative;
+}
+
+/* Add background image support for sections */
+.dark::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/vision-bg.webp');
+    /* Default for dark sections, can be overridden */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.hero {
+    padding-top: calc(var(--spacing-xl) + 80px);
+    min-height: 90vh;
+    /* Taller hero */
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Stagger animations - Removed in favor of Framer Motion */
+
+@media (max-width: 768px) {
+    .section {
+        padding: var(--spacing-lg) 0;
+    }
+
+    .hero {
+        min-height: 70vh;
+        padding-top: calc(var(--spacing-lg) + 60px);
+    }
+}
