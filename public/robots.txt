@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dma.co.il/sitemap.xml

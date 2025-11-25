@@ -67,6 +67,7 @@ export default async function BlogPost({ params }: Props) {
                         src={post.image}
                         alt={post.title}
                         fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
                         className={styles.image}
                         priority
                     />

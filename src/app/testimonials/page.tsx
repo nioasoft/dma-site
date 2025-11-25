@@ -1,6 +1,18 @@
 import Section from '@/components/Section';
 import styles from './page.module.css';
 
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'לקוחות ממליצים | DMA',
+    description: 'קראו מה לקוחות DMA אומרים על השירות שלנו. עדויות מבעלי בתים, אדריכלים ועסקים שבחרו באיכות ללא פשרות.',
+    openGraph: {
+        title: 'לקוחות ממליצים | DMA',
+        description: 'עדויות אמיתיות מלקוחות מרוצים - בתי יוקרה ועסקים.',
+        images: ['/pillars-bg.webp'],
+    },
+};
+
 export default function Testimonials() {
     return (
         <main>
@@ -72,6 +84,40 @@ export default function Testimonials() {
                             "יש לי 4 סניפים ברחבי הארץ. הייתי צריך דרך לדעת מתי הסניף נפתח, מי נכנס, ולראות שהכל מתנהל כשורה – הכל מאפליקציה אחת. דוד משה בנה לנו מערכת שליטה מרכזית. אני רואה את כל המצלמות במסך אחד, מנהל את בקרת הכניסה לעובדים מרחוק, ויודע בדיוק מה קורה בעסק בלי להיות שם פיזית."
                         </p>
                         <div className={styles.author}>- ד"ר רונן ש.</div>
+                    </div>
+                </div>
+            </Section>
+
+            <Section id="success-story">
+                <div className={styles.successStoryContainer}>
+                    <h2 className={styles.sectionTitle}>סיפור הצלחה: וילה בקיסריה</h2>
+                    <div className={styles.storyContent}>
+                        <div className={styles.storySection}>
+                            <h3>האתגר</h3>
+                            <p>בית של 800 מ"ר עם 3 קומות, בריכה, וחצר של דונם. הלקוח רצה: WiFi מושלם בכל מקום, מערכת אבטחה שתגן על שטח גדול, ובית חכם מלא שגם ההורים המבוגרים יוכלו להפעיל.</p>
+                        </div>
+                        <div className={styles.storySection}>
+                            <h3>הבעיות שמצאנו</h3>
+                            <p>התשתית המקורית כללה רק 2 נקודות רשת בכל הבית, ארון החשמל היה בחדר סגור ללא אוורור, וקירות הבטון חסמו כל שידור אלחוטי.</p>
+                        </div>
+                        <div className={styles.storySection}>
+                            <h3>הפתרון שלנו</h3>
+                            <ul>
+                                <li><strong>תשתיות:</strong> הנחנו 40 נקודות רשת חדשות עם סיבים אופטיים בין הקומות</li>
+                                <li><strong>WiFi:</strong> 8 נקודות גישה מפוזרות עם Roaming חלק</li>
+                                <li><strong>אבטחה:</strong> 16 מצלמות AI + גלאים תרמיים היקפיים</li>
+                                <li><strong>בית חכם:</strong> KNX לתאורה, מזגנים וווילונות ב-25 חדרים</li>
+                            </ul>
+                        </div>
+                        <div className={styles.storySection}>
+                            <h3>התוצאה</h3>
+                            <ul>
+                                <li>שיחות Zoom ללא ניתוקים מכל מקום בבית</li>
+                                <li>אפס התראות שווא מהמצלמות (בזכות AI)</li>
+                                <li>חיסכון של 30% בחשמל בזכות אוטומציה חכמה</li>
+                                <li>הלקוח: "פעם ראשונה שאשתי מרוצה מפרויקט טכנולוגי"</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </Section>

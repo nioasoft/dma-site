@@ -15,26 +15,24 @@ const assistant = Assistant({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://dma-il.com'),
   title: {
-    template: '%s | DMA - Intelligence in Infrastructure',
+    template: '%s | DMA',
     default: 'DMA - Intelligence in Infrastructure',
   },
-  description: "Beyond technology. Architecture of peace of mind. DMA creates smart, secure environments for the business sector and luxury estates.",
-  keywords: ['Low Voltage', 'Smart Home', 'Security', 'Network', 'DMA', 'Israel', 'תקשורת', 'בית חכם', 'אבטחה', 'מצלמות'],
-  authors: [{ name: 'David Moshe Abitbol' }],
+  description: 'מומחים בתכנון וביצוע מערכות מתח נמוך, תקשורת, אבטחה ובית חכם לבתי יוקרה ולמגזר העסקי. DMA מספקת שקט נפשי ופתרונות טכנולוגיים מתקדמים.',
+  keywords: ['בית חכם', 'חשמל חכם', 'מצלמות אבטחה', 'מערכות אזעקה', 'אינטרקום', 'רשתות תקשורת', 'אודיו וידאו', 'קולנוע ביתי', 'DMA', 'אסף בנתיה'],
   openGraph: {
     type: 'website',
     locale: 'he_IL',
-    url: 'https://dma.co.il',
-    siteName: 'DMA',
-    title: 'DMA - Intelligence in Infrastructure',
-    description: 'פתרונות מתח נמוך, תקשורת ומיגון למי שלא מתפשר על בינוניות.',
+    url: 'https://dma-il.com',
+    siteName: 'DMA - Intelligence in Infrastructure',
     images: [
       {
-        url: '/hero-bg.webp',
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'DMA Hero Image',
+        alt: 'DMA - Intelligence in Infrastructure',
       },
     ],
   },
@@ -46,8 +44,36 @@ export const metadata: Metadata = {
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingBanner from "@/components/FloatingBanner";
+import WhatsAppButton from "@/components/WhatsAppButton";
+import CookieConsent from "@/components/CookieConsent";
+import Script from "next/script";
 
-// ... imports
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "DMA - Intelligence in Infrastructure",
+  "description": "תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה",
+  "url": "https://dma.co.il",
+  "logo": "https://dma.co.il/logo-transparent.webp",
+  "image": "https://dma.co.il/hero-bg.webp",
+  "telephone": "*5555",
+  "email": "office@dma.co.il",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Central District",
+    "addressCountry": "IL"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Israel"
+  },
+  "priceRange": "$$$$",
+  "serviceType": ["בית חכם", "אבטחה", "תקשורת", "מתח נמוך"],
+  "founder": {
+    "@type": "Person",
+    "name": "דוד משה אביטבול"
+  }
+};
 
 export default function RootLayout({
   children,
@@ -56,11 +82,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="he" dir="rtl">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+      </head>
       <body className={`${heebo.variable} ${assistant.variable}`}>
         <Header />
-        {children}
-        <Footer />
         <FloatingBanner />
+        {children}
+        <WhatsAppButton />
+        <CookieConsent />
+        <Footer />
       </body>
     </html>
   );

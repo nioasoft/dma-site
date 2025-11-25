@@ -2,6 +2,18 @@ import Section from '@/components/Section';
 import PillarCard from '@/components/PillarCard';
 import styles from './page.module.css';
 
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'אודות DMA | הסיפור שלנו',
+  description: 'DMA - מעל 15 שנות ניסיון בתשתיות מתח נמוך, בית חכם ואבטחה. הכירו את דוד משה אביטבול והפילוסופיה שמאחורי החברה.',
+  openGraph: {
+    title: 'אודות DMA | הסיפור שלנו',
+    description: 'DMA - מעל 15 שנות ניסיון בתשתיות מתח נמוך, בית חכם ואבטחה.',
+    images: ['/vision-bg.webp'],
+  },
+};
+
 export default function Home() {
   return (
     <main>
@@ -70,6 +82,59 @@ export default function Home() {
             titleEn="Doctrine of Discretion"
             description="אנו פועלים בסביבות הרגישות ביותר – ממשרדי הנהלה בכירים ועד בתי יוקרה פרטיים. אמינות וסודיות הם לא רק מילים עבורנו, אלא תנאי סף לעבודה. המידע שלכם, והשקט שלכם, הם הנכס החשוב ביותר שאנו מגנים עליו."
           />
+        </div>
+      </Section>
+
+      <Section id="stats">
+        <div className={styles.statsContainer}>
+          <h2 className={styles.sectionTitle}>DMA במספרים</h2>
+          <div className={styles.statsGrid}>
+            <div className={styles.statItem}>
+              <span className={styles.statNumber}>15+</span>
+              <span className={styles.statLabel}>שנות ניסיון</span>
+            </div>
+            <div className={styles.statItem}>
+              <span className={styles.statNumber}>500+</span>
+              <span className={styles.statLabel}>פרויקטים שהושלמו</span>
+            </div>
+            <div className={styles.statItem}>
+              <span className={styles.statNumber}>200+</span>
+              <span className={styles.statLabel}>בתים פרטיים</span>
+            </div>
+            <div className={styles.statItem}>
+              <span className={styles.statNumber}>24/7</span>
+              <span className={styles.statLabel}>מוקד שירות</span>
+            </div>
+          </div>
+        </div>
+      </Section>
+
+      <Section variant="dark" id="partners">
+        <div className={styles.partnersContainer}>
+          <h2 className={styles.sectionTitle}>הסמכות ושותפויות</h2>
+          <p className={styles.partnersSubtitle}>אנחנו שותפים מוסמכים של מותגי העילית בתחום:</p>
+          <div className={styles.partnersGrid}>
+            <div className={styles.partnerCard}>
+              <h3>Axis Communications</h3>
+              <p>Certified Partner</p>
+            </div>
+            <div className={styles.partnerCard}>
+              <h3>Control4</h3>
+              <p>Authorized Dealer</p>
+            </div>
+            <div className={styles.partnerCard}>
+              <h3>Ubiquiti</h3>
+              <p>Enterprise Installer</p>
+            </div>
+            <div className={styles.partnerCard}>
+              <h3>Hikvision</h3>
+              <p>Gold Partner</p>
+            </div>
+            <div className={styles.partnerCard}>
+              <h3>KNX</h3>
+              <p>Certified Installer</p>
+            </div>
+          </div>
         </div>
       </Section>
 

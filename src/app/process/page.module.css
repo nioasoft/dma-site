@@ -1,0 +1,135 @@
+.hero {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, #000, var(--color-background));
+    padding-top: 100px;
+}
+
+.heroTitle {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: var(--spacing-sm);
+    background: linear-gradient(135deg, #fff 0%, #ccc 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heroSubtitle {
+    font-size: 1.25rem;
+    color: var(--color-text-secondary);
+    max-width: 600px;
+}
+
+.timelineSection {
+    padding: var(--spacing-xl) 0;
+}
+
+.timeline {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+    position: relative;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 40px;
+    /* Adjust for RTL */
+    width: 2px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.step {
+    display: flex;
+    margin-bottom: var(--spacing-xl);
+    position: relative;
+}
+
+.stepNumber {
+    flex: 0 0 80px;
+    height: 80px;
+    background: var(--color-background);
+    border: 2px solid var(--color-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    z-index: 1;
+    margin-left: var(--spacing-lg);
+}
+
+.stepContent {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.03);
+    padding: var(--spacing-lg);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.stepContent h2 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--color-text);
+}
+
+.stepNote {
+    font-size: 0.9rem;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-md);
+    font-style: italic;
+}
+
+.stepDetails {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.detail strong {
+    display: block;
+    color: var(--color-text);
+    margin-bottom: 4px;
+}
+
+.detail p {
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+}
+
+.list {
+    list-style: disc;
+    padding-right: 20px;
+    color: var(--color-text-secondary);
+}
+
+.list li {
+    margin-bottom: 4px;
+}
+
+@media (max-width: 768px) {
+    .timeline::before {
+        right: 20px;
+    }
+
+    .stepNumber {
+        flex: 0 0 40px;
+        height: 40px;
+        font-size: 1rem;
+        margin-left: var(--spacing-md);
+    }
+
+    .heroTitle {
+        font-size: 2.5rem;
+    }
+}

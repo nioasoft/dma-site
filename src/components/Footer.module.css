@@ -12,40 +12,92 @@
 }
 
 .content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
+}
+
+.brand {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    gap: var(--spacing-sm);
 }
 
 .logo {
     display: block;
-    margin-bottom: 0.5rem;
 }
 
 .logoImage {
     object-fit: contain;
     width: auto;
-    height: 32px;
+    height: 48px;
 }
 
 .tagline {
-    color: hsl(var(--color-text-secondary));
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+    max-width: 300px;
+}
+
+.linksColumn {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.linksColumn h3 {
+    color: var(--color-primary);
+    font-size: 1.1rem;
+    margin-bottom: var(--spacing-xs);
+}
+
+.linksColumn a {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    transition: color 0.2s;
+    font-size: 0.95rem;
+}
+
+.linksColumn a:hover {
+    color: var(--color-text);
+}
+
+.bottomBar {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: var(--spacing-lg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-text-secondary);
     font-size: 0.9rem;
 }
 
-.links {
-    color: hsl(var(--color-text-secondary));
-    font-size: 0.9rem;
+.legalLinks {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     gap: 0.5rem;
+}
+
+.legalLinks a {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.legalLinks a:hover {
+    color: var(--color-text);
+}
+
+.separator {
+    color: var(--color-border);
+    margin: 0 0.25rem;
 }
 
 .shareButton {
     background: transparent;
     border: none;
-    color: hsl(var(--color-primary));
+    color: var(--color-primary);
     cursor: pointer;
     font-family: var(--font-body);
     font-size: 0.9rem;
@@ -60,8 +112,26 @@
 
 @media (max-width: 768px) {
     .content {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         text-align: center;
+        gap: var(--spacing-lg);
+    }
+
+    .brand {
+        align-items: center;
+    }
+
+    .bottomBar {
+        flex-direction: column;
         gap: var(--spacing-md);
+    }
+
+    .legalLinks {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .separator {
+        display: none;
     }
 }

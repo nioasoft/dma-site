@@ -1,0 +1,54 @@
+.container {
+    position: fixed;
+    bottom: 2rem;
+    /* Left side for Hebrew sites often works well, or right. Standard is usually right, but let's stick to standard right for floating actions usually, or left if it conflicts. Let's go with Right as it's most common for chat widgets */
+    right: 2rem;
+    left: auto;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4);
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    fill: currentColor;
+}
+
+@media (max-width: 768px) {
+    .container {
+        bottom: 1.5rem;
+        right: 1.5rem;
+    }
+
+    .button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon {
+        width: 28px;
+        height: 28px;
+    }
+}

@@ -4,7 +4,7 @@ import styles from './page.module.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Our Solutions | DMA',
+    title: 'שירותי בית חכם ואבטחה | DMA',
     description: 'פתרונות תקשורת, בית חכם, אבטחה וסייבר. DMA מתמחה בתכנון והקמה של תשתיות מתקדמות לבתים פרטיים ועסקים.',
 };
 
@@ -18,40 +18,51 @@ export default function Services() {
                 </p>
             </Section>
 
-            <Section id="network">
-                <div className={styles.serviceGrid}>
-                    <div className={styles.serviceContent}>
-                        <h2>פתרונות תקשורת ותשתיות</h2>
-                        <p>
-                            בעידן שבו הכל מחובר ל-Cloud, הרשת היא החמצן של הבית והעסק. DMA מספקת תכנון, פריסה והקמה של תשתיות תקשורת פסיביות ואקטיביות. אנחנו לא מאמינים בפתרונות מדף. כל פרויקט מתחיל במיפוי אדריכלי, בדיקת הנחתות בקירות, והתאמת רוחב הפס לדרישות העתידיות שלכם.
-                        </p>
-                        <ul className={styles.featureList}>
-                            <li>פריסת סיבים אופטיים (Fiber To The Room/Desk)</li>
-                            <li>ארונות תקשורת מדוגמים וממוזגים</li>
-                            <li>רשתות WIFI בתקן WIFI-7 המתקדם ביותר</li>
-                            <li>בדיקות עומסים והסמכת רשת</li>
-                        </ul>
-                    </div>
-                    <div className={styles.serviceImageContainer}>
-                        {/* Placeholder for image - using CSS background in module */}
-                        <div className={`${styles.serviceImage} ${styles.networkImage}`} />
-                    </div>
-                </div>
-            </Section>
+            <Section className={styles.servicesListSection}>
+                <div className={styles.container}>
+                    <div className={styles.servicesGrid}>
+                        <div className={styles.serviceCard}>
+                            <h3>1. תשתיות תקשורת</h3>
+                            <p>רשתות WiFi מקצועיות, סיבים אופטיים, ארונות תקשורת.</p>
+                            <a href="/services/networking" className={styles.readMore}>קרא עוד ←</a>
+                        </div>
 
-            <Section variant="dark" id="intelligence">
-                <div className={`${styles.serviceGrid} ${styles.reverse}`}>
-                    <div className={styles.serviceContent}>
-                        <h2>מודיעין עסקי ופתרונות דיסקרטיים</h2>
-                        <p>
-                            ישנם מצבים הדורשים רגישות מיוחדת. בין אם מדובר בחשד למעילה בעסק, צורך בפיקוח על מטפלים בבית, או הגנה על נכסי קניין רוחני. DMA מביאה לשולחן ניסיון מבצעי וטכנולוגיה זעירה שלא ניתנת לגילוי.
-                        </p>
-                        <p>
-                            הגישה שלנו: אנחנו פועלים ב'צללים' כדי שאתם תוכלו לראות את האור. הציוד שלנו מוטמע בתוך אלמנטים יומיומיים, באיכות שידור 4K, עם גישה מרחוק מוצפנת ומאובטחת. אנחנו מספקים לא רק את הציוד, אלא את הייעוץ האסטרטגי: איפה למקם, מה חוקי, ואיך להפיק את המידע הדרוש.
-                        </p>
-                    </div>
-                    <div className={styles.serviceImageContainer}>
-                        <div className={`${styles.serviceImage} ${styles.privacyImage}`} />
+                        <div className={styles.serviceCard}>
+                            <h3>2. מערכות אבטחה</h3>
+                            <p>מצלמות AI, אזעקות, גלאים היקפיים, מוקד ניטור.</p>
+                            <a href="/services/security" className={styles.readMore}>קרא עוד ←</a>
+                        </div>
+
+                        <div className={styles.serviceCard}>
+                            <h3>3. בית חכם</h3>
+                            <p>תאורה, מזגנים, וילונות, מולטימדיה - הכל בשליטה אחת.</p>
+                            <a href="/services/smart-home" className={styles.readMore}>קרא עוד ←</a>
+                        </div>
+
+                        <div className={styles.serviceCard}>
+                            <h3>4. בקרת כניסה</h3>
+                            <p>זיהוי פנים, כרטיסי עובד, אינטרקום חכם, קודים זמניים.</p>
+                        </div>
+
+                        <div className={styles.serviceCard}>
+                            <h3>5. אודיו ווידאו</h3>
+                            <p>רמקולים נסתרים, קולנוע ביתי, מערכות ישיבות.</p>
+                        </div>
+
+                        <div className={styles.serviceCard}>
+                            <h3>6. סייבר ופרטיות</h3>
+                            <p>הפרדת רשתות, חומות אש, VPN, ייעוץ אבטחת מידע.</p>
+                        </div>
+
+                        <div className={styles.serviceCard}>
+                            <h3>7. פתרונות לעסקים</h3>
+                            <p>מערכות רב-סניפיות, ניטור תעשייתי, חדרי ישיבות.</p>
+                        </div>
+
+                        <div className={styles.serviceCard}>
+                            <h3>8. שירות ותחזוקה (SLA)</h3>
+                            <p>ניטור 24/7, עדכונים, תמיכה טלפונית ובשטח.</p>
+                        </div>
                     </div>
                 </div>
             </Section>

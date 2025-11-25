@@ -1,0 +1,112 @@
+.hero {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, #000, var(--color-background));
+    padding-top: 100px;
+}
+
+.heroTitle {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: var(--spacing-sm);
+    background: linear-gradient(135deg, #fff 0%, #ccc 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heroSubtitle {
+    font-size: 1.25rem;
+    color: var(--color-text-secondary);
+    max-width: 600px;
+}
+
+.contentSection {
+    padding: var(--spacing-xl) 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+.container h2 {
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-lg);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: var(--spacing-sm);
+}
+
+.container p {
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+    margin-bottom: var(--spacing-lg);
+    font-size: 1.1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.03);
+    padding: var(--spacing-lg);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.card h3 {
+    font-size: 1.3rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--color-text);
+}
+
+.card ul {
+    list-style: disc;
+    padding-right: 20px;
+    color: var(--color-text-secondary);
+}
+
+.card li {
+    margin-bottom: 8px;
+}
+
+.brandsList,
+.whyUsList {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.brandsList li,
+.whyUsList li {
+    background: rgba(255, 255, 255, 0.03);
+    padding: var(--spacing-md);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    color: var(--color-text-secondary);
+}
+
+.brandsList strong {
+    color: var(--color-primary);
+    display: block;
+    margin-bottom: 4px;
+}
+
+@media (max-width: 768px) {
+    .heroTitle {
+        font-size: 2.5rem;
+    }
+}

@@ -3,6 +3,12 @@ import styles from './page.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import { blogPosts } from '@/data/blogPosts';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'מרכז הידע | בית חכם, אבטחה ותקשורת | DMA',
+    description: 'מאמרים, מדריכים וחידושים מעולם הבית החכם, האבטחה והתקשורת.',
+};
 
 export default function Blog() {
     return (
@@ -23,6 +29,7 @@ export default function Blog() {
                                     src={post.image}
                                     alt={post.title}
                                     fill
+                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                     className={styles.image}
                                 />
                                 <span className={styles.category}>{post.category}</span>

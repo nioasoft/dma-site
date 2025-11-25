@@ -8,7 +8,7 @@ import LatestInsights from '@/components/LatestInsights';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'DMA - Intelligence in Infrastructure | Home',
+    title: 'DMA | בית חכם, אבטחה ותשתיות יוקרה בישראל',
     description: 'תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה. DMA מספקת שקט נפשי דרך טכנולוגיה מתקדמת.',
 };
 
@@ -19,13 +19,11 @@ export default function Home() {
             <Section variant="hero" className={styles.hero} id="hero">
                 <div className={styles.heroContent}>
                     <h1 className={styles.heroTitle}>
-                        DMA.<br />
-                        Intelligence in Infrastructure.
+                        DMA<br />
+                        תשתיות חכמות. שקט נפשי.
                     </h1>
                     <p className={styles.heroSubtitle}>
-                        Beyond technology. Architecture of peace of mind.
-                        <br />
-                        תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה.
+                        תכנון וביצוע מערכות מתח נמוך, תקשורת ואבטחה לבתי יוקרה ולמגזר העסקי.
                     </p>
                     <div className={styles.heroButtons}>
                         <Link href="/contact" className={styles.primaryButton}>
@@ -52,6 +50,28 @@ export default function Home() {
                     <div className={styles.uvpCard}>
                         <h3>Integration</h3>
                         <p>בית חכם אמיתי שמחבר את כל המערכות לממשק שליטה אחד פשוט ואינטואיטיבי.</p>
+                    </div>
+                </div>
+
+                <div className={styles.targetAudience}>
+                    <h2 className={styles.sectionTitle}>למי אנחנו נותנים שירותים?</h2>
+                    <div className={styles.audienceGrid}>
+                        <div className={styles.audienceCard}>
+                            <h3>בעלי בתים פרטיים</h3>
+                            <p>בונים בית חדש או משפצים? אנחנו נדאג שהתשתית תהיה מושלמת מהיום הראשון.</p>
+                        </div>
+                        <div className={styles.audienceCard}>
+                            <h3>אדריכלים ומעצבים</h3>
+                            <p>שותפים מקצועיים שמכבדים את העיצוב. טכנולוגיה בלתי נראית שמשתלבת בחזון שלכם.</p>
+                        </div>
+                        <div className={styles.audienceCard}>
+                            <h3>עסקים וארגונים</h3>
+                            <p>ממשרדים ועד מפעלים - פתרונות תקשורת ואבטחה שגדלים איתכם.</p>
+                        </div>
+                        <div className={styles.audienceCard}>
+                            <h3>לקוחות VIP</h3>
+                            <p>דיסקרטיות מוחלטת, זמינות גבוהה, סודיות בכל שלב.</p>
+                        </div>
                     </div>
                 </div>
             </Section>
