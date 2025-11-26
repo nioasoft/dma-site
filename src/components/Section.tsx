@@ -1,7 +1,6 @@
 'use client';
 
-import React from 'react';
-import { motion } from 'framer-motion';
+import { useEffect, useRef, useState } from 'react';
 import styles from './Section.module.css';
 
 interface SectionProps {
@@ -13,21 +12,36 @@ interface SectionProps {
 
 const Section: React.FC<SectionProps> = ({ children, className = '', id, variant = 'default' }) => {
     const isHero = variant === 'hero';
+    const ref = useRef<HTMLElement>(null);
+    const [isVisible, setIsVisible] = useState(isHero);
+
+    useEffect(() => {
+        if (isHero) return;
+
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setIsVisible(true);
+                    observer.disconnect();
+                }
+            },
+            { rootMargin: '-100px' }
+        );
+
+        if (ref.current) observer.observe(ref.current);
+        return () => observer.disconnect();
+    }, [isHero]);
 
     return (
-        <motion.section
+        <section
+            ref={ref}
             id={id}
-            className={`${styles.section} ${styles[variant]} ${className}`}
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={isHero ? undefined : { opacity: 1, y: 0 }}
-            animate={isHero ? { opacity: 1, y: 0 } : undefined}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            className={`${styles.section} ${styles[variant]} ${className} ${isVisible ? styles.visible : ''}`}
         >
             <div className={styles.container}>
                 {children}
             </div>
-        </motion.section>
+        </section>
     );
 };
 

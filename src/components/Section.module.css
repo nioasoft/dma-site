@@ -2,6 +2,14 @@
     padding: var(--spacing-xl) 0;
     width: 100%;
     position: relative;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .container {
@@ -48,6 +56,21 @@
     align-items: center;
     position: relative;
     overflow: hidden;
+    /* Hero animations - visible immediately */
+    opacity: 1;
+    transform: none;
+    animation: heroFadeIn 0.8s ease-out;
+}
+
+@keyframes heroFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Stagger animations - Removed in favor of Framer Motion */

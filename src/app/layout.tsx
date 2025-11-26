@@ -44,12 +44,14 @@ export const metadata: Metadata = {
   },
 };
 
+import dynamic from "next/dynamic";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import FloatingBanner from "@/components/FloatingBanner";
-import WhatsAppButton from "@/components/WhatsAppButton";
-import CookieConsent from "@/components/CookieConsent";
-import Script from "next/script";
+
+// Lazy load non-critical components
+const FloatingBanner = dynamic(() => import("@/components/FloatingBanner"));
+const WhatsAppButton = dynamic(() => import("@/components/WhatsAppButton"));
+const CookieConsent = dynamic(() => import("@/components/CookieConsent"));
 
 const structuredData = {
   "@context": "https://schema.org",
