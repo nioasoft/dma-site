@@ -1,5 +1,5 @@
 .footer {
-    background: var(--color-surface);
+    background: hsl(var(--color-surface));
     padding: var(--spacing-lg) 0;
     border-top: 1px solid var(--color-border);
     margin-top: var(--spacing-xl);
