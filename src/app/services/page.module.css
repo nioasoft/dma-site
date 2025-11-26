@@ -55,7 +55,7 @@
 
 .featureList li {
     margin-bottom: var(--spacing-sm);
-    padding-right: 1.5rem;
+    padding-inline-start: 1.5rem;
     position: relative;
     font-size: 1.1rem;
     color: #e0e0e0;
@@ -64,7 +64,7 @@
 .featureList li::before {
     content: '✓';
     position: absolute;
-    right: 0;
+    inset-inline-start: 0;
     color: hsl(var(--color-primary));
     font-weight: bold;
 }
@@ -114,7 +114,7 @@
 }
 
 .serviceCard {
-    background: rgba(255, 255, 255, 0.03);
+    background: transparent;
     padding: var(--spacing-lg);
     border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 0.05);
@@ -124,7 +124,7 @@
 }
 
 .serviceCard:hover {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.02);
     border-color: var(--color-primary);
     transform: translateY(-5px);
 }

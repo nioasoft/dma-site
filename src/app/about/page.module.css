@@ -85,7 +85,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: rgba(255, 255, 255, 0.02);
+  background: transparent;
   padding: var(--spacing-md);
   border-radius: 12px;
 }
@@ -115,7 +115,7 @@
 }
 
 .partnerCard {
-  background: rgba(255, 255, 255, 0.03);
+  background: transparent;
   padding: var(--spacing-md);
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.05);
@@ -144,7 +144,7 @@
   grid-template-columns: 1fr 1fr;
   gap: var(--spacing-lg);
   align-items: center;
-  background: rgba(255, 255, 255, 0.02);
+  background: transparent;
   padding: var(--spacing-lg);
   border-radius: 24px;
   border: 1px solid rgba(255, 255, 255, 0.05);
@@ -156,7 +156,7 @@
 
 .pillarsGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: var(--spacing-md);
   margin-top: var(--spacing-lg);
 }
@@ -165,11 +165,10 @@
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+  background: transparent;
   padding: var(--spacing-xl);
   border-radius: 24px;
   border: 1px solid rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
 }
 
 .ctaTitle {
@@ -204,6 +203,10 @@
 }
 
 @media (max-width: 768px) {
+  .hero {
+    background-attachment: scroll;
+  }
+
   .heroTitle {
     font-size: 3rem;
   }
@@ -215,5 +218,27 @@
 
   .storyContent {
     padding-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.4rem;
+  }
+
+  .visionText {
+    font-size: 1.2rem;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .ctaTitle {
+    font-size: 2.5rem;
   }
 }

@@ -34,10 +34,10 @@ async function processImages() {
                 'access_control_trends': 'blog-access.webp',
                 'lighting_control_benefits': 'blog-lighting.webp',
                 'meeting_room_av': 'blog-meeting.webp',
-                'server_room_essentials': 'blog-server.webp',
-                'outdoor_entertainment': 'blog-outdoor.webp',
-                'intercom_upgrade': 'blog-intercom.webp',
-                'energy_saving_smart_home': 'blog-energy.webp'
+                'blog_server_room': 'blog-server.webp',
+                'blog_outdoor_cinema': 'blog-outdoor.webp',
+                'blog_intercom_system': 'blog-intercom.webp',
+                'blog_smart_energy': 'blog-energy.webp'
             };
 
             let outputFilename = null;

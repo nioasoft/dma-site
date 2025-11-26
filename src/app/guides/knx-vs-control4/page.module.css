@@ -1,0 +1,261 @@
+.hero {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, #000, var(--color-background));
+    padding-top: 100px;
+}
+
+.heroTitle {
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin-bottom: var(--spacing-sm);
+    background: linear-gradient(135deg, #fff 0%, #ccc 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 800px;
+}
+
+.heroSubtitle {
+    font-size: 1.25rem;
+    color: var(--color-text-secondary);
+    max-width: 600px;
+}
+
+.contentSection {
+    padding: var(--spacing-xl) 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+.intro {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-xl);
+    padding: var(--spacing-lg);
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.intro strong {
+    color: hsl(var(--color-primary));
+}
+
+.comparisonTable {
+    margin-bottom: var(--spacing-xl);
+}
+
+.comparisonTable h2 {
+    font-size: 1.5rem;
+    color: hsl(var(--color-primary));
+    margin-bottom: var(--spacing-md);
+}
+
+.comparisonTable table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.comparisonTable th,
+.comparisonTable td {
+    padding: 1rem;
+    text-align: right;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.comparisonTable th {
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    font-weight: 700;
+}
+
+.comparisonTable td {
+    color: var(--color-text-secondary);
+}
+
+.comparisonTable tr:hover td {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.section {
+    margin-bottom: var(--spacing-xl);
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    color: hsl(var(--color-primary));
+    margin-bottom: var(--spacing-md);
+    padding-bottom: var(--spacing-sm);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.section h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-sm);
+}
+
+.section p {
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+    margin-bottom: var(--spacing-md);
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: var(--spacing-md);
+}
+
+.section li {
+    padding: 0.75rem 0;
+    padding-right: 1.5rem;
+    position: relative;
+    color: var(--color-text-secondary);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.section li::before {
+    content: '✓';
+    position: absolute;
+    right: 0;
+    color: hsl(var(--color-primary));
+    font-weight: bold;
+}
+
+.section li strong {
+    color: #fff;
+}
+
+.recommendation {
+    margin-top: var(--spacing-xl);
+    padding-top: var(--spacing-lg);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.recommendation h2 {
+    font-size: 1.8rem;
+    color: hsl(var(--color-primary));
+    margin-bottom: var(--spacing-lg);
+    text-align: center;
+}
+
+.recGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+}
+
+.recCard {
+    background: rgba(255, 255, 255, 0.03);
+    padding: var(--spacing-lg);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.recCard h3 {
+    color: #fff;
+    margin-bottom: var(--spacing-md);
+    font-size: 1.2rem;
+}
+
+.recCard ul {
+    list-style: disc;
+    padding-right: 1.25rem;
+    color: var(--color-text-secondary);
+}
+
+.recCard li {
+    margin-bottom: 0.5rem;
+    border: none;
+    padding: 0.25rem 0;
+}
+
+.recCard li::before {
+    display: none;
+}
+
+.proTip {
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(212, 175, 55, 0.05));
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    border-radius: 16px;
+    padding: var(--spacing-lg);
+}
+
+.proTip h3 {
+    color: hsl(var(--color-primary));
+    margin-bottom: var(--spacing-sm);
+}
+
+.proTip p {
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    margin: 0;
+}
+
+.proTip strong {
+    color: #fff;
+}
+
+.cta {
+    text-align: center;
+    margin-top: var(--spacing-xl);
+    padding: var(--spacing-xl);
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.cta h2 {
+    color: #fff;
+    margin-bottom: var(--spacing-sm);
+}
+
+.cta p {
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-lg);
+}
+
+.ctaButton {
+    display: inline-block;
+    background: hsl(var(--color-primary));
+    color: #000;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.ctaButton:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .heroTitle {
+        font-size: 2rem;
+    }
+
+    .comparisonTable {
+        overflow-x: auto;
+    }
+
+    .comparisonTable table {
+        min-width: 500px;
+    }
+}

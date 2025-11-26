@@ -48,7 +48,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-left: 1px solid rgba(255, 255, 255, 0.05);
+    border-inline-end: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .infoSide h3 {
@@ -154,7 +154,11 @@
     }
 
     .infoSide {
-        border-left: none;
+        border-inline-end: none;
         border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .heroTitle {
+        font-size: 2.5rem;
     }
 }

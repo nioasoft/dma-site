@@ -62,14 +62,84 @@
     font-style: italic;
     color: #e0e0e0;
     margin-bottom: var(--spacing-md);
-    border-right: 3px solid hsl(var(--color-primary));
-    padding-right: var(--spacing-md);
+    border-inline-start: 3px solid hsl(var(--color-primary));
+    padding-inline-start: var(--spacing-md);
 }
 
 .description {
     color: hsl(var(--color-text-secondary));
     line-height: 1.6;
+    margin-bottom: var(--spacing-lg);
+}
+
+.certifications {
+    margin-bottom: var(--spacing-lg);
+}
+
+.certificationsTitle {
+    font-size: 0.9rem;
+    color: hsl(var(--color-text-secondary));
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: var(--spacing-sm);
+}
+
+.certificationsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+}
+
+.certificationBadge {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 0.5rem 0.75rem;
+    transition: all 0.3s ease;
+}
+
+.certificationBadge:hover {
+    border-color: hsl(var(--color-primary));
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.certName {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: hsl(var(--color-primary));
+}
+
+.certDesc {
+    font-size: 0.75rem;
+    color: hsl(var(--color-text-secondary));
+}
+
+.stats {
+    display: flex;
+    gap: var(--spacing-lg);
     margin-bottom: var(--spacing-xl);
+    padding: var(--spacing-md) 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statNumber {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: hsl(var(--color-primary));
+}
+
+.statLabel {
+    font-size: 0.8rem;
+    color: hsl(var(--color-text-secondary));
 }
 
 .button {

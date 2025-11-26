@@ -27,7 +27,7 @@ export default function Blog() {
                             <div className={styles.imageWrapper}>
                                 <Image
                                     src={post.image}
-                                    alt={post.title}
+                                    alt={`${post.title} - מאמר בנושא ${post.category} מאת DMA`}
                                     fill
                                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                     className={styles.image}

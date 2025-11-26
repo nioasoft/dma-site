@@ -15,7 +15,7 @@
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: var(--spacing-lg);
     margin-bottom: var(--spacing-xl);
 }
@@ -111,4 +111,28 @@
 .viewAll:hover {
     background: rgba(255, 255, 255, 0.1);
     border-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .grid {
+        gap: var(--spacing-md);
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .cardTitle {
+        font-size: 1.1rem;
+    }
+
+    .content {
+        padding: var(--spacing-md);
+    }
 }

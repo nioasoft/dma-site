@@ -10,6 +10,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: 'DMA | בית חכם, אבטחה ותשתיות יוקרה בישראל',
     description: 'תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה. DMA מספקת שקט נפשי דרך טכנולוגיה מתקדמת.',
+    alternates: {
+        canonical: 'https://dma.co.il',
+    },
 };
 
 export default function Home() {
@@ -137,7 +140,7 @@ export default function Home() {
                 <div className={styles.ctaContainer}>
                     <h2>מוכנים לשדרג את השקט הנפשי שלכם?</h2>
                     <p>בואו נתכנן את המערכת הבאה שלכם.</p>
-                    <Link href="#contact" className={styles.ctaButton}>
+                    <Link href="/contact" className={styles.ctaButton}>
                         תיאום פגישת ייעוץ
                     </Link>
                 </div>

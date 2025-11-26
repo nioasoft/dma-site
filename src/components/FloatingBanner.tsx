@@ -26,7 +26,7 @@ const FloatingBanner = () => {
                 <Link href="/contact" className={styles.button}>
                     לבדיקת תוכניות חינם
                 </Link>
-                <button onClick={() => setIsVisible(false)} className={styles.close}>×</button>
+                <button onClick={() => setIsVisible(false)} className={styles.close} aria-label="סגור באנר">×</button>
             </div>
         </div>
     );

@@ -1,5 +1,5 @@
 .footer {
-    background: hsl(var(--color-surface));
+    background: transparent;
     padding: var(--spacing-lg) 0 calc(var(--spacing-lg) + 80px);
     border-top: 1px solid var(--color-border);
     margin-top: var(--spacing-xl);
@@ -59,8 +59,14 @@
     font-size: 0.95rem;
 }
 
-.linksColumn a:hover {
+.linksColumn a:hover,
+.linksColumn a:focus-visible {
     color: var(--color-text);
+}
+
+.linksColumn a:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
 }
 
 .bottomBar {
@@ -106,8 +112,14 @@
     transition: color 0.2s;
 }
 
-.shareButton:hover {
+.shareButton:hover,
+.shareButton:focus-visible {
     color: #fff;
+}
+
+.shareButton:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
 }
 
 @media (max-width: 768px) {

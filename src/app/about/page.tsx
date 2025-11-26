@@ -7,6 +7,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'אודות DMA | הסיפור שלנו',
   description: 'DMA - מעל 15 שנות ניסיון בתשתיות מתח נמוך, בית חכם ואבטחה. הכירו את דוד משה אביטבול והפילוסופיה שמאחורי החברה.',
+  alternates: {
+    canonical: 'https://dma.co.il/about',
+  },
   openGraph: {
     title: 'אודות DMA | הסיפור שלנו',
     description: 'DMA - מעל 15 שנות ניסיון בתשתיות מתח נמוך, בית חכם ואבטחה.',
@@ -14,17 +17,16 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Home() {
+export default function About() {
   return (
     <main>
       {/* Hero Section */}
       <Section variant="hero" className={styles.hero}>
         <h1 className={styles.heroTitle}>
-          מעבר לטכנולוגיה.<br />
-          ארכיטקטורה של שקט נפשי.
+          אודות DMA - מומחים בבית חכם ואבטחה מתקדמת
         </h1>
         <p className={styles.heroSubtitle}>
-          אנחנו לא רק מחברים כבלים. אנחנו יוצרים את מערכת העצבים הבלתי נראית של המרחב שלכם.
+          אנחנו לא רק מחברים כבלים. אנחנו יוצרים את מערכת העצבים הבלתי נראית של המרחב שלכם - ארכיטקטורה של שקט נפשי.
         </p>
       </Section>
 
@@ -145,7 +147,7 @@ export default function Home() {
           <p>
             אנחנו מזמינים אתכם להגדיר מחדש את הסטנדרט של המרחב שלכם. לפגישת ייעוץ אסטרטגית ותכנון מערכות, צרו קשר עם המומחים של DMA.
           </p>
-          <a href="#contact-form" className={styles.ctaButton}>
+          <a href="/contact" className={styles.ctaButton}>
             צרו קשר
           </a>
         </div>

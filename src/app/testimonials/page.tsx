@@ -6,6 +6,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: 'לקוחות ממליצים | DMA',
     description: 'קראו מה לקוחות DMA אומרים על השירות שלנו. עדויות מבעלי בתים, אדריכלים ועסקים שבחרו באיכות ללא פשרות.',
+    alternates: {
+        canonical: 'https://dma.co.il/testimonials',
+    },
     openGraph: {
         title: 'לקוחות ממליצים | DMA',
         description: 'עדויות אמיתיות מלקוחות מרוצים - בתי יוקרה ועסקים.',
@@ -13,11 +16,100 @@ export const metadata: Metadata = {
     },
 };
 
+const reviewsStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "DMA - Intelligence in Infrastructure",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "יורם א."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+            },
+            "reviewBody": "אחרי שניסינו לפרוץ לנו לבית פעמיים, היינו בחרדה. דוד הגיע, לא ניסה למכור לי ציוד, אלא בנה לי 'חגורת הגנה'. המערכת זיהתה דמות בפינת החצר והפעילה תאורה וכריזה אוטומטית. הפורץ ברח מייד.",
+            "datePublished": "2024-01-15"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "גלית ו."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+            },
+            "reviewBody": "אני עובדת עם קהל באלפיון העליון. רמת הגימור שלהם היא משהו שלא רואים בארץ. הם היחידים שאני מרשה להם לקדוח בפרויקטים שלי.",
+            "datePublished": "2024-02-20"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "עמית ר."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+            },
+            "reviewBody": "DMA החליפו את כל תשתית ה-Mesh הביתית במערכת Access Points מנוהלת. מאז ההתקנה – אפס תקלות. רוחב פס מלא בכל חדר, גם בממ\"ד וגם בבריכה.",
+            "datePublished": "2024-03-10"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "דוד כ."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+            },
+            "reviewBody": "במפעל שלנו יש אבק, חום ורעש. DMA בנו לנו ארונות תקשורת אטומים וממוזגים, ופרסו סיבים אופטיים ממוגנים. היכולת שלהם לתת מענה לתקלה בתוך שעתיים היא קריטית לנו.",
+            "datePublished": "2024-04-05"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ד\"ר רונן ש."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+            },
+            "reviewBody": "יש לי 4 סניפים ברחבי הארץ. דוד משה בנה לנו מערכת שליטה מרכזית. אני רואה את כל המצלמות במסך אחד, מנהל את בקרת הכניסה לעובדים מרחוק, ויודע בדיוק מה קורה בעסק.",
+            "datePublished": "2024-05-18"
+        }
+    ]
+};
+
 export default function Testimonials() {
     return (
         <main>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewsStructuredData) }}
+            />
             <Section variant="hero" className={styles.hero}>
-                <h1 className={styles.heroTitle}>The Wall of Trust</h1>
+                <h1 className={styles.heroTitle}>לקוחות ממליצים על DMA - חוות דעת אמיתיות</h1>
                 <p className={styles.heroSubtitle}>
                     כשאין מקום לטעויות, בוחרים ב-DMA. השקט של הלקוחות שלנו מדבר בעד עצמו.
                 </p>

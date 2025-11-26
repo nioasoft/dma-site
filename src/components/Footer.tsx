@@ -14,7 +14,7 @@ const Footer = () => {
                         <Link href="/" className={styles.logo}>
                             <Image
                                 src="/logo-transparent.webp"
-                                alt="DMA Logo"
+                                alt="DMA - בית חכם, אבטחה ותשתיות תקשורת"
                                 width={120}
                                 height={48}
                                 className={styles.logoImage}
@@ -31,31 +31,32 @@ const Footer = () => {
                         <Link href="/services/smart-home">בית חכם</Link>
                         <Link href="/services/security">אבטחה ומיגון</Link>
                         <Link href="/services/networking">תשתיות תקשורת</Link>
-                        <Link href="/services">כל השירותים</Link>
+                        <Link href="/services/access-control">בקרת כניסה</Link>
+                        <Link href="/services/audio-video">אודיו וידאו</Link>
+                        <Link href="/services/cyber">סייבר ופרטיות</Link>
                     </div>
 
                     <div className={styles.linksColumn}>
                         <h3>החברה</h3>
-                        <Link href="/about">אודות</Link>
-                        <Link href="/process">תהליך העבודה</Link>
+                        <Link href="/about">אודות DMA</Link>
                         <Link href="/testimonials">לקוחות ממליצים</Link>
-                        <Link href="/blog">מגזין</Link>
+                        <Link href="/blog">בלוג ומאמרים</Link>
+                        <Link href="/faq">שאלות נפוצות</Link>
+                        <Link href="/process">תהליך העבודה</Link>
                     </div>
 
                     <div className={styles.linksColumn}>
-                        <h3>תמיכה</h3>
-                        <Link href="/faq">שאלות נפוצות</Link>
+                        <h3>מדריכים</h3>
+                        <Link href="/guides/knx-vs-control4">KNX vs Control4</Link>
                         <Link href="/contact">צור קשר</Link>
+                        <Link href="/privacy">מדיניות פרטיות</Link>
+                        <Link href="/terms">תנאי שימוש</Link>
                     </div>
                 </div>
 
                 <div className={styles.bottomBar}>
                     <div className={styles.legalLinks}>
                         <p>© {new Date().getFullYear()} DMA. All rights reserved.</p>
-                        <span className={styles.separator}>|</span>
-                        <Link href="/privacy">מדיניות פרטיות</Link>
-                        <span className={styles.separator}>|</span>
-                        <Link href="/terms">תנאי שימוש</Link>
                     </div>
                     <button
                         className={styles.shareButton}

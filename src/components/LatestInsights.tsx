@@ -22,7 +22,7 @@ const LatestInsights = () => {
                         <div className={styles.imageWrapper}>
                             <Image
                                 src={post.image}
-                                alt={post.title}
+                                alt={`${post.title} - מאמר בנושא ${post.category} מאת DMA`}
                                 fill
                                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
                                 className={styles.image}

@@ -1,17 +1,29 @@
 import Section from '@/components/Section';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import Link from 'next/link';
 import styles from './page.module.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'בית חכם | DMA',
-    description: 'מערכות בית חכם יוקרתיות: תאורה, אקלים, וילונות ומולטימדיה בשליטה אחת.',
+    title: 'מערכות בית חכם יוקרתיות | DMA',
+    description: 'מערכות בית חכם יוקרתיות: תאורה, אקלים, וילונות ומולטימדיה בשליטה אחת. KNX, Control4, Loxone ו-Crestron.',
+    alternates: {
+        canonical: 'https://dma.co.il/services/smart-home',
+    },
 };
+
+const breadcrumbItems = [
+    { label: 'דף הבית', href: '/' },
+    { label: 'שירותים', href: '/services' },
+    { label: 'בית חכם' }
+];
 
 export default function SmartHome() {
     return (
         <main>
+            <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
-                <h1 className={styles.heroTitle}>בית חכם</h1>
+                <h1 className={styles.heroTitle}>מערכות בית חכם יוקרתיות</h1>
                 <p className={styles.heroSubtitle}>
                     לא עוד גאדג'טים. מערכת אחת שמנהלת את הבית עבורכם.
                 </p>
@@ -67,6 +79,13 @@ export default function SmartHome() {
                         <li><strong>Loxone</strong> - חסכוני ואמין</li>
                         <li><strong>Crestron</strong> - לפרויקטים מורכבים במיוחד</li>
                     </ul>
+
+                    <div className={styles.guideLink}>
+                        <p>לא יודעים איזו מערכת מתאימה לכם?</p>
+                        <Link href="/guides/knx-vs-control4">
+                            קראו את המדריך המקיף: KNX vs Control4 →
+                        </Link>
+                    </div>
 
                     <h2>למה DMA?</h2>
                     <ul className={styles.whyUsList}>

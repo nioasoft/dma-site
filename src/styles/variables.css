@@ -1,5 +1,5 @@
 :root {
-  /* Colors */
+  /* Colors - HSL values for use with hsl() function */
   --color-background: 220 15% 10%;
   /* #15191d */
   --color-surface: 220 15% 16%;
@@ -7,11 +7,11 @@
   --color-primary: 40 60% 50%;
   /* #cc9933 - Gold/Bronze */
   --color-primary-glow: 40 60% 50%;
-  --color-text: 0 0% 100%;
-  /* #ffffff */
-  --color-text-secondary: 220 10% 70%;
-  /* #b0b3b8 */
   --color-border: 220 15% 25%;
+
+  /* Colors - Full values for direct use */
+  --color-text: #ffffff;
+  --color-text-secondary: #b0b5ba;
 
   /* Spacing */
   --spacing-xs: 0.5rem;

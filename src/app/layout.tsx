@@ -15,17 +15,20 @@ const assistant = Assistant({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://dma-il.com'),
+  metadataBase: new URL('https://dma.co.il'),
   title: {
     template: '%s | DMA',
     default: 'DMA - Intelligence in Infrastructure',
   },
   description: 'מומחים בתכנון וביצוע מערכות מתח נמוך, תקשורת, אבטחה ובית חכם לבתי יוקרה ולמגזר העסקי. DMA מספקת שקט נפשי ופתרונות טכנולוגיים מתקדמים.',
   keywords: ['בית חכם', 'חשמל חכם', 'מצלמות אבטחה', 'מערכות אזעקה', 'אינטרקום', 'רשתות תקשורת', 'אודיו וידאו', 'קולנוע ביתי', 'DMA', 'אסף בנתיה'],
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     type: 'website',
     locale: 'he_IL',
-    url: 'https://dma-il.com',
+    url: 'https://dma.co.il',
     siteName: 'DMA - Intelligence in Infrastructure',
     images: [
       {

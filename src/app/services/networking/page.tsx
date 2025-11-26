@@ -1,17 +1,28 @@
 import Section from '@/components/Section';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import styles from './page.module.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'תשתיות תקשורת | DMA',
-    description: 'תשתיות רשת מתקדמות: סיבים אופטיים, WiFi Enterprise, וארונות תקשורת מדוגמים.',
+    title: 'תשתיות תקשורת ורשת WiFi מקצועית | DMA',
+    description: 'תשתיות רשת מתקדמות: סיבים אופטיים, WiFi Enterprise, וארונות תקשורת מדוגמים. Ubiquiti, Ruckus, Cisco ו-Aruba.',
+    alternates: {
+        canonical: 'https://dma.co.il/services/networking',
+    },
 };
+
+const breadcrumbItems = [
+    { label: 'דף הבית', href: '/' },
+    { label: 'שירותים', href: '/services' },
+    { label: 'תשתיות תקשורת' }
+];
 
 export default function Networking() {
     return (
         <main>
+            <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
-                <h1 className={styles.heroTitle}>תשתיות רשת ותקשורת</h1>
+                <h1 className={styles.heroTitle}>תשתיות רשת ו-WiFi מקצועי לבית ולעסק</h1>
                 <p className={styles.heroSubtitle}>
                     הרשת היא החמצן של הבית המודרני. אל תתפשרו על פחות ממושלם.
                 </p>

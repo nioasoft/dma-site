@@ -1,17 +1,28 @@
 import Section from '@/components/Section';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import styles from './page.module.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'מערכות אבטחה | DMA',
-    description: 'פתרונות אבטחה מתקדמים: מצלמות AI, אבטחה היקפית, ומוקד ניטור 24/7.',
+    title: 'מערכות אבטחה מתקדמות | DMA',
+    description: 'פתרונות אבטחה מתקדמים: מצלמות AI, אבטחה היקפית, ומוקד ניטור 24/7. Axis, Hikvision Pro, Hanwha ו-Bosch.',
+    alternates: {
+        canonical: 'https://dma.co.il/services/security',
+    },
 };
+
+const breadcrumbItems = [
+    { label: 'דף הבית', href: '/' },
+    { label: 'שירותים', href: '/services' },
+    { label: 'אבטחה' }
+];
 
 export default function Security() {
     return (
         <main>
+            <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
-                <h1 className={styles.heroTitle}>מערכות אבטחה</h1>
+                <h1 className={styles.heroTitle}>מערכות אבטחה מתקדמות עם AI</h1>
                 <p className={styles.heroSubtitle}>
                     אבטחה שמונעת, לא רק מתעדת. שקט נפשי אמיתי.
                 </p>
