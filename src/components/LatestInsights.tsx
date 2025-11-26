@@ -12,7 +12,7 @@ const LatestInsights = () => {
     return (
         <Section id="insights">
             <div className={styles.header}>
-                <h2 className={styles.title}>Latest Insights</h2>
+                <h2 className={styles.title}>תובנות אחרונות</h2>
                 <p className={styles.subtitle}>ידע הוא הכוח שלנו. והשקט הנפשי שלכם.</p>
             </div>
 

@@ -1,5 +1,5 @@
 .section {
-    padding: var(--spacing-xl) 0;
+    padding: var(--spacing-md) 0;
     width: 100%;
     position: relative;
     opacity: 0;
@@ -50,8 +50,7 @@
 
 .hero {
     padding-top: calc(var(--spacing-xl) + 80px);
-    min-height: 90vh;
-    /* Taller hero */
+    /* min-height controlled by individual pages */
     display: flex;
     align-items: center;
     position: relative;

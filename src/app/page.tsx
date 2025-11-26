@@ -110,7 +110,7 @@ export default function Home() {
 
             {/* Testimonials Section */}
             <Section id="testimonials">
-                <h2 className={styles.sectionTitle}>Client Stories</h2>
+                <h2 className={styles.sectionTitle}>סיפורי לקוחות</h2>
                 <div className={styles.testimonialsGrid}>
                     <div className={styles.testimonialCard}>
                         <p className={styles.quote}>"דוד הגיע, לא ניסה למכור לי ציוד, אלא בנה לי 'חגורת הגנה'. הפורץ ברח מייד."</p>

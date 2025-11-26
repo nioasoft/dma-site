@@ -1,12 +1,12 @@
 .hero {
-    min-height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     background: linear-gradient(to bottom, #000, var(--color-background));
-    padding-top: 100px;
+    padding-top: 80px;
+    padding-bottom: var(--spacing-lg);
 }
 
 .heroTitle {
@@ -26,7 +26,7 @@
 }
 
 .contentSection {
-    padding: var(--spacing-xl) 0;
+    padding: 1.75rem 0 1.6rem 0;
 }
 
 .container {
@@ -39,7 +39,7 @@
     font-size: 2rem;
     color: var(--color-primary);
     margin-top: var(--spacing-xl);
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: 1.2rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     padding-bottom: var(--spacing-sm);
 }
@@ -54,20 +54,20 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: var(--spacing-lg);
-    margin-bottom: var(--spacing-xl);
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
 }
 
 .card {
     background: rgba(255, 255, 255, 0.03);
-    padding: var(--spacing-lg);
+    padding: var(--spacing-sm);
     border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .card h3 {
     font-size: 1.3rem;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: 0.5rem;
     color: var(--color-text);
 }
 
@@ -78,7 +78,7 @@
 }
 
 .card li {
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 
 .brandsList,

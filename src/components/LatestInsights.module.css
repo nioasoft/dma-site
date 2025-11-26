@@ -1,11 +1,11 @@
 .header {
     text-align: center;
-    margin-bottom: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
 }
 
 .title {
     font-size: 3rem;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
 }
 
 .subtitle {
@@ -16,8 +16,8 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: var(--spacing-lg);
-    margin-bottom: var(--spacing-xl);
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
 }
 
 .card {
@@ -95,6 +95,7 @@
 
 .footer {
     text-align: center;
+    padding-bottom: 0;
 }
 
 .viewAll {

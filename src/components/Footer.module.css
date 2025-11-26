@@ -1,8 +1,8 @@
 .footer {
     background: transparent;
-    padding: var(--spacing-lg) 0 calc(var(--spacing-lg) + 80px);
+    padding: var(--spacing-md) 0 calc(var(--spacing-sm) + 80px);
     border-top: 1px solid var(--color-border);
-    margin-top: var(--spacing-xl);
+    margin-top: var(--spacing-md);
 }
 
 .container {
@@ -14,8 +14,8 @@
 .content {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: var(--spacing-xl);
-    margin-bottom: var(--spacing-xl);
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
 }
 
 .brand {
@@ -71,7 +71,7 @@
 
 .bottomBar {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: var(--spacing-lg);
+    padding-top: var(--spacing-sm);
     display: flex;
     justify-content: space-between;
     align-items: center;

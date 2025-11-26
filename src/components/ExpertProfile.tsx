@@ -16,14 +16,19 @@ const ExpertProfile = () => {
     return (
         <Section className={styles.section}>
             <div className={styles.container}>
-                <div className={styles.imageWrapper}>
-                    <Image
-                        src="/hero-bg.webp"
-                        alt="דוד משה אביטבול - מייסד DMA, מומחה לבית חכם ואבטחה עם 15 שנות ניסיון"
-                        fill
-                        sizes="(max-width: 768px) 100vw, 50vw"
-                        className={styles.image}
-                    />
+                <div className={styles.imageColumn}>
+                    <div className={styles.imageWrapper}>
+                        <Image
+                            src="/hero-bg.webp"
+                            alt="דוד משה אביטבול - מייסד DMA, מומחה לבית חכם ואבטחה עם 15 שנות ניסיון"
+                            fill
+                            sizes="(max-width: 768px) 100vw, 50vw"
+                            className={styles.image}
+                        />
+                    </div>
+                    <Link href="/contact" className={styles.button}>
+                        תיאום פגישה עם דוד משה
+                    </Link>
                 </div>
                 <div className={styles.content}>
                     <span className={styles.label}>Meet the Expert</span>
@@ -60,9 +65,6 @@ const ExpertProfile = () => {
                             <span className={styles.statLabel}>שביעות רצון</span>
                         </div>
                     </div>
-                    <Link href="/contact" className={styles.button}>
-                        תיאום פגישה עם דוד משה
-                    </Link>
                 </div>
             </div>
         </Section>
