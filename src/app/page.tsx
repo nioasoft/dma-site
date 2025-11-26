@@ -41,6 +41,7 @@ export default function Home() {
 
             {/* UVP Section */}
             <Section id="vision">
+                <h2 className={styles.sectionTitle}>מה אנחנו מציעים</h2>
                 <div className={styles.uvpGrid}>
                     <div className={styles.uvpCard}>
                         <h3>Security</h3>
