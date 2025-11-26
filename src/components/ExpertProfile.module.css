@@ -171,6 +171,14 @@
         grid-template-columns: 1fr;
     }
 
+    .imageColumn {
+        order: 2;
+    }
+
+    .content {
+        order: 1;
+    }
+
     .imageWrapper {
         height: 300px;
     }
