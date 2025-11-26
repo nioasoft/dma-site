@@ -30,7 +30,8 @@ export default function Services() {
                             <p>
                                 רשתות WiFi מקצועיות ברמת Enterprise עם נקודות גישה מפוזרות וניהול מרכזי.
                                 תשתית סיבים אופטיים פנים-מבניים עד 10Gbps, ארונות תקשורת ממוזגים ומתויגים,
-                                וכבילה CAT6A/CAT7 לכל נקודה. אנחנו עובדים עם Ubiquiti, Ruckus, Cisco ו-Aruba.
+                                וכבילה CAT6A/CAT7 לכל נקודה. מתמחים בהשחלות מורכבות בתנאים קשים - קירות בטון,
+                                תקרות סגורות ומבנים קיימים. אנחנו עובדים עם Ubiquiti, Ruckus, Cisco ו-Aruba.
                             </p>
                             <Link href="/services/networking" className={styles.readMore}>
                                 קרא עוד על תשתיות רשת →
