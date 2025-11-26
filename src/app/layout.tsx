@@ -86,6 +86,12 @@ export default function RootLayout({
   return (
     <html lang="he" dir="rtl">
       <head>
+        <link
+          rel="preload"
+          as="image"
+          href="/hero-bg.webp"
+          type="image/webp"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
