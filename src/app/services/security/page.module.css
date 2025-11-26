@@ -110,9 +110,18 @@
     width: 100%;
     height: auto;
     border-radius: 16px;
-    margin-bottom: var(--spacing-lg);
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
     aspect-ratio: 21 / 9;
     object-fit: cover;
+}
+
+.sectionImage:first-child {
+    margin-top: 0;
+}
+
+.sectionImage + h2 {
+    margin-top: var(--spacing-md);
 }
 
 @media (max-width: 768px) {
