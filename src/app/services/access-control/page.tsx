@@ -1,6 +1,7 @@
 import Section from '@/components/Section';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from '../smart-home/page.module.css';
 import { Metadata } from 'next';
 
@@ -31,6 +32,15 @@ export default function AccessControl() {
 
             <Section className={styles.contentSection}>
                 <div className={styles.container}>
+                    <Image
+                        src="/images/services/access-control/facial-recognition.webp"
+                        alt="מערכת זיהוי פנים בכניסה לבית"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                        priority
+                    />
+
                     <h2>למה לעבור לבקרת כניסה חכמה?</h2>
                     <p>
                         מפתחות פיזיים הם טכנולוגיה של המאה ה-19. הם הולכים לאיבוד, קל לשכפל אותם,
@@ -80,6 +90,14 @@ export default function AccessControl() {
                         </div>
                     </div>
 
+                    <Image
+                        src="/images/services/access-control/video-intercom.webp"
+                        alt="אינטרקום וידאו HD"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                    />
+
                     <h2>המותגים שאנחנו עובדים איתם</h2>
                     <ul className={styles.brandsList}>
                         <li><strong>2N</strong> - אינטרקום IP מהמתקדמים בעולם</li>
@@ -87,6 +105,14 @@ export default function AccessControl() {
                         <li><strong>Dahua</strong> - פתרונות משולבים</li>
                         <li><strong>Akuvox</strong> - יחס עלות-תועלת מעולה</li>
                     </ul>
+
+                    <Image
+                        src="/images/services/access-control/smart-lock.webp"
+                        alt="מנעול חכם עם אפליקציה"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                    />
 
                     <h2>למה DMA?</h2>
                     <ul className={styles.whyUsList}>

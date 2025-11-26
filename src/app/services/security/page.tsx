@@ -1,5 +1,6 @@
 import Section from '@/components/Section';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import Image from 'next/image';
 import styles from './page.module.css';
 import { Metadata } from 'next';
 
@@ -30,6 +31,15 @@ export default function Security() {
 
             <Section className={styles.contentSection}>
                 <div className={styles.container}>
+                    <Image
+                        src="/images/services/security/security-camera.webp"
+                        alt="מצלמת אבטחה חיצונית עם AI"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                        priority
+                    />
+
                     <h2>אבטחה שמונעת, לא רק מתעדת</h2>
                     <p>
                         רוב מערכות האבטחה הן "היסטוריונים" - הן מקליטות מה קרה ומציגות לכם את הסרטון למחרת בבוקר. המערכות שלנו הן "שומרי ראש" - הן מזהות, מתריעות ומרתיעות בזמן אמת, עוד לפני שהפורץ נגע בדלת.
@@ -74,7 +84,24 @@ export default function Security() {
                         </div>
                     </div>
 
+                    <Image
+                        src="/images/services/security/perimeter-security.webp"
+                        alt="אבטחה היקפית סביב וילה מודרנית"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                    />
+
                     <h2>יתרונות ייחודיים</h2>
+
+                    <Image
+                        src="/images/services/security/monitoring-station.webp"
+                        alt="עמדת ניטור אבטחה מקצועית"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                    />
+
                     <ul className={styles.whyUsList}>
                         <li><strong>צביעה מותאמת (RAL)</strong> - מצלמות וגלאים שנצבעים בדיוק בגוון של הקיר/תקרה - אבטחה בלתי נראית.</li>
                         <li><strong>ציוד תעשייתי</strong> - אנחנו לא עובדים עם ציוד סיני זול. רק מותגים מוכחים: Axis, Hikvision Pro, Hanwha, Bosch.</li>

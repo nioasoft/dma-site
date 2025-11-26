@@ -1,6 +1,7 @@
 import Section from '@/components/Section';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './page.module.css';
 import { Metadata } from 'next';
 
@@ -31,6 +32,15 @@ export default function SmartHome() {
 
             <Section className={styles.contentSection}>
                 <div className={styles.container}>
+                    <Image
+                        src="/images/services/smart-home/control-panel.webp"
+                        alt="פאנל שליטה בית חכם על הקיר"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                        priority
+                    />
+
                     <h2>מה זה בית חכם אמיתי?</h2>
                     <p>
                         בית חכם אמיתי הוא לא אוסף של אפליקציות וגאדג'טים. הוא מערכת אחת אינטגרטיבית שמחברת את כל מערכות הבית - תאורה, מזגנים, וילונות, אבטחה, מולטימדיה - לממשק שליטה אחד פשוט ואינטואיטיבי.
@@ -72,6 +82,14 @@ export default function SmartHome() {
                         </div>
                     </div>
 
+                    <Image
+                        src="/images/services/smart-home/automated-curtains.webp"
+                        alt="וילונות חשמליים נפתחים לזריחה"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                    />
+
                     <h2>המערכות שאנחנו עובדים איתן</h2>
                     <ul className={styles.brandsList}>
                         <li><strong>KNX</strong> - הסטנדרט הגרמני, יציב ומוכח</li>
@@ -86,6 +104,14 @@ export default function SmartHome() {
                             קראו את המדריך המקיף: KNX vs Control4 →
                         </Link>
                     </div>
+
+                    <Image
+                        src="/images/services/smart-home/unified-control.webp"
+                        alt="שליטה מאוחדת בבית חכם"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                    />
 
                     <h2>למה DMA?</h2>
                     <ul className={styles.whyUsList}>

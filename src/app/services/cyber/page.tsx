@@ -1,6 +1,7 @@
 import Section from '@/components/Section';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from '../smart-home/page.module.css';
 import { Metadata } from 'next';
 
@@ -31,6 +32,15 @@ export default function Cyber() {
 
             <Section className={styles.contentSection}>
                 <div className={styles.container}>
+                    <Image
+                        src="/images/services/cyber/firewall-hardware.webp"
+                        alt="ציוד חומת אש מקצועית"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                        priority
+                    />
+
                     <h2>למה אבטחת סייבר ביתית חשובה?</h2>
                     <p>
                         כל מצלמה, כל מזגן חכם, כל נורה מחוברת - הם פוטנציאל לפרצת אבטחה.
@@ -78,12 +88,28 @@ export default function Cyber() {
                         </div>
                     </div>
 
+                    <Image
+                        src="/images/services/cyber/vpn-security.webp"
+                        alt="אבטחת VPN והצפנה"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                    />
+
                     <h2>מה קורה אם נפרץ לי לרשת?</h2>
                     <p>
                         ללא הגנה נאותה, פורץ יכול לצפות במצלמות האבטחה שלכם, לשמוע שיחות,
                         לגנוב קבצים מהמחשב, או להשתמש ברשת שלכם למתקפות על אחרים.
                         עם ההגנות שלנו, גם אם מכשיר אחד נפרץ - הנזק מבודד ומוגבל.
                     </p>
+
+                    <Image
+                        src="/images/services/cyber/network-diagram.webp"
+                        alt="דיאגרמת רשת מאובטחת עם הפרדת VLAN"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                    />
 
                     <h2>שירותי סייבר לעסקים</h2>
                     <ul className={styles.brandsList}>

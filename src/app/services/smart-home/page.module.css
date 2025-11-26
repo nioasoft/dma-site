@@ -131,6 +131,15 @@
     text-decoration: underline;
 }
 
+.sectionImage {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    margin-bottom: var(--spacing-lg);
+    aspect-ratio: 21 / 9;
+    object-fit: cover;
+}
+
 @media (max-width: 768px) {
     .heroTitle {
         font-size: 2.5rem;

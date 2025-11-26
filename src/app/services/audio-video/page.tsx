@@ -1,6 +1,7 @@
 import Section from '@/components/Section';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from '../smart-home/page.module.css';
 import { Metadata } from 'next';
 
@@ -31,6 +32,15 @@ export default function AudioVideo() {
 
             <Section className={styles.contentSection}>
                 <div className={styles.container}>
+                    <Image
+                        src="/images/services/audio-video/ceiling-speakers.webp"
+                        alt="רמקולי תקרה נסתרים בסלון יוקרתי"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                        priority
+                    />
+
                     <h2>רמקולים בלתי נראים (Invisible Speakers)</h2>
                     <p>
                         הטרנד החם ביותר בעולם האודיו היוקרתי: רמקולים שמוטמעים בתוך הקיר ומכוסים
@@ -78,12 +88,28 @@ export default function AudioVideo() {
                         </div>
                     </div>
 
+                    <Image
+                        src="/images/services/audio-video/home-cinema.webp"
+                        alt="חדר קולנוע ביתי עם מקרן 4K"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                    />
+
                     <h2>בידור בחצר ובבריכה</h2>
                     <p>
                         הגינה היא חלק בלתי נפרד מהבית הישראלי. אנחנו מתקינים מסכי חוץ עמידים
                         לשמש ולגשם (Samsung The Terrace, SunBrite), רמקולים לוויניים שמוסתרים
                         בין השיחים, ותשתית WiFi חזקה גם ליד הבריכה.
                     </p>
+
+                    <Image
+                        src="/images/services/audio-video/multiroom-audio.webp"
+                        alt="מערכת סאונד חיצונית ליד הבריכה"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                    />
 
                     <h2>המותגים שאנחנו עובדים איתם</h2>
                     <ul className={styles.brandsList}>

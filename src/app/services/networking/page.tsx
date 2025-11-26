@@ -1,5 +1,6 @@
 import Section from '@/components/Section';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import Image from 'next/image';
 import styles from './page.module.css';
 import { Metadata } from 'next';
 
@@ -30,6 +31,15 @@ export default function Networking() {
 
             <Section className={styles.contentSection}>
                 <div className={styles.container}>
+                    <Image
+                        src="/images/services/networking/wifi-enterprise.webp"
+                        alt="נקודת גישה WiFi מקצועית מותקנת בתקרה"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                        priority
+                    />
+
                     <h2>הרשת היא החמצן של הבית המודרני</h2>
                     <p>
                         בעידן שבו הכל מחובר - טלוויזיות, מצלמות, מזגנים, משחקים, עבודה מהבית - רשת חלשה היא צוואר בקבוק שמשתק את הבית.
@@ -74,6 +84,14 @@ export default function Networking() {
                         </div>
                     </div>
 
+                    <Image
+                        src="/images/services/networking/network-cabinet.webp"
+                        alt="ארון תקשורת מסודר עם כבילה מקצועית"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                    />
+
                     <h2>המותגים שאנחנו עובדים איתם</h2>
                     <ul className={styles.brandsList}>
                         <li><strong>Ubiquiti UniFi</strong> - יחס עלות-תועלת מעולה</li>
@@ -81,6 +99,14 @@ export default function Networking() {
                         <li><strong>Cisco Meraki</strong> - לעסקים עם דרישות ניהול</li>
                         <li><strong>Aruba</strong> - אמינות ללא פשרות</li>
                     </ul>
+
+                    <Image
+                        src="/images/services/networking/cable-installation.webp"
+                        alt="השחלת כבלים מקצועית בקירות בטון"
+                        width={1260}
+                        height={540}
+                        className={styles.sectionImage}
+                    />
 
                     <h2>השחלות כבלים מורכבות - המומחיות שלנו</h2>
                     <p>
