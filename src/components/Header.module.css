@@ -1,11 +1,11 @@
 .header {
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
+    inset-inline-start: 0;
+    inset-inline-end: 0;
     z-index: 100;
     transition: all 0.3s ease;
-    padding: 1.5rem 0;
+    padding: var(--spacing-md) 0;
 }
 
 .scrolled {
@@ -37,8 +37,7 @@
 .logoImage {
     object-fit: contain;
     width: auto;
-    height: 100px;
-    /* Increased from 40px */
+    height: 60px;
 }
 
 .nav {
@@ -84,15 +83,15 @@
 
 @media (max-width: 768px) {
     .logoImage {
-        height: 60px;
+        height: 45px;
     }
 
     .header {
-        padding: 0.75rem 0;
+        padding: var(--spacing-xs) 0;
     }
 
     .scrolled {
-        padding: 0.5rem 0;
+        padding: var(--spacing-2xs) 0;
     }
 
     .nav {
@@ -102,7 +101,7 @@
     .mobileNav {
         position: fixed;
         top: 0;
-        left: 0;
+        inset-inline-start: 0;
         width: 100vw;
         height: 100vh;
         height: 100dvh;
@@ -113,7 +112,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 2rem;
+        gap: var(--spacing-lg);
         transform: translateX(100%);
         transition: transform 0.3s ease-in-out;
     }
@@ -158,6 +157,26 @@
 
     .toggleButton.open span:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -7px);
+    }
+}
+
+/* Tablet: Show nav but with adjusted spacing */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .nav {
+        gap: var(--spacing-sm);
+    }
+
+    .navLink {
+        font-size: 1rem;
+    }
+
+    .ctaButton {
+        padding: var(--spacing-xs) var(--spacing-sm);
+        font-size: 0.9rem;
+    }
+
+    .logoImage {
+        height: 50px;
     }
 }
 

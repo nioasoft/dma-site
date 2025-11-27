@@ -100,9 +100,14 @@ export default function RootLayout({
         />
       </head>
       <body className={`${heebo.variable} ${assistant.variable}`}>
+        <a href="#main-content" className="skip-link">
+          דלג לתוכן הראשי
+        </a>
         <Header />
         <FloatingBanner />
-        {children}
+        <div id="main-content">
+          {children}
+        </div>
         <WhatsAppButton />
         <CookieConsent />
         <Footer />

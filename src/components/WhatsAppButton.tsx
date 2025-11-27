@@ -2,13 +2,13 @@ import styles from './WhatsAppButton.module.css';
 
 export default function WhatsAppButton() {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} role="complementary" aria-label="יצירת קשר מהירה">
             <a
                 href="https://wa.me/972506883162?text=היי, אני מעוניין בייעוץ לגבי..."
                 className={styles.button}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Chat on WhatsApp"
+                aria-label="שלח הודעה ב-WhatsApp"
             >
                 <svg
                     className={styles.icon}

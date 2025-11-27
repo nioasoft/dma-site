@@ -37,7 +37,7 @@ export default function Blog() {
                             <div className={styles.content}>
                                 <h3 className={styles.title}>{post.title}</h3>
                                 <p className={styles.excerpt}>{post.excerpt}</p>
-                                <span className={styles.readMore}>קרא עוד ←</span>
+                                <span className={styles.readMore}>← קרא עוד</span>
                             </div>
                         </Link>
                     ))}

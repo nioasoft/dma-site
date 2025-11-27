@@ -34,7 +34,7 @@ export default function Services() {
                                 תקרות סגורות ומבנים קיימים. אנחנו עובדים עם Ubiquiti, Ruckus, Cisco ו-Aruba.
                             </p>
                             <Link href="/services/networking" className={styles.readMore}>
-                                קרא עוד על תשתיות רשת →
+                                ← קרא עוד על תשתיות רשת
                             </Link>
                         </div>
 
@@ -46,7 +46,7 @@ export default function Services() {
                                 ציוד תעשייתי בלבד: Axis, Hikvision Pro, Hanwha ו-Bosch.
                             </p>
                             <Link href="/services/security" className={styles.readMore}>
-                                קרא עוד על מערכות אבטחה →
+                                ← קרא עוד על מערכות אבטחה
                             </Link>
                         </div>
 
@@ -58,7 +58,7 @@ export default function Services() {
                                 אנחנו מתקינים KNX, Control4, Loxone ו-Crestron בהתאמה לצרכי הפרויקט.
                             </p>
                             <Link href="/services/smart-home" className={styles.readMore}>
-                                קרא עוד על בית חכם →
+                                ← קרא עוד על בית חכם
                             </Link>
                         </div>
 
@@ -70,7 +70,7 @@ export default function Services() {
                                 וצפייה וניהול מרחוק מכל מקום בעולם דרך האפליקציה.
                             </p>
                             <Link href="/services/access-control" className={styles.readMore}>
-                                קרא עוד על בקרת כניסה →
+                                ← קרא עוד על בקרת כניסה
                             </Link>
                         </div>
 
@@ -82,7 +82,7 @@ export default function Services() {
                                 פתרונות Multi-Room להזרמת מוזיקה לכל הבית, ומערכות ישיבות מקצועיות לעסקים.
                             </p>
                             <Link href="/services/audio-video" className={styles.readMore}>
-                                קרא עוד על מערכות אודיו וידאו →
+                                ← קרא עוד על מערכות אודיו וידאו
                             </Link>
                         </div>
 
@@ -94,7 +94,7 @@ export default function Services() {
                                 והקשחת המערכות מפני חדירה - כי הפרטיות שלכם היא עדיפות עליונה.
                             </p>
                             <Link href="/services/cyber" className={styles.readMore}>
-                                קרא עוד על סייבר ופרטיות →
+                                ← קרא עוד על סייבר ופרטיות
                             </Link>
                         </div>
 

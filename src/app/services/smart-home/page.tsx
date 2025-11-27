@@ -101,7 +101,7 @@ export default function SmartHome() {
                     <div className={styles.guideLink}>
                         <p>לא יודעים איזו מערכת מתאימה לכם?</p>
                         <Link href="/guides/knx-vs-control4">
-                            קראו את המדריך המקיף: KNX vs Control4 →
+                            ← קראו את המדריך המקיף: KNX vs Control4
                         </Link>
                     </div>
 

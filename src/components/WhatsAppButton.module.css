@@ -1,9 +1,7 @@
 .container {
     position: fixed;
-    bottom: 2rem;
-    /* Left side for Hebrew sites often works well, or right. Standard is usually right, but let's stick to standard right for floating actions usually, or left if it conflicts. Let's go with Right as it's most common for chat widgets */
-    right: 2rem;
-    left: auto;
+    bottom: var(--spacing-lg);
+    inset-inline-start: var(--spacing-lg);
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -38,8 +36,8 @@
 
 @media (max-width: 768px) {
     .container {
-        bottom: 1.5rem;
-        right: 1.5rem;
+        bottom: var(--spacing-md);
+        inset-inline-start: var(--spacing-md);
     }
 
     .button {

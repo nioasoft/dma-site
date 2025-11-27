@@ -177,7 +177,7 @@ export default async function BlogPost({ params }: Props) {
 
                 <div className={styles.navigation}>
                     <Link href="/blog" className={styles.backButton}>
-                        ← חזרה לבלוג
+                        חזרה לבלוג →
                     </Link>
                     <Link href="/contact" className={styles.contactButton}>
                         התייעץ עם דוד משה על הנושא

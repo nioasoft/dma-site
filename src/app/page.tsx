@@ -83,7 +83,7 @@ export default function Home() {
             <Process />
 
             <Section variant="dark" id="pillars">
-                <h2 className={styles.sectionTitle}>Core Pillars</h2>
+                <h2 className={styles.sectionTitle}>עמודי התווך שלנו</h2>
                 <div className={styles.pillarsGrid}>
                     {/* Assuming PillarCard is a component or a placeholder for now */}
                     <div className={styles.pillarCard}>
