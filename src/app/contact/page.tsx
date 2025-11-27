@@ -21,20 +21,35 @@ export default function Contact() {
             <Section className={styles.formSection}>
                 <div className={styles.container}>
                     <div className={styles.infoSide}>
-                        <h3>DMA - Intelligence in Infrastructure</h3>
-                        <div className={styles.contactInfo}>
-                            <div className={styles.infoItem}>
-                                <span className={styles.icon}>📍</span>
-                                <p>המרכז, ישראל (פריסה ארצית)</p>
+                        <h3>למה לבחור ב-DMA?</h3>
+
+                        <div className={styles.statsRow}>
+                            <div className={styles.statBox}>
+                                <span className={styles.statNum}>15+</span>
+                                <span className={styles.statLabel}>שנות ניסיון</span>
                             </div>
+                            <div className={styles.statBox}>
+                                <span className={styles.statNum}>500+</span>
+                                <span className={styles.statLabel}>פרויקטים</span>
+                            </div>
+                        </div>
+
+                        <div className={styles.coverageSection}>
+                            <h4>פריסה ארצית מלאה</h4>
+                            <p>מהגליל ועד אילת - אנחנו מגיעים לכל מקום בישראל. פרויקטים בהרצליה פיתוח, קיסריה, סביון, ובכל רחבי הארץ.</p>
+                        </div>
+
+                        <div className={styles.contactInfo}>
                             <div className={styles.infoItem}>
                                 <span className={styles.icon}>📧</span>
                                 <p>moshe@dma247.net</p>
                             </div>
                         </div>
+
                         <div className={styles.note}>
-                            <p>* פגישות ייעוץ בתיאום מראש בלבד.</p>
-                            <p>* דיסקרטיות מלאה מובטחת.</p>
+                            <p>✓ פגישת ייעוץ ראשונית ללא עלות</p>
+                            <p>✓ דיסקרטיות מוחלטת מובטחת</p>
+                            <p>✓ זמינות לפרויקטים דחופים</p>
                         </div>
                     </div>
 
