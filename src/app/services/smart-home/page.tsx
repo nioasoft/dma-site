@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'מערכות בית חכם יוקרתיות | DMA',
     description: 'מערכות בית חכם יוקרתיות: תאורה, אקלים, וילונות ומולטימדיה בשליטה אחת. KNX, Control4, Loxone ו-Crestron.',
     alternates: {
-        canonical: 'https://dma.co.il/services/smart-home',
+        canonical: 'https://dma247.net/services/smart-home',
     },
 };
 

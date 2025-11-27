@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'בקרת כניסה וזיהוי פנים | DMA',
     description: 'מערכות בקרת כניסה מתקדמות: זיהוי פנים ביומטרי, אינטרקום חכם, כרטיסי עובד וקודים זמניים. שליטה מלאה מהנייד.',
     alternates: {
-        canonical: 'https://dma.co.il/services/access-control',
+        canonical: 'https://dma247.net/services/access-control',
     },
 };
 

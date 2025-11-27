@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: 'KNX vs Control4: השוואה מקיפה למערכות בית חכם | DMA',
     description: 'השוואה מקיפה בין KNX ל-Control4. איזו מערכת בית חכם מתאימה לכם? יתרונות, חסרונות, מחירים והמלצות ממומחי DMA.',
     alternates: {
-        canonical: 'https://dma.co.il/guides/knx-vs-control4',
+        canonical: 'https://dma247.net/guides/knx-vs-control4',
     },
 };
 

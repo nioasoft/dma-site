@@ -20,25 +20,25 @@ function generateArticleSchema(post: BlogPost) {
         "@type": "Article",
         "headline": post.title,
         "description": post.excerpt,
-        "image": `https://dma.co.il${post.image}`,
+        "image": `https://dma247.net${post.image}`,
         "author": {
             "@type": "Person",
             "name": post.author,
-            "url": "https://dma.co.il/about"
+            "url": "https://dma247.net/about"
         },
         "publisher": {
             "@type": "Organization",
             "name": "DMA - Intelligence in Infrastructure",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://dma.co.il/logo-transparent.webp"
+                "url": "https://dma247.net/logo-transparent.webp"
             }
         },
         "datePublished": post.date,
         "dateModified": post.date,
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": `https://dma.co.il/blog/${post.slug}`
+            "@id": `https://dma247.net/blog/${post.slug}`
         },
         "keywords": post.tags.join(", "),
         "articleSection": post.category,
@@ -60,7 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: `${post.title} | DMA Blog`,
         description: post.excerpt,
         alternates: {
-            canonical: `https://dma.co.il/blog/${post.slug}`,
+            canonical: `https://dma247.net/blog/${post.slug}`,
         },
         openGraph: {
             title: post.title,

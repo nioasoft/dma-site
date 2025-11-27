@@ -29,11 +29,7 @@ export default function Contact() {
                             </div>
                             <div className={styles.infoItem}>
                                 <span className={styles.icon}>📧</span>
-                                <p>office@dma.co.il</p>
-                            </div>
-                            <div className={styles.infoItem}>
-                                <span className={styles.icon}>📱</span>
-                                <p>*5555 (מוקד שירות)</p>
+                                <p>moshe@dma247.net</p>
                             </div>
                         </div>
                         <div className={styles.note}>

@@ -68,7 +68,7 @@ export default function PrivacyPolicy() {
                     <li><strong>זכות המחיקה ("הזכות להישכח"):</strong> זכותך לבקש את מחיקת המידע האישי שלך ממאגרי החברה, בכפוף למגבלות החוק (למשל, מידע הנדרש לצרכי תיעוד עסקה).</li>
                 </ul>
                 <p>
-                    למימוש זכויות אלו, ניתן לפנות אלינו בכתובת הדוא"ל: <a href="mailto:office@dma.co.il">office@dma.co.il</a> או בטלפון *5555.
+                    למימוש זכויות אלו, ניתן לפנות אלינו בכתובת הדוא"ל: <a href="mailto:moshe@dma247.net">moshe@dma247.net</a>.
                 </p>
             </div>
 
@@ -79,7 +79,7 @@ export default function PrivacyPolicy() {
                     <br />
                     כתובת למשלוח דואר: [כתובת מלאה]
                     <br />
-                    דוא"ל: office@dma.co.il
+                    דוא"ל: moshe@dma247.net
                 </p>
             </div>
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: 'תשתיות תקשורת ורשת WiFi מקצועית | DMA',
     description: 'תשתיות רשת מתקדמות: סיבים אופטיים, WiFi Enterprise, וארונות תקשורת מדוגמים. Ubiquiti, Ruckus, Cisco ו-Aruba.',
     alternates: {
-        canonical: 'https://dma.co.il/services/networking',
+        canonical: 'https://dma247.net/services/networking',
     },
 };
 

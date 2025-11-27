@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: 'מערכות אבטחה מתקדמות | DMA',
     description: 'פתרונות אבטחה מתקדמים: מצלמות AI, אבטחה היקפית, ומוקד ניטור 24/7. Axis, Hikvision Pro, Hanwha ו-Bosch.',
     alternates: {
-        canonical: 'https://dma.co.il/services/security',
+        canonical: 'https://dma247.net/services/security',
     },
 };
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: 'שירותי בית חכם ואבטחה | DMA',
     description: 'פתרונות תקשורת, בית חכם, אבטחה וסייבר. DMA מתמחה בתכנון והקמה של תשתיות מתקדמות לבתים פרטיים ועסקים.',
     alternates: {
-        canonical: 'https://dma.co.il/services',
+        canonical: 'https://dma247.net/services',
     },
 };
 

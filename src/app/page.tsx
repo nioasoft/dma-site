@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: 'DMA | בית חכם, אבטחה ותשתיות יוקרה בישראל',
     description: 'תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה. DMA מספקת שקט נפשי דרך טכנולוגיה מתקדמת.',
     alternates: {
-        canonical: 'https://dma.co.il',
+        canonical: 'https://dma247.net',
     },
 };
 

@@ -18,7 +18,7 @@ function generateBreadcrumbSchema(items: BreadcrumbItem[]) {
             "@type": "ListItem",
             "position": index + 1,
             "name": item.label,
-            "item": item.href ? `https://dma.co.il${item.href}` : undefined
+            "item": item.href ? `https://dma247.net${item.href}` : undefined
         }))
     };
 }

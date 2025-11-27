@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'סייבר ופרטיות לבית ולעסק | DMA',
     description: 'הגנת סייבר לרשת הביתית והעסקית: הפרדת רשתות, חומות אש, VPN מאובטח וייעוץ אבטחת מידע. הפרטיות שלכם בראש סדר העדיפויות.',
     alternates: {
-        canonical: 'https://dma.co.il/services/cyber',
+        canonical: 'https://dma247.net/services/cyber',
     },
 };
 

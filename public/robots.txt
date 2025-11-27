@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dma.co.il/sitemap.xml
+Sitemap: https://dma247.net/sitemap.xml

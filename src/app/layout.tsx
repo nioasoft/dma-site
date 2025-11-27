@@ -15,7 +15,7 @@ const assistant = Assistant({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://dma.co.il'),
+  metadataBase: new URL('https://dma247.net'),
   title: {
     template: '%s | DMA',
     default: 'DMA - Intelligence in Infrastructure',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'he_IL',
-    url: 'https://dma.co.il',
+    url: 'https://dma247.net',
     siteName: 'DMA - Intelligence in Infrastructure',
     images: [
       {
@@ -58,11 +58,10 @@ const structuredData = {
   "@type": "LocalBusiness",
   "name": "DMA - Intelligence in Infrastructure",
   "description": "תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה",
-  "url": "https://dma.co.il",
-  "logo": "https://dma.co.il/logo-transparent.webp",
-  "image": "https://dma.co.il/hero-bg.webp",
-  "telephone": "*5555",
-  "email": "office@dma.co.il",
+  "url": "https://dma247.net",
+  "logo": "https://dma247.net/logo-transparent.webp",
+  "image": "https://dma247.net/hero-bg.webp",
+    "email": "moshe@dma247.net",
   "address": {
     "@type": "PostalAddress",
     "addressRegion": "Central District",

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'מערכות אודיו וידאו וקולנוע ביתי | DMA',
     description: 'רמקולים נסתרים, קולנוע ביתי 4K, מערכות Multi-Room וחדרי ישיבות מקצועיים. סאונד שמרגישים, ציוד שלא רואים.',
     alternates: {
-        canonical: 'https://dma.co.il/services/audio-video',
+        canonical: 'https://dma247.net/services/audio-video',
     },
 };
 

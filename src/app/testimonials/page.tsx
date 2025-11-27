@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: 'לקוחות ממליצים | DMA',
     description: 'קראו מה לקוחות DMA אומרים על השירות שלנו. עדויות מבעלי בתים, אדריכלים ועסקים שבחרו באיכות ללא פשרות.',
     alternates: {
-        canonical: 'https://dma.co.il/testimonials',
+        canonical: 'https://dma247.net/testimonials',
     },
     openGraph: {
         title: 'לקוחות ממליצים | DMA',

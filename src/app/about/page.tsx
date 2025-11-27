@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'אודות DMA | הסיפור שלנו',
   description: 'DMA - מעל 15 שנות ניסיון בתשתיות מתח נמוך, בית חכם ואבטחה. הכירו את דוד משה אביטבול והפילוסופיה שמאחורי החברה.',
   alternates: {
-    canonical: 'https://dma.co.il/about',
+    canonical: 'https://dma247.net/about',
   },
   openGraph: {
     title: 'אודות DMA | הסיפור שלנו',
