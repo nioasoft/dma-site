@@ -30,14 +30,11 @@ export const metadata: Metadata = {
     locale: 'he_IL',
     url: 'https://dma247.net',
     siteName: 'DMA - Intelligence in Infrastructure',
-    images: [
-      {
-        url: '/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'DMA - Intelligence in Infrastructure',
-      },
-    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'DMA - Intelligence in Infrastructure',
+    description: 'מומחים בתכנון וביצוע מערכות מתח נמוך, תקשורת, אבטחה ובית חכם',
   },
   icons: {
     icon: '/icon.svg',
