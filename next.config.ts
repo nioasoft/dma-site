@@ -6,6 +6,15 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizeCss: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/services/smart-home',
+        destination: '/services/consulting',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

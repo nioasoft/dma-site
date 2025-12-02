@@ -186,7 +186,7 @@ export default function Testimonials() {
                     <div className={styles.storyContent}>
                         <div className={styles.storySection}>
                             <h3>האתגר</h3>
-                            <p>בית של 800 מ"ר עם 3 קומות, בריכה, וחצר של דונם. הלקוח רצה: WiFi מושלם בכל מקום, מערכת אבטחה שתגן על שטח גדול, ובית חכם מלא שגם ההורים המבוגרים יוכלו להפעיל.</p>
+                            <p>בית של 800 מ"ר עם 3 קומות, בריכה, וחצר של דונם. הלקוח רצה: WiFi מושלם בכל מקום, מערכת אבטחה שתגן על שטח גדול, ותאורה חכמה שגם ההורים המבוגרים יוכלו להפעיל.</p>
                         </div>
                         <div className={styles.storySection}>
                             <h3>הבעיות שמצאנו</h3>
@@ -198,7 +198,7 @@ export default function Testimonials() {
                                 <li><strong>תשתיות:</strong> הנחנו 40 נקודות רשת חדשות עם סיבים אופטיים בין הקומות</li>
                                 <li><strong>WiFi:</strong> 8 נקודות גישה מפוזרות עם Roaming חלק</li>
                                 <li><strong>אבטחה:</strong> 16 מצלמות AI + גלאים תרמיים היקפיים</li>
-                                <li><strong>בית חכם:</strong> KNX לתאורה, מזגנים וווילונות ב-25 חדרים</li>
+                                <li><strong>אוטומציה:</strong> KNX לתאורה, מזגנים וווילונות ב-25 חדרים</li>
                             </ul>
                         </div>
                         <div className={styles.storySection}>

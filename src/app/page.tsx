@@ -8,7 +8,7 @@ import LatestInsights from '@/components/LatestInsights';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'DMA | בית חכם, אבטחה ותשתיות יוקרה בישראל',
+    title: 'DMA | מתח נמוך, אבטחה ותשתיות יוקרה בישראל',
     description: 'תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה. DMA מספקת שקט נפשי דרך טכנולוגיה מתקדמת.',
     alternates: {
         canonical: 'https://dma247.net',
@@ -53,7 +53,7 @@ export default function Home() {
                     </div>
                     <div className={styles.uvpCard}>
                         <h3>Integration</h3>
-                        <p>בית חכם אמיתי שמחבר את כל המערכות לממשק שליטה אחד פשוט ואינטואיטיבי.</p>
+                        <p>אינטגרציה מלאה של כל המערכות לממשק שליטה אחד פשוט ואינטואיטיבי.</p>
                     </div>
                 </div>
 

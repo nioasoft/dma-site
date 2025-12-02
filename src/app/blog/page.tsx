@@ -6,8 +6,8 @@ import { blogPosts } from '@/data/blogPosts';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'מרכז הידע | בית חכם, אבטחה ותקשורת | DMA',
-    description: 'מאמרים, מדריכים וחידושים מעולם הבית החכם, האבטחה והתקשורת.',
+    title: 'מרכז הידע | מתח נמוך, אבטחה ותקשורת | DMA',
+    description: 'מאמרים, מדריכים וחידושים מעולם המתח הנמוך, האבטחה והתקשורת.',
 };
 
 export default function Blog() {
@@ -16,7 +16,7 @@ export default function Blog() {
             <Section variant="hero" className={styles.hero}>
                 <h1 className={styles.heroTitle}>Intelligence Center</h1>
                 <p className={styles.heroSubtitle}>
-                    תובנות, חידושים ומדריכים מעולם המתח הנמוך, האבטחה והבית החכם.
+                    תובנות, חידושים ומדריכים מעולם המתח הנמוך, האבטחה והתקשורת.
                 </p>
             </Section>
 

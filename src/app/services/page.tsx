@@ -5,8 +5,8 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'שירותי בית חכם ואבטחה | DMA',
-    description: 'פתרונות תקשורת, בית חכם, אבטחה וסייבר. DMA מתמחה בתכנון והקמה של תשתיות מתקדמות לבתים פרטיים ועסקים.',
+    title: 'שירותי מתח נמוך ואבטחה | DMA',
+    description: 'פתרונות תקשורת, אבטחה, בקרת כניסה וסייבר. DMA מתמחה בתכנון והקמה של תשתיות מתח נמוך לבתים פרטיים ועסקים.',
     alternates: {
         canonical: 'https://dma247.net/services',
     },
@@ -16,7 +16,7 @@ export default function Services() {
     return (
         <main>
             <Section variant="hero" className={styles.hero}>
-                <h1 className={styles.heroTitle}>שירותי בית חכם, אבטחה ותשתיות מתקדמות</h1>
+                <h1 className={styles.heroTitle}>שירותי מתח נמוך, אבטחה ותשתיות מתקדמות</h1>
                 <p className={styles.heroSubtitle}>
                     אנחנו לא מוכרים ציוד. אנחנו מוכרים ארכיטקטורה של שקט נפשי - תכנון, התקנה ותחזוקה של מערכות מתח נמוך ברמה הגבוהה ביותר.
                 </p>
@@ -51,14 +51,14 @@ export default function Services() {
                         </div>
 
                         <div className={styles.serviceCard}>
-                            <h3>בית חכם</h3>
+                            <h3>ייעוץ ותכנון</h3>
                             <p>
-                                מערכת אחת אינטגרטיבית לשליטה בתאורה, מזגנים, וילונות ומולטימדיה מממשק אחד פשוט.
-                                תרחישים מותאמים אישית, תאורה ביו-דינמית, ואוטומציה שחוסכת עד 30% בחשמל.
-                                אנחנו מתקינים KNX, Control4, Loxone ו-Crestron בהתאמה לצרכי הפרויקט.
+                                תכנון הנדסי מקצועי של כל מערכות המתח הנמוך לפני תחילת הבנייה.
+                                שרטוטי CAD מפורטים, תיאום עם אדריכל וקבלן חשמל, וליווי צמוד מהתכנון ועד המסירה.
+                                החוסך שגיאות ועלויות מיותרות בהמשך.
                             </p>
-                            <Link href="/services/smart-home" className={styles.readMore}>
-                                ← קרא עוד על בית חכם
+                            <Link href="/services/consulting" className={styles.readMore}>
+                                ← קרא עוד על ייעוץ ותכנון
                             </Link>
                         </div>
 

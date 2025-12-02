@@ -20,8 +20,8 @@ export const metadata: Metadata = {
     template: '%s | DMA',
     default: 'DMA - Intelligence in Infrastructure',
   },
-  description: 'מומחים בתכנון וביצוע מערכות מתח נמוך, תקשורת, אבטחה ובית חכם לבתי יוקרה ולמגזר העסקי. DMA מספקת שקט נפשי ופתרונות טכנולוגיים מתקדמים.',
-  keywords: ['בית חכם', 'חשמל חכם', 'מצלמות אבטחה', 'מערכות אזעקה', 'אינטרקום', 'רשתות תקשורת', 'אודיו וידאו', 'קולנוע ביתי', 'DMA', 'אסף בנתיה'],
+  description: 'מומחים בתכנון וביצוע מערכות מתח נמוך, תקשורת ואבטחה לבתי יוקרה ולמגזר העסקי. DMA מספקת שקט נפשי ופתרונות טכנולוגיים מתקדמים.',
+  keywords: ['מתח נמוך', 'מערכות אבטחה', 'מצלמות אבטחה', 'מערכות אזעקה', 'אינטרקום', 'רשתות תקשורת', 'אודיו וידאו', 'בקרת כניסה', 'DMA'],
   alternates: {
     canonical: '/',
   },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'DMA - Intelligence in Infrastructure',
-    description: 'מומחים בתכנון וביצוע מערכות מתח נמוך, תקשורת, אבטחה ובית חכם',
+    description: 'מומחים בתכנון וביצוע מערכות מתח נמוך, תקשורת ואבטחה',
   },
   icons: {
     icon: '/icon.svg',
@@ -69,7 +69,7 @@ const structuredData = {
     "name": "Israel"
   },
   "priceRange": "$$$$",
-  "serviceType": ["בית חכם", "אבטחה", "תקשורת", "מתח נמוך"],
+  "serviceType": ["מתח נמוך", "אבטחה", "תקשורת", "בקרת כניסה", "אודיו וידאו"],
   "founder": {
     "@type": "Person",
     "name": "דוד משה אביטבול"

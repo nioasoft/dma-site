@@ -6,13 +6,13 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'אודות DMA | הסיפור שלנו',
-  description: 'DMA - מעל 15 שנות ניסיון בתשתיות מתח נמוך, בית חכם ואבטחה. הכירו את דוד משה אביטבול והפילוסופיה שמאחורי החברה.',
+  description: 'DMA - מעל 15 שנות ניסיון בתשתיות מתח נמוך ואבטחה. הכירו את דוד משה אביטבול והפילוסופיה שמאחורי החברה.',
   alternates: {
     canonical: 'https://dma247.net/about',
   },
   openGraph: {
     title: 'אודות DMA | הסיפור שלנו',
-    description: 'DMA - מעל 15 שנות ניסיון בתשתיות מתח נמוך, בית חכם ואבטחה.',
+    description: 'DMA - מעל 15 שנות ניסיון בתשתיות מתח נמוך ואבטחה.',
     images: ['/vision-bg.webp'],
   },
 };
@@ -23,7 +23,7 @@ export default function About() {
       {/* Hero Section */}
       <Section variant="hero" className={styles.hero}>
         <h1 className={styles.heroTitle}>
-          אודות DMA - מומחים בבית חכם ואבטחה מתקדמת
+          אודות DMA - מומחים במתח נמוך ואבטחה מתקדמת
         </h1>
         <p className={styles.heroSubtitle}>
           אנחנו לא רק מחברים כבלים. אנחנו יוצרים את מערכת העצבים הבלתי נראית של המרחב שלכם - ארכיטקטורה של שקט נפשי.

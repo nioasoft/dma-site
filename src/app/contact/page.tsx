@@ -4,7 +4,7 @@ import ContactForm from '@/components/ContactForm';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'צור קשר | ייעוץ חינם לבית חכם ואבטחה | DMA',
+    title: 'צור קשר | ייעוץ חינם למתח נמוך ואבטחה | DMA',
     description: 'צרו קשר עם DMA לתיאום פגישת ייעוץ. אנחנו כאן כדי לתכנן את מערכת המתח הנמוך הבאה שלכם.',
 };
 

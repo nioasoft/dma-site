@@ -92,7 +92,7 @@ export default async function Image() {
               direction: 'rtl',
             }}
           >
-            בית חכם • אבטחה • תקשורת
+            מתח נמוך • אבטחה • תקשורת
           </div>
         </div>
 

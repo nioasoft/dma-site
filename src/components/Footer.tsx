@@ -14,7 +14,7 @@ const Footer = () => {
                         <Link href="/" className={styles.logo}>
                             <Image
                                 src="/logo-transparent.webp"
-                                alt="DMA - בית חכם, אבטחה ותשתיות תקשורת"
+                                alt="DMA - מתח נמוך, אבטחה ותשתיות תקשורת"
                                 width={120}
                                 height={48}
                                 className={styles.logoImage}
@@ -28,7 +28,7 @@ const Footer = () => {
 
                     <div className={styles.linksColumn}>
                         <h3>שירותים</h3>
-                        <Link href="/services/smart-home">בית חכם</Link>
+                        <Link href="/services/consulting">ייעוץ ותכנון</Link>
                         <Link href="/services/security">אבטחה ומיגון</Link>
                         <Link href="/services/networking">תשתיות תקשורת</Link>
                         <Link href="/services/access-control">בקרת כניסה</Link>

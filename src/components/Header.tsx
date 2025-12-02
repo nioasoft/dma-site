@@ -130,7 +130,7 @@ const Header = () => {
                 <Link href="/" className={styles.logo} aria-label="DMA - חזרה לדף הבית">
                     <Image
                         src="/logo-transparent.webp"
-                        alt="DMA - בית חכם, אבטחה ותשתיות תקשורת"
+                        alt="DMA - מתח נמוך, אבטחה ותשתיות תקשורת"
                         width={150}
                         height={60}
                         className={styles.logoImage}
