@@ -37,7 +37,7 @@
 .logoImage {
     object-fit: contain;
     width: auto;
-    height: 60px;
+    height: 90px;
 }
 
 .nav {
@@ -83,7 +83,7 @@
 
 @media (max-width: 768px) {
     .logoImage {
-        height: 45px;
+        height: 65px;
     }
 
     .header {
@@ -176,7 +176,7 @@
     }
 
     .logoImage {
-        height: 50px;
+        height: 75px;
     }
 }
 

@@ -39,6 +39,7 @@ const Footer = () => {
                     <div className={styles.linksColumn}>
                         <h3>החברה</h3>
                         <Link href="/about">אודות DMA</Link>
+                        <Link href="/case-studies">פרויקטים</Link>
                         <Link href="/testimonials">לקוחות ממליצים</Link>
                         <Link href="/blog">בלוג ומאמרים</Link>
                         <Link href="/faq">שאלות נפוצות</Link>
