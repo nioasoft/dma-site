@@ -1,4 +1,5 @@
 import Section from '@/components/Section';
+import Image from 'next/image';
 import Link from 'next/link';
 import styles from './page.module.css';
 import { caseStudies, getCategoryLabel, getServiceLabel } from '@/data/caseStudies';
@@ -93,15 +94,13 @@ export default function CaseStudiesPage() {
                             className={styles.card}
                         >
                             <div className={styles.cardImage}>
-                                {/* Placeholder for image */}
                                 <div className={styles.imagePlaceholder}>
-                                    <span className={styles.placeholderIcon}>
-                                        {caseStudy.services[0] === 'networking' && '🌐'}
-                                        {caseStudy.services[0] === 'security' && '🛡️'}
-                                        {caseStudy.services[0] === 'smart-home' && '🏠'}
-                                        {caseStudy.services[0] === 'access-control' && '🚪'}
-                                        {caseStudy.services[0] === 'audio-video' && '🔊'}
-                                    </span>
+                                    <Image
+                                        src={caseStudy.image}
+                                        alt={caseStudy.title}
+                                        fill
+                                        style={{ objectFit: 'cover' }}
+                                    />
                                 </div>
                             </div>
                             <div className={styles.cardContent}>
