@@ -24,6 +24,7 @@ const Header = () => {
         { label: 'בית', href: '/' },
         { label: 'אודות', href: '/about' },
         { label: 'שירותים', href: '/services' },
+        { label: 'פרויקטים', href: '/case-studies' },
         { label: 'עדויות', href: '/testimonials' },
         { label: 'ידע', href: '/blog' },
     ];
