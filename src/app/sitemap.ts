@@ -1,4 +1,5 @@
 import { blogPosts } from '@/data/blogPosts';
+import { caseStudies } from '@/data/caseStudies';
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -9,6 +10,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(post.date),
         changeFrequency: 'monthly' as const,
         priority: 0.7,
+    }));
+
+    const caseStudyUrls = caseStudies.map((study) => ({
+        url: `${baseUrl}/case-studies/${study.slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly' as const,
+        priority: 0.75,
     }));
 
     return [
@@ -121,5 +129,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 0.8,
         },
         ...blogUrls,
+        ...caseStudyUrls,
     ];
 }

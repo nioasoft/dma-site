@@ -90,7 +90,7 @@ export default function CaseStudiesPage() {
                     {caseStudies.map((caseStudy) => (
                         <Link
                             key={caseStudy.id}
-                            href={`#${caseStudy.slug}`}
+                            href={`/case-studies/${caseStudy.slug}`}
                             className={styles.card}
                         >
                             <div className={styles.cardImage}>

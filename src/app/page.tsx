@@ -1,6 +1,7 @@
 import Section from '@/components/Section';
 import styles from './page.module.css';
 import Link from 'next/link';
+import Image from 'next/image';
 import Process from '@/components/Process';
 import ExpertProfile from '@/components/ExpertProfile';
 import LatestInsights from '@/components/LatestInsights';
@@ -22,7 +23,15 @@ export default function Home() {
             <Section variant="hero" className={styles.hero} id="hero">
                 <div className={styles.heroContent}>
                     <h1 className={styles.heroTitle}>
-                        DMA<br />
+                        <Image
+                            src="/dma-logo-ltr.webp"
+                            alt="DMA"
+                            width={400}
+                            height={153}
+                            priority
+                            className={styles.heroLogo}
+                        />
+                        <br />
                         תשתיות חכמות. שקט נפשי.
                     </h1>
                     <p className={styles.heroSubtitle}>

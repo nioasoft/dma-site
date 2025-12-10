@@ -14,7 +14,7 @@
 }
 
 .heroTitle {
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 900;
     margin-bottom: var(--spacing-md);
     background: linear-gradient(to right, #ffffff, #e0e0e0);
@@ -22,7 +22,13 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 1.1;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
+}
+
+.heroLogo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: var(--spacing-sm);
 }
 
 .heroSubtitle {
@@ -199,7 +205,11 @@
     }
 
     .heroTitle {
-        font-size: 3rem;
+        font-size: 2.2rem;
+    }
+
+    .heroLogo {
+        max-width: 280px;
     }
 
     .heroButtons {
