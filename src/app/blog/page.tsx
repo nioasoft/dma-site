@@ -8,6 +8,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: 'מרכז הידע | מתח נמוך, אבטחה ותקשורת | DMA',
     description: 'מאמרים, מדריכים וחידושים מעולם המתח הנמוך, האבטחה והתקשורת.',
+    alternates: {
+        canonical: 'https://dma247.net/blog',
+    },
 };
 
 export default function Blog() {

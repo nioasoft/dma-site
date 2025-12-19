@@ -4,6 +4,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: 'תנאי שימוש | DMA',
     description: 'תנאי השימוש באתר DMA.',
+    alternates: {
+        canonical: 'https://dma247.net/terms',
+    },
 };
 
 export default function TermsOfService() {

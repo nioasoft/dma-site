@@ -4,6 +4,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: 'מדיניות פרטיות | DMA',
     description: 'מדיניות הפרטיות של DMA - כיצד אנו שומרים על המידע שלכם.',
+    alternates: {
+        canonical: 'https://dma247.net/privacy',
+    },
 };
 
 export default function PrivacyPolicy() {

@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /_next/
 
 Sitemap: https://dma247.net/sitemap.xml

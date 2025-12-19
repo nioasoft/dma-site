@@ -5,6 +5,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: 'תהליך העבודה | DMA',
     description: 'כך אנחנו עובדים: מתכנון הנדסי מדויק ועד למסירה והדרכה. תהליך עבודה סדור ומקצועי.',
+    alternates: {
+        canonical: 'https://dma247.net/process',
+    },
 };
 
 export default function Process() {
