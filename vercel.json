@@ -2,8 +2,8 @@
   "redirects": [
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "www.dma247.net" }],
-      "destination": "https://dma247.net/:path*",
+      "has": [{ "type": "host", "value": "dma247.net" }],
+      "destination": "https://www.dma247.net/:path*",
       "permanent": true
     }
   ]
