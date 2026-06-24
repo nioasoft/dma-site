@@ -6,7 +6,7 @@ import styles from '../smart-home/page.module.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'סייבר ופרטיות לבית ולעסק | DMA',
+    title: 'סייבר ופרטיות לבית ולעסק',
     description: 'הגנת סייבר לרשת הביתית והעסקית: הפרדת רשתות, חומות אש, VPN מאובטח וייעוץ אבטחת מידע. הפרטיות שלכם בראש סדר העדיפויות.',
     alternates: {
         canonical: 'https://dma247.net/services/cyber',

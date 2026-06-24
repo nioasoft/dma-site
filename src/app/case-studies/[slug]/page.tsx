@@ -65,7 +65,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const servicesText = caseStudy.services.map(s => getServiceLabel(s)).join(', ');
 
     return {
-        title: `${caseStudy.title} | פרויקט ${servicesText} ${caseStudy.location} | DMA`,
+        title: `${caseStudy.title} | פרויקט ${servicesText} ${caseStudy.location}`,
         description: `${caseStudy.subtitle}. ${caseStudy.results[0]}. פרויקט ${servicesText} ב${caseStudy.location}.`,
         alternates: {
             canonical: `https://dma247.net/case-studies/${caseStudy.slug}`,

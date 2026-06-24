@@ -5,7 +5,7 @@ import styles from '../smart-home/page.module.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'ייעוץ ותכנון מערכות מתח נמוך | DMA',
+    title: 'ייעוץ ותכנון מערכות מתח נמוך',
     description: 'ייעוץ מקצועי ותכנון הנדסי של מערכות מתח נמוך: תקשורת, אבטחה, בקרת כניסה ואודיו-וידאו. תכנון מותאם לפרויקט שלכם.',
     alternates: {
         canonical: 'https://dma247.net/services/consulting',

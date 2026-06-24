@@ -5,7 +5,7 @@ import styles from './page.module.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'תשתיות תקשורת ורשת WiFi מקצועית | DMA',
+    title: 'תשתיות תקשורת ורשת WiFi מקצועית',
     description: 'תשתיות רשת מתקדמות: סיבים אופטיים, WiFi Enterprise, וארונות תקשורת מדוגמים. Ubiquiti, Ruckus, Cisco ו-Aruba.',
     alternates: {
         canonical: 'https://dma247.net/services/networking',

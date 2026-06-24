@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
 
     return {
-        title: `${post.title} | DMA Blog`,
+        title: post.title,
         description: post.excerpt,
         alternates: {
             canonical: `https://dma247.net/blog/${post.slug}`,

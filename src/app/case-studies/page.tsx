@@ -8,7 +8,7 @@ import BackToTop from '@/components/BackToTop';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'פרויקטים ותיק עבודות | מתח נמוך ואבטחה באר שבע | DMA',
+    title: 'פרויקטים ותיק עבודות | מתח נמוך ואבטחה באר שבע',
     description: 'סיפורי התקנות אמיתיים: WiFi לבתים גדולים, מצלמות אבטחה לוילות, בית חכם ועוד. פרויקטים בבאר שבע, להבים, עומר ומיתר.',
     alternates: {
         canonical: 'https://dma247.net/case-studies',

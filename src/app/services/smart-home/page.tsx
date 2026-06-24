@@ -6,7 +6,7 @@ import styles from './page.module.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'מערכות בית חכם יוקרתיות | DMA',
+    title: 'מערכות בית חכם יוקרתיות',
     description: 'מערכות בית חכם יוקרתיות: תאורה, אקלים, וילונות ומולטימדיה בשליטה אחת. KNX, Control4, Loxone ו-Crestron.',
     alternates: {
         canonical: 'https://dma247.net/services/smart-home',

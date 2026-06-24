@@ -2,7 +2,7 @@ import styles from './page.module.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'מדיניות פרטיות | DMA',
+    title: 'מדיניות פרטיות',
     description: 'מדיניות הפרטיות של DMA - כיצד אנו שומרים על המידע שלכם.',
     alternates: {
         canonical: 'https://dma247.net/privacy',

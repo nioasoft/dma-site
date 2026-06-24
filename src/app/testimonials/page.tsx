@@ -4,7 +4,7 @@ import styles from './page.module.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'לקוחות ממליצים | DMA',
+    title: 'לקוחות ממליצים',
     description: 'קראו מה לקוחות DMA אומרים על השירות שלנו. עדויות מבעלי בתים, אדריכלים ועסקים שבחרו באיכות ללא פשרות.',
     alternates: {
         canonical: 'https://dma247.net/testimonials',

@@ -6,7 +6,7 @@ import { blogPosts } from '@/data/blogPosts';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'מרכז הידע | מתח נמוך, אבטחה ותקשורת | DMA',
+    title: 'מרכז הידע | מתח נמוך, אבטחה ותקשורת',
     description: 'מאמרים, מדריכים וחידושים מעולם המתח הנמוך, האבטחה והתקשורת.',
     alternates: {
         canonical: 'https://dma247.net/blog',

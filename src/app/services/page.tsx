@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'שירותי מתח נמוך ואבטחה | DMA',
+    title: 'שירותי מתח נמוך ואבטחה',
     description: 'פתרונות תקשורת, אבטחה, בקרת כניסה וסייבר. DMA מתמחה בתכנון והקמה של תשתיות מתח נמוך לבתים פרטיים ועסקים.',
     alternates: {
         canonical: 'https://dma247.net/services',

@@ -6,7 +6,7 @@ import styles from '../smart-home/page.module.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'מערכות אודיו וידאו וקולנוע ביתי | DMA',
+    title: 'מערכות אודיו וידאו וקולנוע ביתי',
     description: 'רמקולים נסתרים, קולנוע ביתי 4K, מערכות Multi-Room וחדרי ישיבות מקצועיים. סאונד שמרגישים, ציוד שלא רואים.',
     alternates: {
         canonical: 'https://dma247.net/services/audio-video',

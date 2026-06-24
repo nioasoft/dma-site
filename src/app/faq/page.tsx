@@ -3,7 +3,7 @@ import styles from './page.module.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'שאלות נפוצות | DMA',
+    title: 'שאלות נפוצות',
     description: 'תשובות לשאלות נפוצות בנושאי מתח נמוך, אבטחה, תקשורת ותהליך העבודה עם DMA.',
     alternates: {
         canonical: 'https://dma247.net/faq',

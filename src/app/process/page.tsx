@@ -3,7 +3,7 @@ import styles from './page.module.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'תהליך העבודה | DMA',
+    title: 'תהליך העבודה',
     description: 'כך אנחנו עובדים: מתכנון הנדסי מדויק ועד למסירה והדרכה. תהליך עבודה סדור ומקצועי.',
     alternates: {
         canonical: 'https://dma247.net/process',

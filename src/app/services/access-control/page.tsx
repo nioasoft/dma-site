@@ -6,7 +6,7 @@ import styles from '../smart-home/page.module.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'בקרת כניסה וזיהוי פנים | DMA',
+    title: 'בקרת כניסה וזיהוי פנים',
     description: 'מערכות בקרת כניסה מתקדמות: זיהוי פנים ביומטרי, אינטרקום חכם, כרטיסי עובד וקודים זמניים. שליטה מלאה מהנייד.',
     alternates: {
         canonical: 'https://dma247.net/services/access-control',
