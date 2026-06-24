@@ -31,11 +31,20 @@ export const metadata: Metadata = {
     locale: 'he_IL',
     url: 'https://dma247.net',
     siteName: 'DMA - Intelligence in Infrastructure',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'DMA - Advanced Communication & Security Solutions',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'DMA - Intelligence in Infrastructure',
     description: 'מומחים בתכנון וביצוע מערכות מתח נמוך, תקשורת ואבטחה',
+    images: ['/og-image.png'],
   },
   icons: {
     icon: '/icon.svg',
