@@ -148,17 +148,30 @@ export default function Home() {
             {/* Press / As Featured In */}
             <Section id="press" className={styles.pressSection}>
                 <span className={styles.pressKicker}>כתבו עלינו</span>
-                <a
-                    href="https://br7news.co.il/s/6j5"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.pressCard}
-                >
-                    <span className={styles.pressSource}>חדשות באר שבע והנגב</span>
-                    <h3 className={styles.pressHeadline}>שילמתם מיליונים על הבית. אז למה אי אפשר לדבר בטלפון בממ"ד?</h3>
-                    <p className={styles.pressDeck}>זה קורה כמעט בכל וילה חדשה בישראל, ורובם מגלים את זה ברגע הכי גרוע. הסיפור על נקודת מתה אחת שאף קבלן לא טרח לספר עליה, ועל למה הראוטר היקר שקניתם לא הולך לפתור אותה.</p>
-                    <span className={styles.pressLink}>לכתבה המלאה ←</span>
-                </a>
+                <div className={styles.pressGrid}>
+                    <a
+                        href="https://br7news.co.il/s/6j5"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.pressCard}
+                    >
+                        <span className={styles.pressSource}>חדשות באר שבע והנגב</span>
+                        <h3 className={styles.pressHeadline}>שילמתם מיליונים על הבית. אז למה אי אפשר לדבר בטלפון בממ"ד?</h3>
+                        <p className={styles.pressDeck}>הסיפור על נקודת מתה אחת שאף קבלן לא טרח לספר עליה, ועל למה הראוטר היקר שקניתם לא פותר אותה.</p>
+                        <span className={styles.pressLink}>לכתבה המלאה ←</span>
+                    </a>
+                    <a
+                        href="https://build-in.net/dma/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.pressCard}
+                    >
+                        <span className={styles.pressSource}>בילדאין · פורטל הבנייה</span>
+                        <h3 className={styles.pressHeadline}>התשתית שאי אפשר להוסיף אחר כך: מתח נמוך בזמן הבנייה</h3>
+                        <p className={styles.pressDeck}>אזעקה, מצלמות, רשת ובקרה. כולן מתחילות בשלב השלד, הרבה לפני שמישהו חושב עליהן.</p>
+                        <span className={styles.pressLink}>לכתבה המלאה ←</span>
+                    </a>
+                </div>
             </Section>
 
             {/* CTA Section */}

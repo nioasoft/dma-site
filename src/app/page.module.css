@@ -212,10 +212,19 @@
     margin-bottom: var(--spacing-md);
 }
 
-.pressCard {
-    display: block;
-    max-width: 720px;
+.pressGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-md);
+    max-width: 960px;
     margin: 0 auto;
+    text-align: right;
+}
+
+.pressCard {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     padding: var(--spacing-lg);
     border-radius: 16px;
     border: 1px solid rgba(204, 153, 51, 0.25);
@@ -237,7 +246,7 @@
 }
 
 .pressHeadline {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     line-height: 1.4;
     color: var(--color-text);
     margin-bottom: var(--spacing-sm);
@@ -248,10 +257,12 @@
     line-height: 1.7;
     color: #cfd2d6;
     margin-bottom: var(--spacing-md);
+    flex: 1;
 }
 
 .pressLink {
     display: inline-block;
+    margin-top: auto;
     font-weight: 700;
     color: hsl(var(--color-primary));
 }
