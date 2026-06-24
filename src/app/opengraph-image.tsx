@@ -89,10 +89,11 @@ export default async function Image() {
               borderRadius: '8px',
               fontSize: '24px',
               color: '#64ffda',
-              direction: 'rtl',
+              letterSpacing: '0.15em',
+              textTransform: 'uppercase',
             }}
           >
-            מתח נמוך • אבטחה • תקשורת
+            Low Voltage · Security · Networking
           </div>
         </div>
 
