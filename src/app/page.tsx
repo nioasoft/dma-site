@@ -9,7 +9,7 @@ import LatestInsights from '@/components/LatestInsights';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'DMA | מתח נמוך, אבטחה ותשתיות יוקרה בישראל',
+    title: 'מתח נמוך, אבטחה ותשתיות יוקרה בישראל | DMA',
     description: 'תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה. DMA מספקת שקט נפשי דרך טכנולוגיה מתקדמת.',
     alternates: {
         canonical: 'https://dma247.net',
@@ -143,6 +143,22 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+            </Section>
+
+            {/* Press / As Featured In */}
+            <Section id="press" className={styles.pressSection}>
+                <span className={styles.pressKicker}>כתבו עלינו</span>
+                <a
+                    href="https://br7news.co.il/s/6j5"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.pressCard}
+                >
+                    <span className={styles.pressSource}>חדשות באר שבע והנגב</span>
+                    <h3 className={styles.pressHeadline}>שילמתם מיליונים על הבית. אז למה אי אפשר לדבר בטלפון בממ"ד?</h3>
+                    <p className={styles.pressDeck}>זה קורה כמעט בכל וילה חדשה בישראל, ורובם מגלים את זה ברגע הכי גרוע. הסיפור על נקודת מתה אחת שאף קבלן לא טרח לספר עליה, ועל למה הראוטר היקר שקניתם לא הולך לפתור אותה.</p>
+                    <span className={styles.pressLink}>לכתבה המלאה ←</span>
+                </a>
             </Section>
 
             {/* CTA Section */}

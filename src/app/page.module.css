@@ -199,6 +199,63 @@
     box-shadow: 0 0 30px rgba(204, 153, 51, 0.4);
 }
 
+.pressSection {
+    text-align: center;
+}
+
+.pressKicker {
+    display: inline-block;
+    font-size: 0.85rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: hsl(var(--color-primary));
+    margin-bottom: var(--spacing-md);
+}
+
+.pressCard {
+    display: block;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: var(--spacing-lg);
+    border-radius: 16px;
+    border: 1px solid rgba(204, 153, 51, 0.25);
+    background: rgba(255, 255, 255, 0.02);
+    transition: all 0.3s ease;
+}
+
+.pressCard:hover {
+    border-color: hsl(var(--color-primary));
+    box-shadow: 0 0 30px rgba(204, 153, 51, 0.15);
+    transform: translateY(-2px);
+}
+
+.pressSource {
+    display: block;
+    font-size: 0.9rem;
+    color: hsl(var(--color-text-secondary));
+    margin-bottom: var(--spacing-sm);
+}
+
+.pressHeadline {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-sm);
+}
+
+.pressDeck {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #cfd2d6;
+    margin-bottom: var(--spacing-md);
+}
+
+.pressLink {
+    display: inline-block;
+    font-weight: 700;
+    color: hsl(var(--color-primary));
+}
+
 @media (max-width: 768px) {
     .hero {
         background-attachment: scroll;
