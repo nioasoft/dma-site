@@ -5,16 +5,13 @@ import Image from 'next/image';
 import Process from '@/components/Process';
 import ExpertProfile from '@/components/ExpertProfile';
 import LatestInsights from '@/components/LatestInsights';
+import { createPageMetadata } from '@/lib/seo';
 
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
     title: 'מתח נמוך, אבטחה ותשתיות יוקרה בישראל | DMA',
     description: 'תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה. DMA מספקת שקט נפשי דרך טכנולוגיה מתקדמת.',
-    alternates: {
-        canonical: 'https://dma247.net',
-    },
-};
+    path: '/',
+});
 
 export default function Home() {
     return (

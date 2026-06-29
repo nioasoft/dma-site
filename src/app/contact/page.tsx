@@ -1,15 +1,13 @@
 import Section from '@/components/Section';
 import styles from './page.module.css';
 import ContactForm from '@/components/ContactForm';
-import { Metadata } from 'next';
+import { createPageMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
     title: 'צור קשר | ייעוץ חינם למתח נמוך ואבטחה',
     description: 'צרו קשר עם DMA לתיאום פגישת ייעוץ. אנחנו כאן כדי לתכנן את מערכת המתח הנמוך הבאה שלכם.',
-    alternates: {
-        canonical: 'https://dma247.net/contact',
-    },
-};
+    path: '/contact',
+});
 
 export default function Contact() {
     return (

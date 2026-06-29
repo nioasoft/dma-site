@@ -1,13 +1,11 @@
 import styles from './page.module.css';
-import { Metadata } from 'next';
+import { createPageMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
     title: 'מדיניות פרטיות',
     description: 'מדיניות הפרטיות של DMA - כיצד אנו שומרים על המידע שלכם.',
-    alternates: {
-        canonical: 'https://dma247.net/privacy',
-    },
-};
+    path: '/privacy',
+});
 
 export default function PrivacyPolicy() {
     return (

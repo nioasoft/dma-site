@@ -34,6 +34,10 @@ export const blogPosts: BlogPost[] = [
 
       <h2>סיבים אופטיים: לא רק לספקי אינטרנט</h2>
       <p>בבתים גדולים, כבלי נחושת רגילים (CAT6) מתחילים להראות סימני חולשה כשהמרחקים גדלים. אנחנו ב-DMA פורסים תשתיות אופטיות (Fiber Optics) בתוך הבית עצמו. זה מבטיח שגם בעוד 10 שנים, כשהאינטרנט יהיה מהיר פי 100 והתכנים יהיו כבדים פי 1000, הבית שלכם לא ימצמץ. התשתית שלנו היא תעודת הביטוח שלכם נגד התיישנות טכנולוגית.</p>
+      <h2>מקורות להרחבה</h2>
+      <ul>
+        <li><a href="https://www.wi-fi.org/discover-wi-fi/wi-fi-certified-7" target="_blank" rel="noopener noreferrer">Wi-Fi Alliance: Wi-Fi CERTIFIED 7</a></li>
+      </ul>
     `,
         date: '2025-11-20',
         author: 'משה דוד',
@@ -47,8 +51,8 @@ export const blogPosts: BlogPost[] = [
         title: 'ההבדל בין להקליט פריצה לבין למנוע אותה',
         excerpt: 'מצלמות אבטחה רגילות הן "היסטוריונים" - הן מתעדות מה קרה. מערכות אנליטיקה הן "שומרי ראש" - הן מונעות את האירוע הבא.',
         relatedServices: [
-            { title: 'אבטחה היקפית', url: '/services#security' },
-            { title: 'אנליטיקה', url: '/services#analytics' }
+            { title: 'אבטחה היקפית', url: '/services/security' },
+            { title: 'אנליטיקה', url: '/services/security' }
         ],
         content: `
       <p>רוב האנשים מתקינים מצלמות אבטחה מתוך אשליה של ביטחון. הם חושבים שאם יש מצלמה, הגנב יפחד. המציאות העגומה היא שרוב הפריצות מסתיימות בכך שבעל הבית צופה בבוקר שלמחרת בהקלטה של רעולי פנים מרוקנים את ביתו. המצלמה תפקדה כ"היסטוריון" – היא תיעדה את ההיסטוריה, אבל לא שינתה אותה.</p>
@@ -65,6 +69,10 @@ export const blogPosts: BlogPost[] = [
         <li><strong>התראה:</strong> אתם והמוקד מקבלים וידאו חי לנייד באותו רגע.</li>
       </ul>
       <p>ב-99% מהמקרים, הפורץ בורח עוד לפני שהוא נגע בקיר הבית. זה ההבדל בין לתבוע את הביטוח לבין לישון בשקט.</p>
+      <h2>מקורות להרחבה</h2>
+      <ul>
+        <li><a href="https://www.onvif.org/" target="_blank" rel="noopener noreferrer">ONVIF: תקני אינטרופרביליות למערכות וידאו IP</a></li>
+      </ul>
     `,
         date: '2025-11-18',
         author: 'משה דוד',
@@ -78,7 +86,7 @@ export const blogPosts: BlogPost[] = [
         title: 'סאונד שמרגישים, רמקולים שלא רואים',
         excerpt: 'הטרנד החם ביותר בעולם האודיו היוקרתי: רמקולים בלתי נראים לחלוטין שמוטמעים בתוך הקיר.',
         relatedServices: [
-            { title: 'אודיו/וידאו', url: '/services#audio' },
+            { title: 'אודיו/וידאו', url: '/services/audio-video' },
             { title: 'אודיו וידאו', url: '/services/audio-video' }
         ],
         content: `
@@ -91,6 +99,10 @@ export const blogPosts: BlogPost[] = [
       <p>אנחנו פותרים את הדילמה הזו עם טכנולוגיית Invisible Speakers. אנחנו עובדים עם מותגי העל העולמיים (כמו Sonance ו-Stealth Acoustics) כדי להטמיע את הסאונד בתוך הארכיטקטורה.</p>
       <p>הרמקולים הללו מותקנים *בתוך* קיר הגבס או הבלוקים. לאחר ההתקנה, איש הגבס מגיע ומכסה אותם בשכבה של שפכטל וצבע, בדיוק כמו שאר הקיר. התוצאה? קיר חלק לחלוטין. אפס נראות.</p>
       <p>אבל הקסם האמיתי הוא בסאונד. הטכנולוגיה משתמשת בפאנל הקיר עצמו כתיבת תהודה ענקית. הצליל לא בוקע מנקודה אחת, אלא "שוטף" את החדר בצורה אחידה ורכה. זהו סאונד שמרגישים אותו עוטף אתכם, בלי שתוכלו להצביע מאיפה הוא מגיע. זוהי הפשרה המושלמת – אפס פשרות על העיצוב, ואפס פשרות על הסאונד.</p>
+      <h2>מקורות להרחבה</h2>
+      <ul>
+        <li><a href="https://sonance.com/collections/invisible-series" target="_blank" rel="noopener noreferrer">Sonance Invisible Series</a></li>
+      </ul>
     `,
         date: '2025-11-15',
         author: 'משה דוד',
@@ -104,8 +116,8 @@ export const blogPosts: BlogPost[] = [
         title: 'המפתח נשאר בהיסטוריה: בקרת כניסה ביומטרית',
         excerpt: 'למה להסתובב עם צרור מפתחות כשיש לכם את המפתח הכי בטוח בעולם עליכם תמיד? הפנים שלכם.',
         relatedServices: [
-            { title: 'בקרת כניסה', url: '/services#access-control' },
-            { title: 'אינטרקום', url: '/services#intercom' }
+            { title: 'בקרת כניסה', url: '/services/access-control' },
+            { title: 'אינטרקום', url: '/services/access-control' }
         ],
         content: `
       <p>כמה פעמים עמדתם מול הדלת עם שקיות מהסופר, מחפשים את המפתח בכיסים? כמה פעמים הילד התקשר כי הוא איבד את המפתח? וכמה פעמים נתתם את הקוד לשער למנקה, לגנן ולשליח, עד שכל השכונה כבר יודעת אותו?</p>
@@ -117,6 +129,10 @@ export const blogPosts: BlogPost[] = [
       <p>ב-DMA, אנחנו מאמינים שהמפתח הכי בטוח והכי נוח הוא זה שאי אפשר לאבד ואי אפשר לגנוב – אתם. מערכות בקרת הכניסה הביומטריות שלנו מביאות את הטכנולוגיה של שדות התעופה לפתח הבית שלכם.</p>
       <p>המערכות מבוססות על זיהוי פנים תלת-ממדי (בדומה ל-FaceID באייפון, אבל הרבה יותר חזק). אתם מתקרבים לשער, המצלמה מזהה אתכם תוך שבריר שנייה – גם בחושך מוחלט, גם עם כובע או משקפיים – והשער נפתח. בלי לחפש בכיסים, בלי להקיש קודים.</p>
       <p>ומה עם אורחים? אתם שולחים להם "מפתח דיגיטלי" (QR Code) לנייד, שתקף רק לזמן מסוים. המנקה יכולה להיכנס רק בימי שני וחמישי בין 8:00 ל-14:00. אתם מקבלים יומן רישום מלא של מי נכנס ומתי. זהו ביטחון אמיתי שמשולב עם נוחות מקסימלית.</p>
+      <h2>מקורות להרחבה</h2>
+      <ul>
+        <li><a href="https://pages.nist.gov/800-63-4/sp800-63b.html" target="_blank" rel="noopener noreferrer">NIST SP 800-63B: Authentication and biometrics guidance</a></li>
+      </ul>
     `,
         date: '2025-11-12',
         author: 'משה דוד',
@@ -130,8 +146,8 @@ export const blogPosts: BlogPost[] = [
         title: 'לחסל את "השטחים המתים" בבונקר הבטון שלכם',
         excerpt: 'בנייה מודרנית בישראל כוללת המון בטון וברזל – האויבים הגדולים של ה-WiFi. כך תבטיחו קליטה מושלמת.',
         relatedServices: [
-            { title: 'רשתות תקשורת', url: '/services#networking' },
-            { title: 'תשתיות', url: '/services#infrastructure' }
+            { title: 'רשתות תקשורת', url: '/services/networking' },
+            { title: 'תשתיות', url: '/services/networking' }
         ],
         content: `
       <p>הבית הישראלי המודרני הוא מבצר. ממ"דים, תקרות בטון מזוין, חימום תת-רצפתי, חלונות עם בידוד כפול. כל הדברים האלה מצוינים לביטחון ולבידוד תרמי, אבל הם אסון לתקשורת אלחוטית.</p>
@@ -143,6 +159,10 @@ export const blogPosts: BlogPost[] = [
       <p>אנחנו לא נלחמים בפיזיקה, אנחנו עובדים איתה. הפתרון שלנו מבוסס על עקרון פשוט: אם ה-WiFi לא עובר את הקיר, אנחנו נעקוף את הקיר.</p>
       <p>אנחנו מתקינים רשת של נקודות גישה (Access Points) המפוזרות בבית בצורה מחושבת. כל נקודה כזו מחוברת בכבל רשת פיזי למרכז התקשורת (לא אלחוטית!). זה מבטיח מהירות מקסימלית בכל נקודה.</p>
       <p>אבל הסוד הוא בניהול. המערכת שלנו (מבוססת ציוד עסקי כמו Ruckus או Ubiquiti) מנהלת את ה"נדידה" (Roaming) של המכשירים שלכם. אתם יכולים להתחיל שיחת FaceTime בסלון, לרדת למרתף, ולהיכנס לממ"ד – והשיחה לא תתנתק לשנייה. המערכת מעבירה אתכם מאנטנה לאנטנה בצורה שקופה וחלקה, בדיוק כמו רשת סלולרית. בטון וברזל כבר לא מפחידים אותנו.</p>
+      <h2>מקורות להרחבה</h2>
+      <ul>
+        <li><a href="https://www.wi-fi.org/discover-wi-fi/wi-fi-certified-7" target="_blank" rel="noopener noreferrer">Wi-Fi Alliance: Wi-Fi CERTIFIED 7</a></li>
+      </ul>
     `,
         date: '2025-11-10',
         author: 'משה דוד',
@@ -156,8 +176,8 @@ export const blogPosts: BlogPost[] = [
         title: 'העיניים של המפעל: ניטור תעשייתי חכם',
         excerpt: 'איך מצלמות וחיישנים יכולים לחסוך למפעל שלכם מיליונים על ידי מניעת תקלות ושיפור בטיחות.',
         relatedServices: [
-            { title: 'פתרונות לעסקים', url: '/services#business' },
-            { title: 'אבטחה', url: '/services#security' }
+            { title: 'פתרונות לעסקים', url: '/services' },
+            { title: 'אבטחה', url: '/services/security' }
         ],
         content: `
       <p>במפעל תעשייתי, כל דקה של השבתה (Downtime) שווה כסף. הרבה כסף. מכונה שנתקעת, פס ייצור שנעצר, או חלילה תאונת עבודה – אלו אירועים שיכולים למוטט עסק.</p>
@@ -169,6 +189,10 @@ export const blogPosts: BlogPost[] = [
       <p>אנחנו הופכים את מצלמות האבטחה מכלי פסיבי לכלי ניהולי אקטיבי (Industrial IoT). אנחנו משתמשים במצלמות תרמיות כדי לנטר טמפרטורה של לוחות חשמל ומנועים. המערכת יודעת לזהות התחממות חריגה *לפני* שהרכיב נשרף ולשלוח התראה למנהל האחזקה: "מנוע 3 מתחמם, טפל בו עכשיו".</p>
       <p>בצד הבטיחותי, המצלמות שלנו מזהות חריגות בזמן אמת: אדם שנכנס לאזור סטרילי, עובד ללא ציוד מגן, או רכב שחוסם נתיב חירום. המערכת יכולה אפילו לעצור מכונה אוטומטית אם היא מזהה סכנה מיידית לחיי אדם.</p>
       <p>זהו המעבר מ"כיבוי שריפות" למניעת שריפות. זה חוסך כסף, וחשוב מכך – זה מציל חיים.</p>
+      <h2>מקורות להרחבה</h2>
+      <ul>
+        <li><a href="https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program" target="_blank" rel="noopener noreferrer">NIST Cybersecurity for IoT Program</a></li>
+      </ul>
     `,
         date: '2025-11-08',
         author: 'משה דוד',
@@ -182,7 +206,7 @@ export const blogPosts: BlogPost[] = [
         title: 'למה הבית החכם שלכם צריך "אבא ואמא"? (SLA)',
         excerpt: 'מערכת מתח נמוך היא כמו רכב יוקרה. היא צריכה טיפול שוטף. אל תחכו לתקלה כדי לגלות שאין לכם גיבוי.',
         relatedServices: [
-            { title: 'שירות ותחזוקה', url: '/services#maintenance' },
+            { title: 'שירות ותחזוקה', url: '/contact' },
             { title: 'צור קשר', url: '/contact' }
         ],
         content: `
@@ -195,6 +219,10 @@ export const blogPosts: BlogPost[] = [
       <p>ב-DMA, סיום ההתקנה הוא רק תחילת מערכת היחסים. אנחנו מציעים הסכמי שירות (SLA - Service Level Agreement) שמבטיחים לכם שקט נפשי מוחלט.</p>
       <p>אנחנו מנטרים את המערכות שלכם מרחוק 24/7. אנחנו יודעים שהאינטרנט שלכם נפל עוד לפני שאתם יודעים. אנחנו מבצעים עדכוני אבטחה וקושחה (Firmware) באופן יזום כדי למנוע פרצות סייבר. ואם יש תקלה? יש לכם מספר טלפון אחד, וזמן תגובה מובטח.</p>
       <p>אנחנו ה"אבא והאמא" של הבית שלכם. אנחנו דואגים שהטכנולוגיה תעבוד בשבילכם, ולא אתם בשבילה.</p>
+      <h2>מקורות להרחבה</h2>
+      <ul>
+        <li><a href="https://www.cisa.gov/secure-our-world/update-software" target="_blank" rel="noopener noreferrer">CISA: Update software and firmware</a></li>
+      </ul>
     `,
         date: '2025-11-05',
         author: 'משה דוד',
@@ -226,6 +254,10 @@ export const blogPosts: BlogPost[] = [
         <li><strong>מתגים מעוצבים:</strong> אנחנו עובדים עם מותגי יוקרה שמציעים מתגים חכמים בגימורים של זכוכית, מתכת, ואבן, שמשתלבים כתכשיט על הקיר.</li>
       </ul>
       <p>אנחנו מדברים את השפה של האדריכלים והמעצבים. אנחנו לא נלחמים בהם, אנחנו נותנים להם כלים להגשים את החזון שלהם בלי לוותר על הפונקציונליות.</p>
+      <h2>מקורות להרחבה</h2>
+      <ul>
+        <li><a href="https://cedia.org/" target="_blank" rel="noopener noreferrer">CEDIA: Smart home technology association</a></li>
+      </ul>
     `,
         date: '2025-11-03',
         author: 'משה דוד',
@@ -246,6 +278,10 @@ export const blogPosts: BlogPost[] = [
 
             <h2>הפתרון של DMA: ארון תקשורת (Rack) ממוזג</h2>
             <p>אנחנו מתכננים חדר תקשורת ייעודי או ארון RACK מקצועי עם ניהול כבילה מוקפד, מערכת אוורור/מיזוג, ואל-פסק (UPS) להגנה מפני הפסקות חשמל.</p>
+            <h2>מקורות להרחבה</h2>
+            <ul>
+                <li><a href="https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program" target="_blank" rel="noopener noreferrer">NIST Cybersecurity for IoT Program</a></li>
+            </ul>
         `,
         date: '2024-11-15',
         author: 'משה דוד',
@@ -269,6 +305,10 @@ export const blogPosts: BlogPost[] = [
 
             <h2>הפתרון של DMA: ציוד Outdoor ייעודי</h2>
             <p>מסכי Samsung The Terrace או SunBrite שנועדו לעבוד בשמש ישירה וגשם. רמקולים לוויניים שמוסתרים בין השיחים ומעניקים סאונד היקפי מושלם בלי להפריע לשכנים.</p>
+            <h2>מקורות להרחבה</h2>
+            <ul>
+                <li><a href="https://www.samsung.com/us/tvs/the-terrace/" target="_blank" rel="noopener noreferrer">Samsung The Terrace outdoor TVs</a></li>
+            </ul>
         `,
         date: '2024-11-10',
         author: 'משה דוד',
@@ -276,7 +316,7 @@ export const blogPosts: BlogPost[] = [
         image: '/blog-outdoor.webp',
         tags: ['Outdoor', 'Audio', 'Video', 'Garden'],
         relatedServices: [
-            { title: 'אודיו וידאו', url: '/services/smart-home' }
+            { title: 'אודיו וידאו', url: '/services/audio-video' }
         ]
     },
     {
@@ -292,6 +332,10 @@ export const blogPosts: BlogPost[] = [
 
             <h2>הפתרון של DMA: מערכות 2-Wire IP</h2>
             <p>טכנולוגיה המאפשרת להעביר תקשורת IP דיגיטלית מלאה (וידאו HD, שליטה באפליקציה) על גבי זוג החוטים הישן של האינטרקום. שדרוג מהיר, נקי וללא הרס.</p>
+            <h2>מקורות להרחבה</h2>
+            <ul>
+                <li><a href="https://www.onvif.org/" target="_blank" rel="noopener noreferrer">ONVIF: IP video interoperability standards</a></li>
+            </ul>
         `,
         date: '2024-11-05',
         author: 'משה דוד',
@@ -299,7 +343,7 @@ export const blogPosts: BlogPost[] = [
         image: '/blog-intercom.webp',
         tags: ['Intercom', 'Upgrade', 'Retrofit', 'Security'],
         relatedServices: [
-            { title: 'בקרת כניסה', url: '/services/security' }
+            { title: 'בקרת כניסה', url: '/services/access-control' }
         ]
     },
     {
@@ -315,6 +359,10 @@ export const blogPosts: BlogPost[] = [
 
             <h2>הפתרון של DMA: ניהול אנרגיה אוטונומי</h2>
             <p>חיישני נוכחות שמכבים אורות ומיזוג כשאין אף אחד בחדר. תריסים שנסגרים אוטומטית בשעות השיא של השמש כדי לשמור על קרירות הבית. ניהול חכם של הדוד החשמלי.</p>
+            <h2>מקורות להרחבה</h2>
+            <ul>
+                <li><a href="https://www.energystar.gov/products/smart_thermostats" target="_blank" rel="noopener noreferrer">ENERGY STAR: Smart thermostats</a></li>
+            </ul>
         `,
         date: '2024-11-01',
         author: 'משה דוד',
@@ -322,7 +370,7 @@ export const blogPosts: BlogPost[] = [
         image: '/blog-energy.webp',
         tags: ['Green Energy', 'Savings', 'Smart Home', 'Sustainability'],
         relatedServices: [
-            { title: 'חשמל חכם', url: '/services/smart-home' }
+            { title: 'ייעוץ ותכנון בית חכם', url: '/services/consulting' }
         ]
     }
 ];

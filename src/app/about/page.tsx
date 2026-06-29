@@ -1,21 +1,14 @@
 import Section from '@/components/Section';
 import PillarCard from '@/components/PillarCard';
+import { createPageMetadata } from '@/lib/seo';
 import styles from './page.module.css';
 
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: 'אודות DMA | הסיפור שלנו',
   description: 'DMA - מעל 15 שנות ניסיון בתשתיות מתח נמוך ואבטחה. הכירו את דוד משה אביטבול והפילוסופיה שמאחורי החברה.',
-  alternates: {
-    canonical: 'https://dma247.net/about',
-  },
-  openGraph: {
-    title: 'אודות DMA | הסיפור שלנו',
-    description: 'DMA - מעל 15 שנות ניסיון בתשתיות מתח נמוך ואבטחה.',
-    images: ['/vision-bg.webp'],
-  },
-};
+  path: '/about',
+  image: '/vision-bg.webp',
+});
 
 export default function About() {
   return (

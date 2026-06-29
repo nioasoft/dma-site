@@ -1,14 +1,12 @@
 import Section from '@/components/Section';
 import styles from './page.module.css';
-import { Metadata } from 'next';
+import { createPageMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
     title: 'שאלות נפוצות',
     description: 'תשובות לשאלות נפוצות בנושאי מתח נמוך, אבטחה, תקשורת ותהליך העבודה עם DMA.',
-    alternates: {
-        canonical: 'https://dma247.net/faq',
-    },
-};
+    path: '/faq',
+});
 
 const faqStructuredData = {
     "@context": "https://schema.org",

@@ -9,7 +9,11 @@ import styles from './Header.module.css';
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
     const pathname = usePathname();
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const [mobileMenuState, setMobileMenuState] = useState({
+        isOpen: false,
+        pathname: '',
+    });
+    const isMobileMenuOpen = mobileMenuState.isOpen && mobileMenuState.pathname === pathname;
 
     useEffect(() => {
         const handleScroll = () => {
@@ -30,29 +34,30 @@ const Header = () => {
     ];
 
     const toggleMobileMenu = useCallback(() => {
-        setIsMobileMenuOpen(prev => !prev);
-    }, []);
+        setMobileMenuState(prev => ({
+            isOpen: prev.pathname === pathname ? !prev.isOpen : true,
+            pathname,
+        }));
+    }, [pathname]);
 
     const closeMobileMenu = useCallback(() => {
-        setIsMobileMenuOpen(false);
-    }, []);
-
-    // Close mobile menu when route changes
-    useEffect(() => {
-        setIsMobileMenuOpen(false);
+        setMobileMenuState({
+            isOpen: false,
+            pathname,
+        });
     }, [pathname]);
 
     // Handle Escape key to close mobile menu
     useEffect(() => {
         const handleKeyDown = (e: KeyboardEvent) => {
             if (e.key === 'Escape' && isMobileMenuOpen) {
-                setIsMobileMenuOpen(false);
+                closeMobileMenu();
             }
         };
 
         window.addEventListener('keydown', handleKeyDown);
         return () => window.removeEventListener('keydown', handleKeyDown);
-    }, [isMobileMenuOpen]);
+    }, [closeMobileMenu, isMobileMenuOpen]);
 
     // Prevent body scroll when mobile menu is open
     useEffect(() => {

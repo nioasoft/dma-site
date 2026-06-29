@@ -1,16 +1,13 @@
 import Section from '@/components/Section';
 import styles from './page.module.css';
 import Link from 'next/link';
+import { createPageMetadata } from '@/lib/seo';
 
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
     title: 'שירותי מתח נמוך ואבטחה',
     description: 'פתרונות תקשורת, אבטחה, בקרת כניסה וסייבר. DMA מתמחה בתכנון והקמה של תשתיות מתח נמוך לבתים פרטיים ועסקים.',
-    alternates: {
-        canonical: 'https://dma247.net/services',
-    },
-};
+    path: '/services',
+});
 
 export default function Services() {
     return (

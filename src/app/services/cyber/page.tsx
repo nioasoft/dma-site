@@ -1,17 +1,13 @@
 import Section from '@/components/Section';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import JsonLd from '@/components/JsonLd';
+import { servicesSeo } from '@/data/services';
+import { createPageMetadata, createServiceSchema } from '@/lib/seo';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../smart-home/page.module.css';
-import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-    title: 'סייבר ופרטיות לבית ולעסק',
-    description: 'הגנת סייבר לרשת הביתית והעסקית: הפרדת רשתות, חומות אש, VPN מאובטח וייעוץ אבטחת מידע. הפרטיות שלכם בראש סדר העדיפויות.',
-    alternates: {
-        canonical: 'https://dma247.net/services/cyber',
-    },
-};
+export const metadata = createPageMetadata(servicesSeo.cyber);
 
 const breadcrumbItems = [
     { label: 'דף הבית', href: '/' },
@@ -22,6 +18,7 @@ const breadcrumbItems = [
 export default function Cyber() {
     return (
         <main>
+            <JsonLd data={createServiceSchema(servicesSeo.cyber)} />
             <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
                 <h1 className={styles.heroTitle}>סייבר ופרטיות - הגנה על הרשת שלכם</h1>

@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import { Heebo, Assistant } from "next/font/google";
 import Script from "next/script";
+import {
+  DEFAULT_OG_IMAGE,
+  SITE_NAME,
+  SITE_URL,
+  localBusinessSchema,
+  organizationSchema,
+  websiteSchema,
+} from "@/lib/seo";
 import "./globals.css";
 
 const heebo = Heebo({
@@ -16,7 +24,7 @@ const assistant = Assistant({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://dma247.net'),
+  metadataBase: new URL(SITE_URL),
   title: {
     template: '%s | DMA',
     default: 'DMA - Intelligence in Infrastructure',
@@ -24,16 +32,16 @@ export const metadata: Metadata = {
   description: 'מומחים בתכנון וביצוע מערכות מתח נמוך, תקשורת ואבטחה לבתי יוקרה ולמגזר העסקי. DMA מספקת שקט נפשי ופתרונות טכנולוגיים מתקדמים.',
   keywords: ['מתח נמוך', 'מערכות אבטחה', 'מצלמות אבטחה', 'מערכות אזעקה', 'אינטרקום', 'רשתות תקשורת', 'אודיו וידאו', 'בקרת כניסה', 'DMA'],
   alternates: {
-    canonical: 'https://dma247.net',
+    canonical: SITE_URL,
   },
   openGraph: {
     type: 'website',
     locale: 'he_IL',
-    url: 'https://dma247.net',
-    siteName: 'DMA - Intelligence in Infrastructure',
+    url: SITE_URL,
+    siteName: SITE_NAME,
     images: [
       {
-        url: '/og-image.png',
+        url: DEFAULT_OG_IMAGE,
         width: 1200,
         height: 630,
         alt: 'DMA - Advanced Communication & Security Solutions',
@@ -44,7 +52,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'DMA - Intelligence in Infrastructure',
     description: 'מומחים בתכנון וביצוע מערכות מתח נמוך, תקשורת ואבטחה',
-    images: ['/og-image.png'],
+    images: [DEFAULT_OG_IMAGE],
   },
   icons: {
     icon: '/icon.svg',
@@ -60,31 +68,7 @@ const FloatingBanner = dynamic(() => import("@/components/FloatingBanner"));
 const WhatsAppButton = dynamic(() => import("@/components/WhatsAppButton"));
 const CookieConsent = dynamic(() => import("@/components/CookieConsent"));
 
-const structuredData = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "DMA - Intelligence in Infrastructure",
-  "description": "תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה",
-  "url": "https://dma247.net",
-  "logo": "https://dma247.net/logo-transparent.webp",
-  "image": "https://dma247.net/hero-bg.webp",
-    "email": "moshe@dma247.net",
-  "address": {
-    "@type": "PostalAddress",
-    "addressRegion": "Central District",
-    "addressCountry": "IL"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "Israel"
-  },
-  "priceRange": "$$$$",
-  "serviceType": ["מתח נמוך", "אבטחה", "תקשורת", "בקרת כניסה", "אודיו וידאו"],
-  "founder": {
-    "@type": "Person",
-    "name": "דוד משה אביטבול"
-  }
-};
+const structuredData = [organizationSchema, localBusinessSchema, websiteSchema];
 
 export default function RootLayout({
   children,
@@ -100,10 +84,13 @@ export default function RootLayout({
           href="/hero-bg.webp"
           type="image/webp"
         />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-        />
+        {structuredData.map((schema, index) => (
+          <script
+            key={index}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          />
+        ))}
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-FG84EER9D8"

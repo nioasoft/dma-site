@@ -2,48 +2,16 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { blogPosts } from '@/data/blogPosts';
-import type { BlogPost } from '@/data/blogPosts';
 import Section from '@/components/Section';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import styles from './page.module.css';
 import { Metadata } from 'next';
+import { createArticleSchema, createPageMetadata } from '@/lib/seo';
 
 interface Props {
     params: Promise<{
         slug: string;
     }>;
-}
-
-function generateArticleSchema(post: BlogPost) {
-    return {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": post.title,
-        "description": post.excerpt,
-        "image": `https://dma247.net${post.image}`,
-        "author": {
-            "@type": "Person",
-            "name": post.author,
-            "url": "https://dma247.net/about"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "DMA - Intelligence in Infrastructure",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://dma247.net/logo-transparent.webp"
-            }
-        },
-        "datePublished": post.date,
-        "dateModified": post.date,
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": `https://dma247.net/blog/${post.slug}`
-        },
-        "keywords": post.tags.join(", "),
-        "articleSection": post.category,
-        "inLanguage": "he-IL"
-    };
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -56,20 +24,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         };
     }
 
-    return {
+    const baseMetadata = createPageMetadata({
         title: post.title,
         description: post.excerpt,
-        alternates: {
-            canonical: `https://dma247.net/blog/${post.slug}`,
-        },
+        path: `/blog/${post.slug}`,
+        image: post.image,
+        type: 'article',
+        keywords: post.tags,
+    });
+
+    return {
+        ...baseMetadata,
         openGraph: {
-            title: post.title,
-            description: post.excerpt,
+            ...baseMetadata.openGraph,
             type: 'article',
             publishedTime: post.date,
             authors: [post.author],
             tags: post.tags,
-            images: [post.image],
         },
     };
 }
@@ -88,7 +59,16 @@ export default async function BlogPost({ params }: Props) {
         notFound();
     }
 
-    const articleSchema = generateArticleSchema(post);
+    const articleSchema = createArticleSchema({
+        title: post.title,
+        description: post.excerpt,
+        path: `/blog/${post.slug}`,
+        image: post.image,
+        author: post.author,
+        datePublished: post.date,
+        keywords: post.tags,
+        articleSection: post.category,
+    });
 
     const breadcrumbItems = [
         { label: 'דף הבית', href: '/' },

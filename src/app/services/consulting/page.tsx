@@ -1,16 +1,12 @@
 import Section from '@/components/Section';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import JsonLd from '@/components/JsonLd';
+import { servicesSeo } from '@/data/services';
+import { createPageMetadata, createServiceSchema } from '@/lib/seo';
 import Link from 'next/link';
 import styles from '../smart-home/page.module.css';
-import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-    title: 'ייעוץ ותכנון מערכות מתח נמוך',
-    description: 'ייעוץ מקצועי ותכנון הנדסי של מערכות מתח נמוך: תקשורת, אבטחה, בקרת כניסה ואודיו-וידאו. תכנון מותאם לפרויקט שלכם.',
-    alternates: {
-        canonical: 'https://dma247.net/services/consulting',
-    },
-};
+export const metadata = createPageMetadata(servicesSeo.consulting);
 
 const breadcrumbItems = [
     { label: 'דף הבית', href: '/' },
@@ -21,6 +17,7 @@ const breadcrumbItems = [
 export default function Consulting() {
     return (
         <main>
+            <JsonLd data={createServiceSchema(servicesSeo.consulting)} />
             <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
                 <h1 className={styles.heroTitle}>ייעוץ ותכנון מערכות מתח נמוך</h1>
@@ -89,7 +86,7 @@ export default function Consulting() {
                     <h2>למה DMA?</h2>
                     <ul className={styles.whyUsList}>
                         <li>ניסיון של מעל 15 שנה בתכנון מערכות מתח נמוך</li>
-                        <li>תכנון מותאם אישית - לא "פתרון מדף"</li>
+                        <li>תכנון מותאם אישית - לא &quot;פתרון מדף&quot;</li>
                         <li>עבודה עם האדריכלים והמעצבים המובילים בישראל</li>
                         <li>ליווי צמוד מהתכנון ועד המסירה</li>
                     </ul>

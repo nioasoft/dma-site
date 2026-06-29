@@ -1,20 +1,13 @@
 import Section from '@/components/Section';
+import { createPageMetadata } from '@/lib/seo';
 import styles from './page.module.css';
 
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
     title: 'לקוחות ממליצים',
     description: 'קראו מה לקוחות DMA אומרים על השירות שלנו. עדויות מבעלי בתים, אדריכלים ועסקים שבחרו באיכות ללא פשרות.',
-    alternates: {
-        canonical: 'https://dma247.net/testimonials',
-    },
-    openGraph: {
-        title: 'לקוחות ממליצים | DMA',
-        description: 'עדויות אמיתיות מלקוחות מרוצים - בתי יוקרה ועסקים.',
-        images: ['/pillars-bg.webp'],
-    },
-};
+    path: '/testimonials',
+    image: '/pillars-bg.webp',
+});
 
 const reviewsStructuredData = {
     "@context": "https://schema.org",

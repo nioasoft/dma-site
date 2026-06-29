@@ -4,21 +4,14 @@ import Link from 'next/link';
 import styles from './page.module.css';
 import { caseStudies, getCategoryLabel, getServiceLabel } from '@/data/caseStudies';
 import BackToTop from '@/components/BackToTop';
+import { createPageMetadata } from '@/lib/seo';
 
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
     title: 'פרויקטים ותיק עבודות | מתח נמוך ואבטחה באר שבע',
     description: 'סיפורי התקנות אמיתיים: WiFi לבתים גדולים, מצלמות אבטחה לוילות, בית חכם ועוד. פרויקטים בבאר שבע, להבים, עומר ומיתר.',
-    alternates: {
-        canonical: 'https://dma247.net/case-studies',
-    },
-    openGraph: {
-        title: 'פרויקטים ותיק עבודות | DMA',
-        description: 'סיפורי התקנות אמיתיים מאזור באר שבע והנגב - WiFi, אבטחה, בית חכם ועוד.',
-        images: ['/pillars-bg.webp'],
-    },
-};
+    path: '/case-studies',
+    image: '/pillars-bg.webp',
+});
 
 const structuredData = {
     "@context": "https://schema.org",

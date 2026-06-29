@@ -3,15 +3,13 @@ import styles from './page.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import { blogPosts } from '@/data/blogPosts';
-import { Metadata } from 'next';
+import { createPageMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
     title: 'מרכז הידע | מתח נמוך, אבטחה ותקשורת',
     description: 'מאמרים, מדריכים וחידושים מעולם המתח הנמוך, האבטחה והתקשורת.',
-    alternates: {
-        canonical: 'https://dma247.net/blog',
-    },
-};
+    path: '/blog',
+});
 
 export default function Blog() {
     return (

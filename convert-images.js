@@ -10,7 +10,7 @@ fs.readdir(publicDir, (err, files) => {
         process.exit(1);
     }
 
-    files.forEach((file, index) => {
+    files.forEach((file) => {
         if (path.extname(file).toLowerCase() === '.png') {
             const filePath = path.join(publicDir, file);
             const outputFilePath = path.join(publicDir, path.basename(file, '.png') + '.webp');

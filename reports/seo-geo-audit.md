@@ -1,0 +1,208 @@
+# SEO/GEO Audit Report
+
+Fetch site: http://localhost:3000
+Expected canonical site: https://www.dma247.net
+Generated: 2026-06-29T06:45:19.789Z
+
+## Summary
+
+- Issues: 0
+- Audited pages: 45
+- Sitemap URLs discovered: 45
+
+## Priority Issues
+
+
+## Bot Access
+
+- googlebot: HTTP 200, final https://www.dma247.net/, redirects 0
+- gptbot: HTTP 200, final https://www.dma247.net/, redirects 0
+- perplexity: HTTP 200, final https://www.dma247.net/, redirects 0
+- claude: HTTP 200, final https://www.dma247.net/, redirects 0
+
+## GSC Import
+
+- No GSC CSV supplied. Export Page indexing and Performance CSVs from Search Console and pass --gsc path/to/file.csv.
+
+## Audited Pages
+
+- https://www.dma247.net/
+  - title: מתח נמוך, אבטחה ותשתיות יוקרה בישראל | DMA
+  - canonical: https://www.dma247.net
+  - schema: Organization, LocalBusiness, WebSite
+- https://www.dma247.net/blog
+  - title: מרכז הידע | מתח נמוך, אבטחה ותקשורת | DMA
+  - canonical: https://www.dma247.net/blog
+  - schema: Organization, LocalBusiness, WebSite
+- https://www.dma247.net/about
+  - title: אודות DMA | הסיפור שלנו | DMA
+  - canonical: https://www.dma247.net/about
+  - schema: Organization, LocalBusiness, WebSite
+- https://www.dma247.net/services
+  - title: שירותי מתח נמוך ואבטחה | DMA
+  - canonical: https://www.dma247.net/services
+  - schema: Organization, LocalBusiness, WebSite
+- https://www.dma247.net/services/consulting
+  - title: ייעוץ ותכנון מערכות מתח נמוך | DMA
+  - canonical: https://www.dma247.net/services/consulting
+  - schema: Organization, LocalBusiness, WebSite, Service, BreadcrumbList
+- https://www.dma247.net/services/security
+  - title: מערכות אבטחה מתקדמות | DMA
+  - canonical: https://www.dma247.net/services/security
+  - schema: Organization, LocalBusiness, WebSite, Service, BreadcrumbList
+- https://www.dma247.net/services/networking
+  - title: תשתיות תקשורת ורשת WiFi מקצועית | DMA
+  - canonical: https://www.dma247.net/services/networking
+  - schema: Organization, LocalBusiness, WebSite, Service, BreadcrumbList
+- https://www.dma247.net/services/access-control
+  - title: בקרת כניסה וזיהוי פנים | DMA
+  - canonical: https://www.dma247.net/services/access-control
+  - schema: Organization, LocalBusiness, WebSite, Service, BreadcrumbList
+- https://www.dma247.net/services/audio-video
+  - title: מערכות אודיו וידאו וקולנוע ביתי | DMA
+  - canonical: https://www.dma247.net/services/audio-video
+  - schema: Organization, LocalBusiness, WebSite, Service, BreadcrumbList
+- https://www.dma247.net/services/cyber
+  - title: סייבר ופרטיות לבית ולעסק | DMA
+  - canonical: https://www.dma247.net/services/cyber
+  - schema: Organization, LocalBusiness, WebSite, Service, BreadcrumbList
+- https://www.dma247.net/testimonials
+  - title: לקוחות ממליצים | DMA
+  - canonical: https://www.dma247.net/testimonials
+  - schema: Organization, LocalBusiness, WebSite, LocalBusiness
+- https://www.dma247.net/case-studies
+  - title: פרויקטים ותיק עבודות | מתח נמוך ואבטחה באר שבע | DMA
+  - canonical: https://www.dma247.net/case-studies
+  - schema: Organization, LocalBusiness, WebSite, ItemList, LocalBusiness
+- https://www.dma247.net/contact
+  - title: צור קשר | ייעוץ חינם למתח נמוך ואבטחה | DMA
+  - canonical: https://www.dma247.net/contact
+  - schema: Organization, LocalBusiness, WebSite
+- https://www.dma247.net/faq
+  - title: שאלות נפוצות | DMA
+  - canonical: https://www.dma247.net/faq
+  - schema: Organization, LocalBusiness, WebSite, FAQPage
+- https://www.dma247.net/process
+  - title: תהליך העבודה | DMA
+  - canonical: https://www.dma247.net/process
+  - schema: Organization, LocalBusiness, WebSite
+- https://www.dma247.net/privacy
+  - title: מדיניות פרטיות | DMA
+  - canonical: https://www.dma247.net/privacy
+  - schema: Organization, LocalBusiness, WebSite
+- https://www.dma247.net/terms
+  - title: תנאי שימוש | DMA
+  - canonical: https://www.dma247.net/terms
+  - schema: Organization, LocalBusiness, WebSite
+- https://www.dma247.net/guides/knx-vs-control4
+  - title: KNX vs Control4: השוואה מקיפה למערכות בית חכם | DMA
+  - canonical: https://www.dma247.net/guides/knx-vs-control4
+  - schema: Organization, LocalBusiness, WebSite, BreadcrumbList
+- https://www.dma247.net/blog/invisible-backbone-luxury
+  - title: השלד השקוף של היוקרה: למה תשתית היא הכל | DMA
+  - canonical: https://www.dma247.net/blog/invisible-backbone-luxury
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/blog/analytics-vs-recording
+  - title: ההבדל בין להקליט פריצה לבין למנוע אותה | DMA
+  - canonical: https://www.dma247.net/blog/analytics-vs-recording
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/blog/invisible-audio
+  - title: סאונד שמרגישים, רמקולים שלא רואים | DMA
+  - canonical: https://www.dma247.net/blog/invisible-audio
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/blog/biometrics-2025
+  - title: המפתח נשאר בהיסטוריה: בקרת כניסה ביומטרית | DMA
+  - canonical: https://www.dma247.net/blog/biometrics-2025
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/blog/killing-dead-zones
+  - title: לחסל את "השטחים המתים" בבונקר הבטון שלכם | DMA
+  - canonical: https://www.dma247.net/blog/killing-dead-zones
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/blog/industrial-iot
+  - title: העיניים של המפעל: ניטור תעשייתי חכם | DMA
+  - canonical: https://www.dma247.net/blog/industrial-iot
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/blog/sla-importance
+  - title: למה הבית החכם שלכם צריך "אבא ואמא"? (SLA) | DMA
+  - canonical: https://www.dma247.net/blog/sla-importance
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/blog/aesthetics-first
+  - title: טכנולוגיה ביישנית: כשהעיצוב מוביל | DMA
+  - canonical: https://www.dma247.net/blog/aesthetics-first
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/blog/server-room-essentials
+  - title: חדר השרתים הביתי: הלב של הבית | DMA
+  - canonical: https://www.dma247.net/blog/server-room-essentials
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/blog/outdoor-entertainment
+  - title: בידור בחצר: קולנוע תחת הכוכבים | DMA
+  - canonical: https://www.dma247.net/blog/outdoor-entertainment
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/blog/intercom-upgrade
+  - title: שדרוג אינטרקום: לא צריך לשבור קירות | DMA
+  - canonical: https://www.dma247.net/blog/intercom-upgrade
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/blog/energy-saving-smart-home
+  - title: בית חכם ירוק: חיסכון באנרגיה | DMA
+  - canonical: https://www.dma247.net/blog/energy-saving-smart-home
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/case-studies/wifi-basement-klaniot
+  - title: מנותק למחובר: פתרון WiFi למרתף | פרויקט תשתיות תקשורת שכונת כלניות, באר שבע | DMA
+  - canonical: https://www.dma247.net/case-studies/wifi-basement-klaniot
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/case-studies/security-lehavim-ranch
+  - title: ממבודד למוגן: אבטחה היקפית בנחלה | פרויקט אבטחה להבים | DMA
+  - canonical: https://www.dma247.net/case-studies/security-lehavim-ranch
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/case-studies/kindergarten-security-omer
+  - title: עיניים שומרות: אבטחה לגן ילדים בעומר | פרויקט אבטחה, בקרת כניסה עומר | DMA
+  - canonical: https://www.dma247.net/case-studies/kindergarten-security-omer
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/case-studies/restaurant-wifi-beersheva
+  - title: WiFi שעובד בלחץ: תשתית למסעדה עמוסה | פרויקט תשתיות תקשורת, אבטחה באר שבע | DMA
+  - canonical: https://www.dma247.net/case-studies/restaurant-wifi-beersheva
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/case-studies/wifi-retrofit-mitar
+  - title: WiFi בלי לשבור קירות | פרויקט תשתיות תקשורת מיתר | DMA
+  - canonical: https://www.dma247.net/case-studies/wifi-retrofit-mitar
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/case-studies/startup-office-beersheva
+  - title: מסטארט-אפ קטן לחברה של 20 עובדים | פרויקט תשתיות תקשורת, אבטחה, בקרת כניסה באר שבע | DMA
+  - canonical: https://www.dma247.net/case-studies/startup-office-beersheva
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/case-studies/intercom-upgrade-karmit
+  - title: מצפצף למחובר: שדרוג אינטרקום בכרמית | פרויקט בקרת כניסה כרמית | DMA
+  - canonical: https://www.dma247.net/case-studies/intercom-upgrade-karmit
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/case-studies/clinics-network-management
+  - title: 4 סניפים, מסך אחד | פרויקט אבטחה, בקרת כניסה פריסה ארצית | DMA
+  - canonical: https://www.dma247.net/case-studies/clinics-network-management
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/case-studies/audio-multiroom-ramot
+  - title: מוזיקה בכל פינה, רמקול בשום מקום | פרויקט אודיו וידאו שכונת רמות, באר שבע | DMA
+  - canonical: https://www.dma247.net/case-studies/audio-multiroom-ramot
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/case-studies/fiber-optic-villa-omer
+  - title: מנחושת לאור: שדרוג סיבים אופטיים בעומר | פרויקט תשתיות תקשורת עומר | DMA
+  - canonical: https://www.dma247.net/case-studies/fiber-optic-villa-omer
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/case-studies/complete-security-mitar
+  - title: מערכת אבטחה מלאה לבית חדש במיתר | פרויקט אבטחה, בקרת כניסה, תשתיות תקשורת מיתר | DMA
+  - canonical: https://www.dma247.net/case-studies/complete-security-mitar
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/case-studies/cameras-villa-dimona
+  - title: עיניים בכל פינה: מצלמות לוילה בדימונה | פרויקט אבטחה דימונה | DMA
+  - canonical: https://www.dma247.net/case-studies/cameras-villa-dimona
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/case-studies/network-infrastructure-ofakim
+  - title: מחיבור אחד לעשרים: תשתית רשת לוילה באופקים | פרויקט תשתיות תקשורת אופקים | DMA
+  - canonical: https://www.dma247.net/case-studies/network-infrastructure-ofakim
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/case-studies/security-intercom-karmit-villa
+  - title: מבודד למחובר: אבטחה ותקשורת לוילה בכרמית | פרויקט אבטחה, בקרת כניסה, תשתיות תקשורת כרמית | DMA
+  - canonical: https://www.dma247.net/case-studies/security-intercom-karmit-villa
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList
+- https://www.dma247.net/case-studies/home-office-villa-lehavim
+  - title: משרד ביתי ברמה אחרת: תשתית לעבודה מהבית בלהבים | פרויקט תשתיות תקשורת, אודיו וידאו להבים | DMA
+  - canonical: https://www.dma247.net/case-studies/home-office-villa-lehavim
+  - schema: Organization, LocalBusiness, WebSite, Article, BreadcrumbList

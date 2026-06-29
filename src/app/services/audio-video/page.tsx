@@ -1,17 +1,13 @@
 import Section from '@/components/Section';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import JsonLd from '@/components/JsonLd';
+import { servicesSeo } from '@/data/services';
+import { createPageMetadata, createServiceSchema } from '@/lib/seo';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../smart-home/page.module.css';
-import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-    title: 'מערכות אודיו וידאו וקולנוע ביתי',
-    description: 'רמקולים נסתרים, קולנוע ביתי 4K, מערכות Multi-Room וחדרי ישיבות מקצועיים. סאונד שמרגישים, ציוד שלא רואים.',
-    alternates: {
-        canonical: 'https://dma247.net/services/audio-video',
-    },
-};
+export const metadata = createPageMetadata(servicesSeo.audioVideo);
 
 const breadcrumbItems = [
     { label: 'דף הבית', href: '/' },
@@ -22,6 +18,7 @@ const breadcrumbItems = [
 export default function AudioVideo() {
     return (
         <main>
+            <JsonLd data={createServiceSchema(servicesSeo.audioVideo)} />
             <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
                 <h1 className={styles.heroTitle}>מערכות אודיו וידאו וקולנוע ביתי</h1>

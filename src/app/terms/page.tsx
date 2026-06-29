@@ -1,13 +1,11 @@
 import styles from './page.module.css';
-import { Metadata } from 'next';
+import { createPageMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
     title: 'תנאי שימוש',
     description: 'תנאי השימוש באתר DMA.',
-    alternates: {
-        canonical: 'https://dma247.net/terms',
-    },
-};
+    path: '/terms',
+});
 
 export default function TermsOfService() {
     return (

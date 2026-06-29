@@ -1,14 +1,12 @@
 import Section from '@/components/Section';
 import styles from './page.module.css';
-import { Metadata } from 'next';
+import { createPageMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
     title: 'תהליך העבודה',
     description: 'כך אנחנו עובדים: מתכנון הנדסי מדויק ועד למסירה והדרכה. תהליך עבודה סדור ומקצועי.',
-    alternates: {
-        canonical: 'https://dma247.net/process',
-    },
-};
+    path: '/process',
+});
 
 export default function Process() {
     return (

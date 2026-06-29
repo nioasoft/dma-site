@@ -1,21 +1,20 @@
 import Section from '@/components/Section';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Link from 'next/link';
+import { createPageMetadata } from '@/lib/seo';
 import styles from './page.module.css';
-import { Metadata } from 'next';
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
     title: 'KNX vs Control4: השוואה מקיפה למערכות בית חכם',
     description: 'השוואה מקיפה בין KNX ל-Control4. איזו מערכת בית חכם מתאימה לכם? יתרונות, חסרונות, מחירים והמלצות ממומחי DMA.',
-    alternates: {
-        canonical: 'https://dma247.net/guides/knx-vs-control4',
-    },
-};
+    path: '/guides/knx-vs-control4',
+    type: 'article',
+});
 
 const breadcrumbItems = [
     { label: 'דף הבית', href: '/' },
     { label: 'שירותים', href: '/services' },
-    { label: 'בית חכם', href: '/services/smart-home' },
+    { label: 'ייעוץ ותכנון', href: '/services/consulting' },
     { label: 'KNX vs Control4' }
 ];
 
@@ -176,6 +175,25 @@ export default function KnxVsControl4() {
                                 מולטימדיה). כך מקבלים יציבות של KNX עם חווית משתמש של Control4.
                             </p>
                         </div>
+                    </div>
+
+                    <div className={styles.section}>
+                        <h2>מקורות לבדיקה נוספת</h2>
+                        <p>
+                            להשוואה עצמאית, מומלץ לבדוק גם את המפרטים והמסמכים הרשמיים של היצרנים:
+                        </p>
+                        <ul>
+                            <li>
+                                <a href="https://www.knx.org/knx-en/for-professionals/index.php" target="_blank" rel="noopener noreferrer">
+                                    KNX Association - מידע מקצועי על סטנדרט KNX
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.control4.com/" target="_blank" rel="noopener noreferrer">
+                                    Control4 - מידע רשמי על מערכת הבית החכם
+                                </a>
+                            </li>
+                        </ul>
                     </div>
 
                     <div className={styles.cta}>

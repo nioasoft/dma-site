@@ -479,7 +479,7 @@ WiFi מקצועי: 3 נקודות גישה UniFi U6 Pro במיקומים אסט�
         },
         relatedServices: [
             { title: 'אודיו וידאו', url: '/services/audio-video' },
-            { title: 'מתח נמוך', url: '/services/smart-home' }
+            { title: 'ייעוץ ותכנון', url: '/services/consulting' }
         ],
         image: '/case-study-ramot-audio.webp',
         keywords: ['רמקולים נסתרים', 'מערכת סאונד ביתית', 'אודיו לבית יוקרה', 'multi-room audio', 'Sonos', 'Sonance']

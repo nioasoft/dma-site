@@ -1,17 +1,13 @@
 import Section from '@/components/Section';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import JsonLd from '@/components/JsonLd';
+import { servicesSeo } from '@/data/services';
+import { createPageMetadata, createServiceSchema } from '@/lib/seo';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../smart-home/page.module.css';
-import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-    title: 'בקרת כניסה וזיהוי פנים',
-    description: 'מערכות בקרת כניסה מתקדמות: זיהוי פנים ביומטרי, אינטרקום חכם, כרטיסי עובד וקודים זמניים. שליטה מלאה מהנייד.',
-    alternates: {
-        canonical: 'https://dma247.net/services/access-control',
-    },
-};
+export const metadata = createPageMetadata(servicesSeo.accessControl);
 
 const breadcrumbItems = [
     { label: 'דף הבית', href: '/' },
@@ -22,6 +18,7 @@ const breadcrumbItems = [
 export default function AccessControl() {
     return (
         <main>
+            <JsonLd data={createServiceSchema(servicesSeo.accessControl)} />
             <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
                 <h1 className={styles.heroTitle}>בקרת כניסה וזיהוי ביומטרי</h1>

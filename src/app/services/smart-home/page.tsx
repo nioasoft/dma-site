@@ -1,17 +1,13 @@
 import Section from '@/components/Section';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import JsonLd from '@/components/JsonLd';
+import { servicesSeo } from '@/data/services';
+import { createPageMetadata, createServiceSchema } from '@/lib/seo';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from './page.module.css';
-import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-    title: 'מערכות בית חכם יוקרתיות',
-    description: 'מערכות בית חכם יוקרתיות: תאורה, אקלים, וילונות ומולטימדיה בשליטה אחת. KNX, Control4, Loxone ו-Crestron.',
-    alternates: {
-        canonical: 'https://dma247.net/services/smart-home',
-    },
-};
+export const metadata = createPageMetadata(servicesSeo.smartHome);
 
 const breadcrumbItems = [
     { label: 'דף הבית', href: '/' },
@@ -22,6 +18,7 @@ const breadcrumbItems = [
 export default function SmartHome() {
     return (
         <main>
+            <JsonLd data={createServiceSchema(servicesSeo.smartHome)} />
             <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
                 <h1 className={styles.heroTitle}>מערכות בית חכם יוקרתיות</h1>

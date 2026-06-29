@@ -38,7 +38,7 @@ export async function POST(request: NextRequest) {
         }
 
         // Send email via Resend
-        const { data, error } = await resend.emails.send({
+        const { error } = await resend.emails.send({
             from: 'DMA Contact Form <moshe@dma247.net>',
             to: ['moshe@dma247.net'],
             replyTo: email,

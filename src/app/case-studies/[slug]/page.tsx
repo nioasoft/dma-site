@@ -1,12 +1,13 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
-import { caseStudies, getCategoryLabel, getServiceLabel, getAreaLabel } from '@/data/caseStudies';
+import { caseStudies, getCategoryLabel, getServiceLabel } from '@/data/caseStudies';
 import type { CaseStudy } from '@/data/caseStudies';
 import Section from '@/components/Section';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import styles from './page.module.css';
 import { Metadata } from 'next';
+import { createArticleSchema, createPageMetadata } from '@/lib/seo';
 
 interface Props {
     params: Promise<{
@@ -16,31 +17,15 @@ interface Props {
 
 function generateCaseStudySchema(caseStudy: CaseStudy) {
     return {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": caseStudy.title,
-        "description": caseStudy.subtitle,
-        "image": `https://dma247.net${caseStudy.image}`,
-        "author": {
-            "@type": "Organization",
-            "name": "DMA - Intelligence in Infrastructure",
-            "url": "https://dma247.net"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "DMA - Intelligence in Infrastructure",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://dma247.net/logo-transparent.webp"
-            }
-        },
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": `https://dma247.net/case-studies/${caseStudy.slug}`
-        },
-        "keywords": caseStudy.keywords.join(", "),
-        "articleSection": "Case Studies",
-        "inLanguage": "he-IL",
+        ...createArticleSchema({
+            title: caseStudy.title,
+            description: caseStudy.subtitle,
+            path: `/case-studies/${caseStudy.slug}`,
+            image: caseStudy.image,
+            author: 'DMA - Intelligence in Infrastructure',
+            keywords: caseStudy.keywords,
+            articleSection: 'Case Studies',
+        }),
         "about": {
             "@type": "Thing",
             "name": caseStudy.services.map(s => getServiceLabel(s)).join(", ")
@@ -64,18 +49,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     const servicesText = caseStudy.services.map(s => getServiceLabel(s)).join(', ');
 
-    return {
-        title: `${caseStudy.title} | פרויקט ${servicesText} ${caseStudy.location}`,
-        description: `${caseStudy.subtitle}. ${caseStudy.results[0]}. פרויקט ${servicesText} ב${caseStudy.location}.`,
-        alternates: {
-            canonical: `https://dma247.net/case-studies/${caseStudy.slug}`,
-        },
+    const title = `${caseStudy.title} | פרויקט ${servicesText} ${caseStudy.location}`;
+    const description = `${caseStudy.subtitle}. ${caseStudy.results[0]}. פרויקט ${servicesText} ב${caseStudy.location}.`;
+    const baseMetadata = createPageMetadata({
+        title,
+        description,
+        path: `/case-studies/${caseStudy.slug}`,
+        image: caseStudy.image,
+        type: 'article',
         keywords: caseStudy.keywords,
+    });
+
+    return {
+        ...baseMetadata,
         openGraph: {
+            ...baseMetadata.openGraph,
             title: caseStudy.title,
             description: caseStudy.subtitle,
             type: 'article',
-            images: [caseStudy.image],
             locale: 'he_IL',
         },
     };
@@ -188,7 +179,7 @@ export default async function CaseStudyPage({ params }: Props) {
 
                     {caseStudy.testimonial && (
                         <div className={styles.testimonial}>
-                            <blockquote>"{caseStudy.testimonial.quote}"</blockquote>
+                            <blockquote>{caseStudy.testimonial.quote}</blockquote>
                             <cite>- {caseStudy.testimonial.author}</cite>
                         </div>
                     )}

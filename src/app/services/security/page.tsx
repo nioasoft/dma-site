@@ -1,16 +1,12 @@
 import Section from '@/components/Section';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import JsonLd from '@/components/JsonLd';
+import { servicesSeo } from '@/data/services';
+import { createPageMetadata, createServiceSchema } from '@/lib/seo';
 import Image from 'next/image';
 import styles from './page.module.css';
-import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-    title: 'מערכות אבטחה מתקדמות',
-    description: 'פתרונות אבטחה מתקדמים: מצלמות AI, אבטחה היקפית, ומוקד ניטור 24/7. Axis, Hikvision Pro, Hanwha ו-Bosch.',
-    alternates: {
-        canonical: 'https://dma247.net/services/security',
-    },
-};
+export const metadata = createPageMetadata(servicesSeo.security);
 
 const breadcrumbItems = [
     { label: 'דף הבית', href: '/' },
@@ -21,6 +17,7 @@ const breadcrumbItems = [
 export default function Security() {
     return (
         <main>
+            <JsonLd data={createServiceSchema(servicesSeo.security)} />
             <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
                 <h1 className={styles.heroTitle}>מערכות אבטחה מתקדמות עם AI</h1>
@@ -42,7 +39,7 @@ export default function Security() {
 
                     <h2>אבטחה שמונעת, לא רק מתעדת</h2>
                     <p>
-                        רוב מערכות האבטחה הן "היסטוריונים" - הן מקליטות מה קרה ומציגות לכם את הסרטון למחרת בבוקר. המערכות שלנו הן "שומרי ראש" - הן מזהות, מתריעות ומרתיעות בזמן אמת, עוד לפני שהפורץ נגע בדלת.
+                        רוב מערכות האבטחה הן &quot;היסטוריונים&quot; - הן מקליטות מה קרה ומציגות לכם את הסרטון למחרת בבוקר. המערכות שלנו הן &quot;שומרי ראש&quot; - הן מזהות, מתריעות ומרתיעות בזמן אמת, עוד לפני שהפורץ נגע בדלת.
                     </p>
 
                     <div className={styles.grid}>

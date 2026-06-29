@@ -1,16 +1,12 @@
 import Section from '@/components/Section';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import JsonLd from '@/components/JsonLd';
+import { servicesSeo } from '@/data/services';
+import { createPageMetadata, createServiceSchema } from '@/lib/seo';
 import Image from 'next/image';
 import styles from './page.module.css';
-import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-    title: 'תשתיות תקשורת ורשת WiFi מקצועית',
-    description: 'תשתיות רשת מתקדמות: סיבים אופטיים, WiFi Enterprise, וארונות תקשורת מדוגמים. Ubiquiti, Ruckus, Cisco ו-Aruba.',
-    alternates: {
-        canonical: 'https://dma247.net/services/networking',
-    },
-};
+export const metadata = createPageMetadata(servicesSeo.networking);
 
 const breadcrumbItems = [
     { label: 'דף הבית', href: '/' },
@@ -21,11 +17,12 @@ const breadcrumbItems = [
 export default function Networking() {
     return (
         <main>
+            <JsonLd data={createServiceSchema(servicesSeo.networking)} />
             <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
                 <h1 className={styles.heroTitle}>תשתיות רשת ו-WiFi מקצועי לבית ולעסק</h1>
                 <p className={styles.heroSubtitle}>
-                    קניתם את הראוטר הכי יקר בחנות, ועדיין אין קליטה בממ"ד. הבעיה היא לא הציוד. היא התכנון.
+                    קניתם את הראוטר הכי יקר בחנות, ועדיין אין קליטה בממ״ד. הבעיה היא לא הציוד. היא התכנון.
                 </p>
             </Section>
 
@@ -42,7 +39,7 @@ export default function Networking() {
 
                     <h2>הרשת היא החמצן של הבית המודרני</h2>
                     <p>
-                        כשהטלוויזיה, המצלמות, המזגנים והעבודה מהבית כולם תלויים ברשת אחת, מספיק חדר אחד בלי קליטה כדי שכל הבית ירגיש תקול. הבטון המזוין של הממ"ד בולע את ה-WiFi, מגדילי הטווח חוצים את המהירות, ושיחת וידאו מתנתקת בדיוק כשצריך אותה. אנחנו לא נלחמים בקיר. עוקפים אותו.
+                        כשהטלוויזיה, המצלמות, המזגנים והעבודה מהבית כולם תלויים ברשת אחת, מספיק חדר אחד בלי קליטה כדי שכל הבית ירגיש תקול. הבטון המזוין של הממ״ד בולע את ה-WiFi, מגדילי הטווח חוצים את המהירות, ושיחת וידאו מתנתקת בדיוק כשצריך אותה. אנחנו לא נלחמים בקיר. עוקפים אותו.
                     </p>
 
                     <div className={styles.grid}>
@@ -53,7 +50,7 @@ export default function Networking() {
                                 <li>בקר מרכזי לניהול התעבורה</li>
                                 <li>Roaming חלק - לעבור בין אנטנות בלי ניתוקים</li>
                                 <li>תמיכה ב-WiFi 6E / WiFi 7</li>
-                                <li>כיסוי מלא כולל ממ"ד, מרתף, חצר</li>
+                                <li>כיסוי מלא כולל ממ״ד, מרתף, חצר</li>
                             </ul>
                         </div>
                         <div className={styles.card}>
@@ -127,7 +124,7 @@ export default function Networking() {
                         <div className={styles.card}>
                             <h3>למה זה משנה?</h3>
                             <p>
-                                קבלן רגיל יגיד "אי אפשר". אנחנו נמצא דרך. שנים של ניסיון בשטח לימדו אותנו שכמעט תמיד יש פתרון - צריך רק לדעת איפה לחפש ואיך לבצע נכון.
+                                קבלן רגיל יגיד &quot;אי אפשר&quot;. אנחנו נמצא דרך. שנים של ניסיון בשטח לימדו אותנו שכמעט תמיד יש פתרון - צריך רק לדעת איפה לחפש ואיך לבצע נכון.
                             </p>
                         </div>
                     </div>

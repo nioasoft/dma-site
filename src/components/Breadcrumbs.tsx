@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { createBreadcrumbSchema } from '@/lib/seo';
 import styles from './Breadcrumbs.module.css';
 
 export interface BreadcrumbItem {
@@ -10,21 +11,8 @@ interface BreadcrumbsProps {
     items: BreadcrumbItem[];
 }
 
-function generateBreadcrumbSchema(items: BreadcrumbItem[]) {
-    return {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": items.map((item, index) => ({
-            "@type": "ListItem",
-            "position": index + 1,
-            "name": item.label,
-            "item": item.href ? `https://dma247.net${item.href}` : undefined
-        }))
-    };
-}
-
 const Breadcrumbs = ({ items }: BreadcrumbsProps) => {
-    const schema = generateBreadcrumbSchema(items);
+    const schema = createBreadcrumbSchema(items);
 
     return (
         <>

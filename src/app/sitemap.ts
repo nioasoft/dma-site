@@ -1,9 +1,11 @@
 import { blogPosts } from '@/data/blogPosts';
 import { caseStudies } from '@/data/caseStudies';
+import { SITE_URL } from '@/lib/seo';
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://dma247.net';
+    const baseUrl = SITE_URL;
+    const siteLastModified = new Date('2026-06-24');
 
     const blogUrls = blogPosts.map((post) => ({
         url: `${baseUrl}/blog/${post.slug}`,
@@ -14,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     const caseStudyUrls = caseStudies.map((study) => ({
         url: `${baseUrl}/case-studies/${study.slug}`,
-        lastModified: new Date(),
+        lastModified: siteLastModified,
         changeFrequency: 'monthly' as const,
         priority: 0.75,
     }));
@@ -22,109 +24,109 @@ export default function sitemap(): MetadataRoute.Sitemap {
     return [
         {
             url: baseUrl,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'weekly',
             priority: 1,
         },
         {
             url: `${baseUrl}/about`,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'monthly',
             priority: 0.8,
         },
         {
             url: `${baseUrl}/services`,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'monthly',
             priority: 0.9,
         },
         {
             url: `${baseUrl}/services/consulting`,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'monthly',
             priority: 0.85,
         },
         {
             url: `${baseUrl}/services/security`,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'monthly',
             priority: 0.85,
         },
         {
             url: `${baseUrl}/services/networking`,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'monthly',
             priority: 0.85,
         },
         {
             url: `${baseUrl}/services/access-control`,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'monthly',
             priority: 0.85,
         },
         {
             url: `${baseUrl}/services/audio-video`,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'monthly',
             priority: 0.85,
         },
         {
             url: `${baseUrl}/services/cyber`,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'monthly',
             priority: 0.85,
         },
         {
             url: `${baseUrl}/blog`,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'weekly',
             priority: 0.8,
         },
         {
             url: `${baseUrl}/testimonials`,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'monthly',
             priority: 0.7,
         },
         {
             url: `${baseUrl}/case-studies`,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'monthly',
             priority: 0.85,
         },
         {
             url: `${baseUrl}/contact`,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'yearly',
             priority: 0.6,
         },
         {
             url: `${baseUrl}/faq`,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'monthly',
             priority: 0.6,
         },
         {
             url: `${baseUrl}/process`,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'monthly',
             priority: 0.6,
         },
         {
             url: `${baseUrl}/privacy`,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'yearly',
             priority: 0.3,
         },
         {
             url: `${baseUrl}/terms`,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'yearly',
             priority: 0.3,
         },
         {
             url: `${baseUrl}/guides/knx-vs-control4`,
-            lastModified: new Date(),
+            lastModified: siteLastModified,
             changeFrequency: 'monthly',
             priority: 0.8,
         },
