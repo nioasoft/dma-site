@@ -1,4 +1,5 @@
 import Section from '@/components/Section';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import styles from './page.module.css';
 import { createPageMetadata } from '@/lib/seo';
 
@@ -95,6 +96,11 @@ const faqStructuredData = {
     ]
 };
 
+const breadcrumbItems = [
+    { label: 'דף הבית', href: '/' },
+    { label: 'שאלות נפוצות' },
+];
+
 export default function FAQ() {
     return (
         <main>
@@ -103,6 +109,7 @@ export default function FAQ() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
             />
             <Section variant="hero" className={styles.hero}>
+                <Breadcrumbs items={breadcrumbItems} />
                 <h1 className={styles.heroTitle}>שאלות נפוצות על מתח נמוך ואבטחה</h1>
                 <p className={styles.heroSubtitle}>
                     כל מה שרציתם לדעת על תהליך העבודה, הטכנולוגיה והשירות שלנו.

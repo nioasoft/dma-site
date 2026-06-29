@@ -1,4 +1,5 @@
 import Section from '@/components/Section';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import styles from './page.module.css';
 import ContactForm from '@/components/ContactForm';
 import { createPageMetadata } from '@/lib/seo';
@@ -9,10 +10,16 @@ export const metadata = createPageMetadata({
     path: '/contact',
 });
 
+const breadcrumbItems = [
+    { label: 'דף הבית', href: '/' },
+    { label: 'צור קשר' },
+];
+
 export default function Contact() {
     return (
         <main>
             <Section variant="hero" className={styles.hero}>
+                <Breadcrumbs items={breadcrumbItems} />
                 <h1 className={styles.heroTitle}>Let's Talk Security</h1>
                 <p className={styles.heroSubtitle}>
                     מוכנים לשדרג את השקט הנפשי שלכם? השאירו פרטים ונחזור אליכם לתיאום פגישת ייעוץ.

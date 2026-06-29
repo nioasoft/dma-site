@@ -1,4 +1,5 @@
 import Section from '@/components/Section';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './page.module.css';
@@ -58,6 +59,11 @@ const localBusinessData = {
     }
 };
 
+const breadcrumbItems = [
+    { label: 'דף הבית', href: '/' },
+    { label: 'פרויקטים' },
+];
+
 export default function CaseStudiesPage() {
     return (
         <main>
@@ -71,6 +77,7 @@ export default function CaseStudiesPage() {
             />
 
             <Section variant="hero" className={styles.hero}>
+                <Breadcrumbs items={breadcrumbItems} />
                 <h1 className={styles.heroTitle}>פרויקטים אמיתיים, תוצאות אמיתיות</h1>
                 <p className={styles.heroSubtitle}>
                     גלו כיצד DMA פתרה אתגרים טכנולוגיים מורכבים בבתים ועסקים באזור באר שבע, להבים, עומר ומיתר

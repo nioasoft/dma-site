@@ -1,4 +1,5 @@
 import Section from '@/components/Section';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import styles from './page.module.css';
 import { createPageMetadata } from '@/lib/seo';
 
@@ -8,10 +9,16 @@ export const metadata = createPageMetadata({
     path: '/process',
 });
 
+const breadcrumbItems = [
+    { label: 'דף הבית', href: '/' },
+    { label: 'תהליך העבודה' },
+];
+
 export default function Process() {
     return (
         <main>
             <Section variant="hero" className={styles.hero}>
+                <Breadcrumbs items={breadcrumbItems} />
                 <h1 className={styles.heroTitle}>תהליך העבודה</h1>
                 <p className={styles.heroSubtitle}>
                     סדר, דיוק ושקיפות. כך אנחנו הופכים חזון למציאות.

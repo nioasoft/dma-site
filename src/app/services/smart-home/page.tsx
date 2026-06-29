@@ -19,8 +19,8 @@ export default function SmartHome() {
     return (
         <main>
             <JsonLd data={createServiceSchema(servicesSeo.smartHome)} />
-            <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
+                <Breadcrumbs items={breadcrumbItems} />
                 <h1 className={styles.heroTitle}>מערכות בית חכם יוקרתיות</h1>
                 <p className={styles.heroSubtitle}>
                     לא עוד גאדג'טים. מערכת אחת שמנהלת את הבית עבורכם.

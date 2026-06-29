@@ -21,8 +21,8 @@ const breadcrumbItems = [
 export default function KnxVsControl4() {
     return (
         <main>
-            <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
+                <Breadcrumbs items={breadcrumbItems} />
                 <h1 className={styles.heroTitle}>KNX vs Control4: איזו מערכת בית חכם מתאימה לכם?</h1>
                 <p className={styles.heroSubtitle}>
                     מדריך השוואה מקיף מבית DMA לבחירת מערכת הבית החכם האידיאלית

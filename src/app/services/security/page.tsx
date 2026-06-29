@@ -18,8 +18,8 @@ export default function Security() {
     return (
         <main>
             <JsonLd data={createServiceSchema(servicesSeo.security)} />
-            <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
+                <Breadcrumbs items={breadcrumbItems} />
                 <h1 className={styles.heroTitle}>מערכות אבטחה מתקדמות עם AI</h1>
                 <p className={styles.heroSubtitle}>
                     אבטחה שמונעת, לא רק מתעדת. שקט נפשי אמיתי.

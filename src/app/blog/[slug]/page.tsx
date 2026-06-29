@@ -82,8 +82,8 @@ export default async function BlogPost({ params }: Props) {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
             />
-            <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
+                <Breadcrumbs items={breadcrumbItems} />
                 <div className={styles.heroContent}>
                     <span className={styles.category}>{post.category}</span>
                     <h1 className={styles.title}>{post.title}</h1>

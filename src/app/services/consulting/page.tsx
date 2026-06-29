@@ -18,8 +18,8 @@ export default function Consulting() {
     return (
         <main>
             <JsonLd data={createServiceSchema(servicesSeo.consulting)} />
-            <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
+                <Breadcrumbs items={breadcrumbItems} />
                 <h1 className={styles.heroTitle}>ייעוץ ותכנון מערכות מתח נמוך</h1>
                 <p className={styles.heroSubtitle}>
                     התכנון הנכון בהתחלה חוסך כאבי ראש בהמשך. אנחנו מתכננים - אתם נהנים.

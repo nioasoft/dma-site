@@ -108,9 +108,9 @@ export default async function CaseStudyPage({ params }: Props) {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
             />
-            <Breadcrumbs items={breadcrumbItems} />
 
             <Section variant="hero" className={styles.hero}>
+                <Breadcrumbs items={breadcrumbItems} />
                 <div className={styles.heroContent}>
                     <div className={styles.heroBadges}>
                         <span className={styles.location}>{caseStudy.location}</span>

@@ -1,4 +1,5 @@
 import Section from '@/components/Section';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import { createPageMetadata } from '@/lib/seo';
 import styles from './page.module.css';
 
@@ -94,6 +95,11 @@ const reviewsStructuredData = {
     ]
 };
 
+const breadcrumbItems = [
+    { label: 'דף הבית', href: '/' },
+    { label: 'לקוחות ממליצים' },
+];
+
 export default function Testimonials() {
     return (
         <main>
@@ -102,6 +108,7 @@ export default function Testimonials() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewsStructuredData) }}
             />
             <Section variant="hero" className={styles.hero}>
+                <Breadcrumbs items={breadcrumbItems} />
                 <h1 className={styles.heroTitle}>לקוחות ממליצים על DMA - חוות דעת אמיתיות</h1>
                 <p className={styles.heroSubtitle}>
                     כשאין מקום לטעויות, בוחרים ב-DMA. השקט של הלקוחות שלנו מדבר בעד עצמו.

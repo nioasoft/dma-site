@@ -19,8 +19,8 @@ export default function AccessControl() {
     return (
         <main>
             <JsonLd data={createServiceSchema(servicesSeo.accessControl)} />
-            <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
+                <Breadcrumbs items={breadcrumbItems} />
                 <h1 className={styles.heroTitle}>בקרת כניסה וזיהוי ביומטרי</h1>
                 <p className={styles.heroSubtitle}>
                     המפתח נשאר בהיסטוריה. הפנים שלכם הן המפתח הכי בטוח בעולם.

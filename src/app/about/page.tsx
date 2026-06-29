@@ -1,4 +1,5 @@
 import Section from '@/components/Section';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import PillarCard from '@/components/PillarCard';
 import { createPageMetadata } from '@/lib/seo';
 import styles from './page.module.css';
@@ -10,11 +11,17 @@ export const metadata = createPageMetadata({
   image: '/vision-bg.webp',
 });
 
+const breadcrumbItems = [
+  { label: 'דף הבית', href: '/' },
+  { label: 'אודות' },
+];
+
 export default function About() {
   return (
     <main>
       {/* Hero Section */}
       <Section variant="hero" className={styles.hero}>
+        <Breadcrumbs items={breadcrumbItems} />
         <h1 className={styles.heroTitle}>
           אודות DMA - מומחים במתח נמוך ואבטחה מתקדמת
         </h1>

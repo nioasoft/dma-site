@@ -18,8 +18,8 @@ export default function Networking() {
     return (
         <main>
             <JsonLd data={createServiceSchema(servicesSeo.networking)} />
-            <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
+                <Breadcrumbs items={breadcrumbItems} />
                 <h1 className={styles.heroTitle}>תשתיות רשת ו-WiFi מקצועי לבית ולעסק</h1>
                 <p className={styles.heroSubtitle}>
                     קניתם את הראוטר הכי יקר בחנות, ועדיין אין קליטה בממ״ד. הבעיה היא לא הציוד. היא התכנון.

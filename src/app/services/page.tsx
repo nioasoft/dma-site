@@ -1,4 +1,5 @@
 import Section from '@/components/Section';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import styles from './page.module.css';
 import Link from 'next/link';
 import { createPageMetadata } from '@/lib/seo';
@@ -9,10 +10,16 @@ export const metadata = createPageMetadata({
     path: '/services',
 });
 
+const breadcrumbItems = [
+    { label: 'דף הבית', href: '/' },
+    { label: 'שירותים' },
+];
+
 export default function Services() {
     return (
         <main>
             <Section variant="hero" className={styles.hero}>
+                <Breadcrumbs items={breadcrumbItems} />
                 <h1 className={styles.heroTitle}>שירותי מתח נמוך, אבטחה ותשתיות מתקדמות</h1>
                 <p className={styles.heroSubtitle}>
                     אנחנו לא מוכרים ציוד. אנחנו מוכרים ארכיטקטורה של שקט נפשי - תכנון, התקנה ותחזוקה של מערכות מתח נמוך ברמה הגבוהה ביותר.

@@ -19,8 +19,8 @@ export default function AudioVideo() {
     return (
         <main>
             <JsonLd data={createServiceSchema(servicesSeo.audioVideo)} />
-            <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
+                <Breadcrumbs items={breadcrumbItems} />
                 <h1 className={styles.heroTitle}>מערכות אודיו וידאו וקולנוע ביתי</h1>
                 <p className={styles.heroSubtitle}>
                     סאונד שמרגישים, רמקולים שלא רואים. טכנולוגיה ביישנית בשירות החוויה.

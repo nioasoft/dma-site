@@ -263,18 +263,36 @@
             "publisher": {
               "@id": "https://www.dma247.net/#organization"
             }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "דף הבית",
+                "item": "https://www.dma247.net"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "מרכז הידע"
+              }
+            ]
           }
         ],
-        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}",
+        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://www.dma247.net\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"מרכז הידע\"}]}",
         "schemaTypes": [
           "Organization",
           "LocalBusiness",
-          "WebSite"
+          "WebSite",
+          "BreadcrumbList"
         ],
         "externalLinkOrigins": [
           "https://wa.me"
         ],
-        "wordCount": 302,
+        "wordCount": 305,
         "numberSignals": 2
       },
       {
@@ -395,18 +413,36 @@
             "publisher": {
               "@id": "https://www.dma247.net/#organization"
             }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "דף הבית",
+                "item": "https://www.dma247.net"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "אודות"
+              }
+            ]
           }
         ],
-        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}",
+        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://www.dma247.net\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"אודות\"}]}",
         "schemaTypes": [
           "Organization",
           "LocalBusiness",
-          "WebSite"
+          "WebSite",
+          "BreadcrumbList"
         ],
         "externalLinkOrigins": [
           "https://wa.me"
         ],
-        "wordCount": 380,
+        "wordCount": 382,
         "numberSignals": 1
       },
       {
@@ -527,18 +563,36 @@
             "publisher": {
               "@id": "https://www.dma247.net/#organization"
             }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "דף הבית",
+                "item": "https://www.dma247.net"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "שירותים"
+              }
+            ]
           }
         ],
-        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}",
+        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://www.dma247.net\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"שירותים\"}]}",
         "schemaTypes": [
           "Organization",
           "LocalBusiness",
-          "WebSite"
+          "WebSite",
+          "BreadcrumbList"
         ],
         "externalLinkOrigins": [
           "https://wa.me"
         ],
-        "wordCount": 364,
+        "wordCount": 366,
         "numberSignals": 3
       },
       {
@@ -1978,19 +2032,37 @@
                 "datePublished": "2024-05-18"
               }
             ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "דף הבית",
+                "item": "https://www.dma247.net"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "לקוחות ממליצים"
+              }
+            ]
           }
         ],
-        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"5\",\"reviewCount\":\"5\",\"bestRating\":\"5\",\"worstRating\":\"1\"},\"review\":[{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"יורם א.\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\"},\"reviewBody\":\"אחרי שניסינו לפרוץ לנו לבית פעמיים, היינו בחרדה. דוד הגיע, לא ניסה למכור לי ציוד, אלא בנה לי 'חגורת הגנה'. המערכת זיהתה דמות בפינת החצר והפעילה תאורה וכריזה אוטומטית. הפורץ ברח מייד.\",\"datePublished\":\"2024-01-15\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"גלית ו.\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\"},\"reviewBody\":\"אני עובדת עם קהל באלפיון העליון. רמת הגימור שלהם היא משהו שלא רואים בארץ. הם היחידים שאני מרשה להם לקדוח בפרויקטים שלי.\",\"datePublished\":\"2024-02-20\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"עמית ר.\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\"},\"reviewBody\":\"DMA החליפו את כל תשתית ה-Mesh הביתית במערכת Access Points מנוהלת. מאז ההתקנה – אפס תקלות. רוחב פס מלא בכל חדר, גם בממ\\\"ד וגם בבריכה.\",\"datePublished\":\"2024-03-10\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"דוד כ.\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\"},\"reviewBody\":\"במפעל שלנו יש אבק, חום ורעש. DMA בנו לנו ארונות תקשורת אטומים וממוזגים, ופרסו סיבים אופטיים ממוגנים. היכולת שלהם לתת מענה לתקלה בתוך שעתיים היא קריטית לנו.\",\"datePublished\":\"2024-04-05\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"ד\\\"ר רונן ש.\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\"},\"reviewBody\":\"יש לי 4 סניפים ברחבי הארץ. דוד משה בנה לנו מערכת שליטה מרכזית. אני רואה את כל המצלמות במסך אחד, מנהל את בקרת הכניסה לעובדים מרחוק, ויודע בדיוק מה קורה בעסק.\",\"datePublished\":\"2024-05-18\"}]}",
+        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"5\",\"reviewCount\":\"5\",\"bestRating\":\"5\",\"worstRating\":\"1\"},\"review\":[{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"יורם א.\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\"},\"reviewBody\":\"אחרי שניסינו לפרוץ לנו לבית פעמיים, היינו בחרדה. דוד הגיע, לא ניסה למכור לי ציוד, אלא בנה לי 'חגורת הגנה'. המערכת זיהתה דמות בפינת החצר והפעילה תאורה וכריזה אוטומטית. הפורץ ברח מייד.\",\"datePublished\":\"2024-01-15\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"גלית ו.\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\"},\"reviewBody\":\"אני עובדת עם קהל באלפיון העליון. רמת הגימור שלהם היא משהו שלא רואים בארץ. הם היחידים שאני מרשה להם לקדוח בפרויקטים שלי.\",\"datePublished\":\"2024-02-20\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"עמית ר.\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\"},\"reviewBody\":\"DMA החליפו את כל תשתית ה-Mesh הביתית במערכת Access Points מנוהלת. מאז ההתקנה – אפס תקלות. רוחב פס מלא בכל חדר, גם בממ\\\"ד וגם בבריכה.\",\"datePublished\":\"2024-03-10\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"דוד כ.\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\"},\"reviewBody\":\"במפעל שלנו יש אבק, חום ורעש. DMA בנו לנו ארונות תקשורת אטומים וממוזגים, ופרסו סיבים אופטיים ממוגנים. היכולת שלהם לתת מענה לתקלה בתוך שעתיים היא קריטית לנו.\",\"datePublished\":\"2024-04-05\"},{\"@type\":\"Review\",\"author\":{\"@type\":\"Person\",\"name\":\"ד\\\"ר רונן ש.\"},\"reviewRating\":{\"@type\":\"Rating\",\"ratingValue\":\"5\",\"bestRating\":\"5\"},\"reviewBody\":\"יש לי 4 סניפים ברחבי הארץ. דוד משה בנה לנו מערכת שליטה מרכזית. אני רואה את כל המצלמות במסך אחד, מנהל את בקרת הכניסה לעובדים מרחוק, ויודע בדיוק מה קורה בעסק.\",\"datePublished\":\"2024-05-18\"}]}\n{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://www.dma247.net\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"לקוחות ממליצים\"}]}",
         "schemaTypes": [
           "Organization",
           "LocalBusiness",
           "WebSite",
-          "LocalBusiness"
+          "LocalBusiness",
+          "BreadcrumbList"
         ],
         "externalLinkOrigins": [
           "https://wa.me"
         ],
-        "wordCount": 466,
+        "wordCount": 468,
         "numberSignals": 2
       },
       {
@@ -2377,20 +2449,38 @@
                 }
               ]
             }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "דף הבית",
+                "item": "https://www.dma247.net"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "פרויקטים"
+              }
+            ]
           }
         ],
-        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"פרויקטים ותיק עבודות של DMA\",\"description\":\"סיפורי התקנות אמיתיים של מערכות מתח נמוך, אבטחה ותקשורת בבתים פרטיים ועסקים באזור הדרום\",\"numberOfItems\":15,\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"מנותק למחובר: פתרון WiFi למרתף\",\"description\":\"איך הפכנו חדר משחקים מנותק לגן עדן דיגיטלי\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"שכונת כלניות, באר שבע\"}}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"ממבודד למוגן: אבטחה היקפית בנחלה\",\"description\":\"איך הפכנו נחלה מבודדה למצודה מאובטחת עם AI\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"להבים\"}}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"עיניים שומרות: אבטחה לגן ילדים בעומר\",\"description\":\"איך הפכנו גן ילדים למקום הכי בטוח בשכונה\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"עומר\"}}},{\"@type\":\"ListItem\",\"position\":4,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"WiFi שעובד בלחץ: תשתית למסעדה עמוסה\",\"description\":\"איך פתרנו קריסות רשת במסעדה בשעות השיא\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"באר שבע\"}}},{\"@type\":\"ListItem\",\"position\":5,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"WiFi בלי לשבור קירות\",\"description\":\"שדרוג תשתית קיימת בבית במיתר\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"מיתר\"}}},{\"@type\":\"ListItem\",\"position\":6,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"מסטארט-אפ קטן לחברה של 20 עובדים\",\"description\":\"תקשורת ואבטחה למשרדים בבאר שבע\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"באר שבע\"}}},{\"@type\":\"ListItem\",\"position\":7,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"מצפצף למחובר: שדרוג אינטרקום בכרמית\",\"description\":\"החלפת מערכת ישנה ללא שבירת קירות\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"כרמית\"}}},{\"@type\":\"ListItem\",\"position\":8,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"4 סניפים, מסך אחד\",\"description\":\"ניהול ריכוזי לרשת מרפאות\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"פריסה ארצית\"}}},{\"@type\":\"ListItem\",\"position\":9,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"מוזיקה בכל פינה, רמקול בשום מקום\",\"description\":\"מערכת אודיו מולטי-רום בוילה ברמות\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"שכונת רמות, באר שבע\"}}},{\"@type\":\"ListItem\",\"position\":10,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"מנחושת לאור: שדרוג סיבים אופטיים בעומר\",\"description\":\"איך העברנו וילה מאינטרנט רועד לסיבים אופטיים 1Gbps\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"עומר\"}}},{\"@type\":\"ListItem\",\"position\":11,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"מערכת אבטחה מלאה לבית חדש במיתר\",\"description\":\"תכנון והתקנה של אבטחה מקיפה לפני האכלוס\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"מיתר\"}}},{\"@type\":\"ListItem\",\"position\":12,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"עיניים בכל פינה: מצלמות לוילה בדימונה\",\"description\":\"פתרון אבטחה לנכס גדול עם אתגרי כיסוי\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"דימונה\"}}},{\"@type\":\"ListItem\",\"position\":13,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"מחיבור אחד לעשרים: תשתית רשת לוילה באופקים\",\"description\":\"בניית תשתית תקשורת מקצועית לבית עם הרבה מכשירים\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"אופקים\"}}},{\"@type\":\"ListItem\",\"position\":14,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"מבודד למחובר: אבטחה ותקשורת לוילה בכרמית\",\"description\":\"פתרון משולב של מצלמות, אינטרקום ורשת לבית בקצה הישוב\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"כרמית\"}}},{\"@type\":\"ListItem\",\"position\":15,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"משרד ביתי ברמה אחרת: תשתית לעבודה מהבית בלהבים\",\"description\":\"איך בנינו סביבת עבודה מקצועית עם חדר ישיבות וירטואלי בבית פרטי\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"להבים\"}}}]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"התקנת מערכות מתח נמוך, אבטחה ותשתיות תקשורת באזור באר שבע והנגב\",\"areaServed\":[{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"hasOfferCatalog\":{\"@type\":\"OfferCatalog\",\"name\":\"שירותי מתח נמוך\",\"itemListElement\":[{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"התקנת מצלמות אבטחה\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"תשתיות תקשורת\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"בית חכם\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"בקרת כניסה\"}}]}}",
+        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"פרויקטים ותיק עבודות של DMA\",\"description\":\"סיפורי התקנות אמיתיים של מערכות מתח נמוך, אבטחה ותקשורת בבתים פרטיים ועסקים באזור הדרום\",\"numberOfItems\":15,\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"מנותק למחובר: פתרון WiFi למרתף\",\"description\":\"איך הפכנו חדר משחקים מנותק לגן עדן דיגיטלי\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"שכונת כלניות, באר שבע\"}}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"ממבודד למוגן: אבטחה היקפית בנחלה\",\"description\":\"איך הפכנו נחלה מבודדה למצודה מאובטחת עם AI\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"להבים\"}}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"עיניים שומרות: אבטחה לגן ילדים בעומר\",\"description\":\"איך הפכנו גן ילדים למקום הכי בטוח בשכונה\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"עומר\"}}},{\"@type\":\"ListItem\",\"position\":4,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"WiFi שעובד בלחץ: תשתית למסעדה עמוסה\",\"description\":\"איך פתרנו קריסות רשת במסעדה בשעות השיא\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"באר שבע\"}}},{\"@type\":\"ListItem\",\"position\":5,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"WiFi בלי לשבור קירות\",\"description\":\"שדרוג תשתית קיימת בבית במיתר\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"מיתר\"}}},{\"@type\":\"ListItem\",\"position\":6,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"מסטארט-אפ קטן לחברה של 20 עובדים\",\"description\":\"תקשורת ואבטחה למשרדים בבאר שבע\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"באר שבע\"}}},{\"@type\":\"ListItem\",\"position\":7,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"מצפצף למחובר: שדרוג אינטרקום בכרמית\",\"description\":\"החלפת מערכת ישנה ללא שבירת קירות\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"כרמית\"}}},{\"@type\":\"ListItem\",\"position\":8,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"4 סניפים, מסך אחד\",\"description\":\"ניהול ריכוזי לרשת מרפאות\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"פריסה ארצית\"}}},{\"@type\":\"ListItem\",\"position\":9,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"מוזיקה בכל פינה, רמקול בשום מקום\",\"description\":\"מערכת אודיו מולטי-רום בוילה ברמות\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"שכונת רמות, באר שבע\"}}},{\"@type\":\"ListItem\",\"position\":10,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"מנחושת לאור: שדרוג סיבים אופטיים בעומר\",\"description\":\"איך העברנו וילה מאינטרנט רועד לסיבים אופטיים 1Gbps\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"עומר\"}}},{\"@type\":\"ListItem\",\"position\":11,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"מערכת אבטחה מלאה לבית חדש במיתר\",\"description\":\"תכנון והתקנה של אבטחה מקיפה לפני האכלוס\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"מיתר\"}}},{\"@type\":\"ListItem\",\"position\":12,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"עיניים בכל פינה: מצלמות לוילה בדימונה\",\"description\":\"פתרון אבטחה לנכס גדול עם אתגרי כיסוי\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"דימונה\"}}},{\"@type\":\"ListItem\",\"position\":13,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"מחיבור אחד לעשרים: תשתית רשת לוילה באופקים\",\"description\":\"בניית תשתית תקשורת מקצועית לבית עם הרבה מכשירים\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"אופקים\"}}},{\"@type\":\"ListItem\",\"position\":14,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"מבודד למחובר: אבטחה ותקשורת לוילה בכרמית\",\"description\":\"פתרון משולב של מצלמות, אינטרקום ורשת לבית בקצה הישוב\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"כרמית\"}}},{\"@type\":\"ListItem\",\"position\":15,\"item\":{\"@type\":\"CreativeWork\",\"name\":\"משרד ביתי ברמה אחרת: תשתית לעבודה מהבית בלהבים\",\"description\":\"איך בנינו סביבת עבודה מקצועית עם חדר ישיבות וירטואלי בבית פרטי\",\"locationCreated\":{\"@type\":\"Place\",\"name\":\"להבים\"}}}]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"התקנת מערכות מתח נמוך, אבטחה ותשתיות תקשורת באזור באר שבע והנגב\",\"areaServed\":[{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"hasOfferCatalog\":{\"@type\":\"OfferCatalog\",\"name\":\"שירותי מתח נמוך\",\"itemListElement\":[{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"התקנת מצלמות אבטחה\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"תשתיות תקשורת\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"בית חכם\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"בקרת כניסה\"}}]}}\n{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://www.dma247.net\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"פרויקטים\"}]}",
         "schemaTypes": [
           "Organization",
           "LocalBusiness",
           "WebSite",
           "ItemList",
-          "LocalBusiness"
+          "LocalBusiness",
+          "BreadcrumbList"
         ],
         "externalLinkOrigins": [
           "https://wa.me"
         ],
-        "wordCount": 3721,
+        "wordCount": 3722,
         "numberSignals": 19
       },
       {
@@ -2511,18 +2601,36 @@
             "publisher": {
               "@id": "https://www.dma247.net/#organization"
             }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "דף הבית",
+                "item": "https://www.dma247.net"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "צור קשר"
+              }
+            ]
           }
         ],
-        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}",
+        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://www.dma247.net\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"צור קשר\"}]}",
         "schemaTypes": [
           "Organization",
           "LocalBusiness",
-          "WebSite"
+          "WebSite",
+          "BreadcrumbList"
         ],
         "externalLinkOrigins": [
           "https://wa.me"
         ],
-        "wordCount": 94,
+        "wordCount": 97,
         "numberSignals": 1
       },
       {
@@ -2729,19 +2837,37 @@
                 }
               }
             ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "דף הבית",
+                "item": "https://www.dma247.net"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "שאלות נפוצות"
+              }
+            ]
           }
         ],
-        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"מה ההבדל בין DMA לחברות התקנה אחרות?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"אנחנו לא רק מתקינים - אנחנו מתכננים. כל פרויקט מתחיל בניתוח הנדסי מעמיק של תוכניות האדריכלות, הבנת הצרכים הנוכחיים והעתידיים, ותכנון תשתית שתחזיק לעשורים. אנחנו עובדים עם ציוד ברמה צבאית/תעשייתית בלבד.\"}},{\"@type\":\"Question\",\"name\":\"האם אתם עובדים רק עם בתי יוקרה?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"לא. אנחנו עובדים עם מגוון רחב של לקוחות - מדירות קטנות שרוצות רשת WiFi יציבה, דרך בתים פרטיים שמחפשים מערכות אבטחה מתקדמות, ועד מפעלים ורשתות עסקיות בפריסה ארצית.\"}},{\"@type\":\"Question\",\"name\":\"מהו טווח המחירים שלכם?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"התמחור שלנו מותאם לפרויקט. פגישת ייעוץ ראשונית היא ללא עלות. להתרשמות: סקר תשתיות החל מ-1,500 ש\\\"ח, מערכת WiFi מקצועית 8,000-15,000 ש\\\"ח, מערכת אבטחה 15,000-35,000 ש\\\"ח.\"}},{\"@type\":\"Question\",\"name\":\"כמה זמן לוקח פרויקט טיפוסי?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"בית חדש בבנייה: 3-12 חודשים בליווי. שיפוץ/התקנה בבית קיים: 2-8 שבועות. מערכת אבטחה בסיסית: 1-3 ימים. רשת WiFi מקצועית: 1-2 ימים.\"}},{\"@type\":\"Question\",\"name\":\"למה אני צריך סיבים אופטיים בבית?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"סיבים אופטיים מאפשרים מהירויות של עד 10Gbps, ללא הפרעות חשמליות, ועמידים לשנים רבות. בבית גדול או עם קירות בטון, סיבים הם ההבדל בין רשת שעובדת לרשת שמתקתקת.\"}},{\"@type\":\"Question\",\"name\":\"מה ההבדל בין WiFi ביתי לרשת מנוהלת?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"ראוטר ביתי מיועד לדירה קטנה. רשת מנוהלת (Enterprise-grade) כוללת מספר נקודות גישה מפוזרות, בקר מרכזי שמנהל את התעבורה, ונדידה חכמה שמעבירה אתכם מאנטנה לאנטנה בלי שתרגישו.\"}},{\"@type\":\"Question\",\"name\":\"האם מצלמות אבטחה באמת מרתיעות פורצים?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"מצלמות רגילות - פחות. מערכת אנליטיקה אקטיבית שמפעילה תאורה, כריזה והתראות בזמן אמת - מרתיעה מאוד. ב-99% מהמקרים, הפורץ בורח עוד לפני שנגע בדלת.\"}},{\"@type\":\"Question\",\"name\":\"מה זה אנליטיקה מבוססת AI?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"תוכנה חכמה שמנתחת את הווידאו בזמן אמת ויודעת להבדיל בין אדם, רכב, ובעל חיים. במקום 50 התראות שווא ביום, אתם מקבלים התראה אחת כשבאמת יש אדם זר בחצר.\"}},{\"@type\":\"Question\",\"name\":\"מה זה רמקולים נסתרים?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"רמקולים שמותקנים בתוך התקרה או הקיר ומכוסים בטיח. התוצאה - שמע איכותי ללא ציוד גלוי בחלל.\"}},{\"@type\":\"Question\",\"name\":\"מה קורה אם יש תקלה אחרי ההתקנה?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"ללקוחות עם הסכם SLA, אנחנו מתחייבים לזמני תגובה מוגדרים. אנחנו גם מנטרים את המערכות מרחוק.\"}}]}",
+        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"מה ההבדל בין DMA לחברות התקנה אחרות?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"אנחנו לא רק מתקינים - אנחנו מתכננים. כל פרויקט מתחיל בניתוח הנדסי מעמיק של תוכניות האדריכלות, הבנת הצרכים הנוכחיים והעתידיים, ותכנון תשתית שתחזיק לעשורים. אנחנו עובדים עם ציוד ברמה צבאית/תעשייתית בלבד.\"}},{\"@type\":\"Question\",\"name\":\"האם אתם עובדים רק עם בתי יוקרה?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"לא. אנחנו עובדים עם מגוון רחב של לקוחות - מדירות קטנות שרוצות רשת WiFi יציבה, דרך בתים פרטיים שמחפשים מערכות אבטחה מתקדמות, ועד מפעלים ורשתות עסקיות בפריסה ארצית.\"}},{\"@type\":\"Question\",\"name\":\"מהו טווח המחירים שלכם?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"התמחור שלנו מותאם לפרויקט. פגישת ייעוץ ראשונית היא ללא עלות. להתרשמות: סקר תשתיות החל מ-1,500 ש\\\"ח, מערכת WiFi מקצועית 8,000-15,000 ש\\\"ח, מערכת אבטחה 15,000-35,000 ש\\\"ח.\"}},{\"@type\":\"Question\",\"name\":\"כמה זמן לוקח פרויקט טיפוסי?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"בית חדש בבנייה: 3-12 חודשים בליווי. שיפוץ/התקנה בבית קיים: 2-8 שבועות. מערכת אבטחה בסיסית: 1-3 ימים. רשת WiFi מקצועית: 1-2 ימים.\"}},{\"@type\":\"Question\",\"name\":\"למה אני צריך סיבים אופטיים בבית?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"סיבים אופטיים מאפשרים מהירויות של עד 10Gbps, ללא הפרעות חשמליות, ועמידים לשנים רבות. בבית גדול או עם קירות בטון, סיבים הם ההבדל בין רשת שעובדת לרשת שמתקתקת.\"}},{\"@type\":\"Question\",\"name\":\"מה ההבדל בין WiFi ביתי לרשת מנוהלת?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"ראוטר ביתי מיועד לדירה קטנה. רשת מנוהלת (Enterprise-grade) כוללת מספר נקודות גישה מפוזרות, בקר מרכזי שמנהל את התעבורה, ונדידה חכמה שמעבירה אתכם מאנטנה לאנטנה בלי שתרגישו.\"}},{\"@type\":\"Question\",\"name\":\"האם מצלמות אבטחה באמת מרתיעות פורצים?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"מצלמות רגילות - פחות. מערכת אנליטיקה אקטיבית שמפעילה תאורה, כריזה והתראות בזמן אמת - מרתיעה מאוד. ב-99% מהמקרים, הפורץ בורח עוד לפני שנגע בדלת.\"}},{\"@type\":\"Question\",\"name\":\"מה זה אנליטיקה מבוססת AI?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"תוכנה חכמה שמנתחת את הווידאו בזמן אמת ויודעת להבדיל בין אדם, רכב, ובעל חיים. במקום 50 התראות שווא ביום, אתם מקבלים התראה אחת כשבאמת יש אדם זר בחצר.\"}},{\"@type\":\"Question\",\"name\":\"מה זה רמקולים נסתרים?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"רמקולים שמותקנים בתוך התקרה או הקיר ומכוסים בטיח. התוצאה - שמע איכותי ללא ציוד גלוי בחלל.\"}},{\"@type\":\"Question\",\"name\":\"מה קורה אם יש תקלה אחרי ההתקנה?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"ללקוחות עם הסכם SLA, אנחנו מתחייבים לזמני תגובה מוגדרים. אנחנו גם מנטרים את המערכות מרחוק.\"}}]}\n{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://www.dma247.net\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"שאלות נפוצות\"}]}",
         "schemaTypes": [
           "Organization",
           "LocalBusiness",
           "WebSite",
-          "FAQPage"
+          "FAQPage",
+          "BreadcrumbList"
         ],
         "externalLinkOrigins": [
           "https://wa.me"
         ],
-        "wordCount": 556,
+        "wordCount": 558,
         "numberSignals": 7
       },
       {
@@ -2862,18 +2988,36 @@
             "publisher": {
               "@id": "https://www.dma247.net/#organization"
             }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "דף הבית",
+                "item": "https://www.dma247.net"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "תהליך העבודה"
+              }
+            ]
           }
         ],
-        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}",
+        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://www.dma247.net\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"תהליך העבודה\"}]}",
         "schemaTypes": [
           "Organization",
           "LocalBusiness",
-          "WebSite"
+          "WebSite",
+          "BreadcrumbList"
         ],
         "externalLinkOrigins": [
           "https://wa.me"
         ],
-        "wordCount": 242,
+        "wordCount": 245,
         "numberSignals": 1
       },
       {
@@ -2994,18 +3138,36 @@
             "publisher": {
               "@id": "https://www.dma247.net/#organization"
             }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "דף הבית",
+                "item": "https://www.dma247.net"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "מדיניות פרטיות"
+              }
+            ]
           }
         ],
-        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}",
+        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://www.dma247.net\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"מדיניות פרטיות\"}]}",
         "schemaTypes": [
           "Organization",
           "LocalBusiness",
-          "WebSite"
+          "WebSite",
+          "BreadcrumbList"
         ],
         "externalLinkOrigins": [
           "https://wa.me"
         ],
-        "wordCount": 379,
+        "wordCount": 382,
         "numberSignals": 3
       },
       {
@@ -3126,18 +3288,36 @@
             "publisher": {
               "@id": "https://www.dma247.net/#organization"
             }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "דף הבית",
+                "item": "https://www.dma247.net"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "תנאי שימוש"
+              }
+            ]
           }
         ],
-        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}",
+        "jsonLdText": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://www.dma247.net/#organization\",\"name\":\"DMA - Intelligence in Infrastructure\",\"alternateName\":\"DMA\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/og-image.png\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"founder\":{\"@type\":\"Person\",\"name\":\"דוד משה אביטבול\"},\"sameAs\":[\"https://br7news.co.il/s/6j5\",\"https://build-in.net/dma/\"]}\n{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"@id\":\"https://www.dma247.net/#localbusiness\",\"name\":\"DMA - Intelligence in Infrastructure\",\"description\":\"תכנון וביצוע מערכות מתח נמוך, תקשורת ומיגון למגזר העסקי ולבתי יוקרה\",\"url\":\"https://www.dma247.net\",\"logo\":\"https://www.dma247.net/logo-transparent.webp\",\"image\":\"https://www.dma247.net/hero-bg.webp\",\"email\":\"moshe@dma247.net\",\"telephone\":\"+972506883162\",\"priceRange\":\"$$$$\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Southern District\",\"addressCountry\":\"IL\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"Israel\"},{\"@type\":\"City\",\"name\":\"באר שבע\"},{\"@type\":\"City\",\"name\":\"להבים\"},{\"@type\":\"City\",\"name\":\"עומר\"},{\"@type\":\"City\",\"name\":\"מיתר\"},{\"@type\":\"City\",\"name\":\"כרמית\"}],\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"08:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"serviceType\":[\"מתח נמוך\",\"אבטחה\",\"תקשורת\",\"בקרת כניסה\",\"אודיו וידאו\",\"סייבר ופרטיות\"],\"parentOrganization\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://www.dma247.net/#website\",\"url\":\"https://www.dma247.net\",\"name\":\"DMA - Intelligence in Infrastructure\",\"inLanguage\":\"he-IL\",\"publisher\":{\"@id\":\"https://www.dma247.net/#organization\"}}\n{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"דף הבית\",\"item\":\"https://www.dma247.net\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"תנאי שימוש\"}]}",
         "schemaTypes": [
           "Organization",
           "LocalBusiness",
-          "WebSite"
+          "WebSite",
+          "BreadcrumbList"
         ],
         "externalLinkOrigins": [
           "https://wa.me"
         ],
-        "wordCount": 237,
+        "wordCount": 240,
         "numberSignals": 2
       },
       {

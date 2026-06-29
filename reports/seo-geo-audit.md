@@ -2,7 +2,7 @@
 
 Fetch site: http://localhost:3000
 Expected canonical site: https://www.dma247.net
-Generated: 2026-06-29T06:45:19.789Z
+Generated: 2026-06-29T07:02:27.066Z
 
 ## Summary
 
@@ -33,15 +33,15 @@ Generated: 2026-06-29T06:45:19.789Z
 - https://www.dma247.net/blog
   - title: מרכז הידע | מתח נמוך, אבטחה ותקשורת | DMA
   - canonical: https://www.dma247.net/blog
-  - schema: Organization, LocalBusiness, WebSite
+  - schema: Organization, LocalBusiness, WebSite, BreadcrumbList
 - https://www.dma247.net/about
   - title: אודות DMA | הסיפור שלנו | DMA
   - canonical: https://www.dma247.net/about
-  - schema: Organization, LocalBusiness, WebSite
+  - schema: Organization, LocalBusiness, WebSite, BreadcrumbList
 - https://www.dma247.net/services
   - title: שירותי מתח נמוך ואבטחה | DMA
   - canonical: https://www.dma247.net/services
-  - schema: Organization, LocalBusiness, WebSite
+  - schema: Organization, LocalBusiness, WebSite, BreadcrumbList
 - https://www.dma247.net/services/consulting
   - title: ייעוץ ותכנון מערכות מתח נמוך | DMA
   - canonical: https://www.dma247.net/services/consulting
@@ -69,31 +69,31 @@ Generated: 2026-06-29T06:45:19.789Z
 - https://www.dma247.net/testimonials
   - title: לקוחות ממליצים | DMA
   - canonical: https://www.dma247.net/testimonials
-  - schema: Organization, LocalBusiness, WebSite, LocalBusiness
+  - schema: Organization, LocalBusiness, WebSite, LocalBusiness, BreadcrumbList
 - https://www.dma247.net/case-studies
   - title: פרויקטים ותיק עבודות | מתח נמוך ואבטחה באר שבע | DMA
   - canonical: https://www.dma247.net/case-studies
-  - schema: Organization, LocalBusiness, WebSite, ItemList, LocalBusiness
+  - schema: Organization, LocalBusiness, WebSite, ItemList, LocalBusiness, BreadcrumbList
 - https://www.dma247.net/contact
   - title: צור קשר | ייעוץ חינם למתח נמוך ואבטחה | DMA
   - canonical: https://www.dma247.net/contact
-  - schema: Organization, LocalBusiness, WebSite
+  - schema: Organization, LocalBusiness, WebSite, BreadcrumbList
 - https://www.dma247.net/faq
   - title: שאלות נפוצות | DMA
   - canonical: https://www.dma247.net/faq
-  - schema: Organization, LocalBusiness, WebSite, FAQPage
+  - schema: Organization, LocalBusiness, WebSite, FAQPage, BreadcrumbList
 - https://www.dma247.net/process
   - title: תהליך העבודה | DMA
   - canonical: https://www.dma247.net/process
-  - schema: Organization, LocalBusiness, WebSite
+  - schema: Organization, LocalBusiness, WebSite, BreadcrumbList
 - https://www.dma247.net/privacy
   - title: מדיניות פרטיות | DMA
   - canonical: https://www.dma247.net/privacy
-  - schema: Organization, LocalBusiness, WebSite
+  - schema: Organization, LocalBusiness, WebSite, BreadcrumbList
 - https://www.dma247.net/terms
   - title: תנאי שימוש | DMA
   - canonical: https://www.dma247.net/terms
-  - schema: Organization, LocalBusiness, WebSite
+  - schema: Organization, LocalBusiness, WebSite, BreadcrumbList
 - https://www.dma247.net/guides/knx-vs-control4
   - title: KNX vs Control4: השוואה מקיפה למערכות בית חכם | DMA
   - canonical: https://www.dma247.net/guides/knx-vs-control4

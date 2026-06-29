@@ -1,3 +1,4 @@
+import Breadcrumbs from '@/components/Breadcrumbs';
 import styles from './page.module.css';
 import { createPageMetadata } from '@/lib/seo';
 
@@ -7,9 +8,15 @@ export const metadata = createPageMetadata({
     path: '/terms',
 });
 
+const breadcrumbItems = [
+    { label: 'דף הבית', href: '/' },
+    { label: 'תנאי שימוש' },
+];
+
 export default function TermsOfService() {
     return (
         <main className={styles.container}>
+            <Breadcrumbs items={breadcrumbItems} />
             <h1 className={styles.title}>תנאי שימוש</h1>
 
             <div className={styles.section}>

@@ -390,6 +390,13 @@ async function externalAudit(fetchOrigin, expectedOrigin, limit) {
       });
     }
 
+    const isHomePage = new URL(expectedFinalUrl).pathname === "/";
+    if (!isHomePage && !data.schemaTypes.includes("BreadcrumbList")) {
+      addIssue(issues, "medium", "geo", "Indexable non-home page lacks BreadcrumbList structured data.", {
+        url: expectedFinalUrl,
+      });
+    }
+
     if (expectedFinalUrl.includes("/services/") && !data.schemaTypes.includes("Service")) {
       addIssue(issues, "medium", "geo", "Service page lacks Service structured data.", { url: expectedFinalUrl });
     }

@@ -19,8 +19,8 @@ export default function Cyber() {
     return (
         <main>
             <JsonLd data={createServiceSchema(servicesSeo.cyber)} />
-            <Breadcrumbs items={breadcrumbItems} />
             <Section variant="hero" className={styles.hero}>
+                <Breadcrumbs items={breadcrumbItems} />
                 <h1 className={styles.heroTitle}>סייבר ופרטיות - הגנה על הרשת שלכם</h1>
                 <p className={styles.heroSubtitle}>
                     בעידן של מצלמות מחוברות ובתים חכמים, אבטחת הרשת היא לא מותרות - היא הכרח.

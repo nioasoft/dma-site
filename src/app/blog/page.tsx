@@ -1,4 +1,5 @@
 import Section from '@/components/Section';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import styles from './page.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -11,10 +12,16 @@ export const metadata = createPageMetadata({
     path: '/blog',
 });
 
+const breadcrumbItems = [
+    { label: 'דף הבית', href: '/' },
+    { label: 'מרכז הידע' },
+];
+
 export default function Blog() {
     return (
         <main>
             <Section variant="hero" className={styles.hero}>
+                <Breadcrumbs items={breadcrumbItems} />
                 <h1 className={styles.heroTitle}>Intelligence Center</h1>
                 <p className={styles.heroSubtitle}>
                     תובנות, חידושים ומדריכים מעולם המתח הנמוך, האבטחה והתקשורת.
